@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9AFDFDCC2C99045500CCB386 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFDFDCB2C99045500CCB386 /* FirebaseAnalytics */; };
+		9AFDFDCE2C99045500CCB386 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFDFDCD2C99045500CCB386 /* FirebaseAuth */; };
+		9AFDFDD02C99045500CCB386 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFDFDCF2C99045500CCB386 /* FirebaseCrashlytics */; };
+		9AFDFDD22C99045500CCB386 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFDFDD12C99045500CCB386 /* FirebaseDatabase */; };
+		9AFDFDD42C99045500CCB386 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFDFDD32C99045500CCB386 /* FirebaseFirestore */; };
+		9AFDFDD62C99045500CCB386 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFDFDD52C99045500CCB386 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9AFDFDAE2C99033300CCB386 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +38,38 @@
 		9AFDFDB72C99033300CCB386 /* ChikaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChikaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9A28CE6F2C9EF4AE00819C2E /* Exceptions for "Chikane" folder in "ChikaneTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 9AFDFDAC2C99033300CCB386 /* ChikaneTests */;
+		};
+		9A28CE702C9EF4AE00819C2E /* Exceptions for "Chikane" folder in "ChikaneUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 9AFDFDB62C99033300CCB386 /* ChikaneUITests */;
+		};
+		9AFDFDF42C9924D900CCB386 /* Exceptions for "Chikane" folder in "Chikane" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9AFDFD9C2C99033100CCB386 /* Chikane */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9AFDFD9F2C99033100CCB386 /* Chikane */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9AFDFDF42C9924D900CCB386 /* Exceptions for "Chikane" folder in "Chikane" target */,
+				9A28CE6F2C9EF4AE00819C2E /* Exceptions for "Chikane" folder in "ChikaneTests" target */,
+				9A28CE702C9EF4AE00819C2E /* Exceptions for "Chikane" folder in "ChikaneUITests" target */,
+			);
 			path = Chikane;
 			sourceTree = "<group>";
 		};
@@ -52,6 +90,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFDFDD02C99045500CCB386 /* FirebaseCrashlytics in Frameworks */,
+				9AFDFDCC2C99045500CCB386 /* FirebaseAnalytics in Frameworks */,
+				9AFDFDD22C99045500CCB386 /* FirebaseDatabase in Frameworks */,
+				9AFDFDD42C99045500CCB386 /* FirebaseFirestore in Frameworks */,
+				9AFDFDCE2C99045500CCB386 /* FirebaseAuth in Frameworks */,
+				9AFDFDD62C99045500CCB386 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +156,12 @@
 			);
 			name = Chikane;
 			packageProductDependencies = (
+				9AFDFDCB2C99045500CCB386 /* FirebaseAnalytics */,
+				9AFDFDCD2C99045500CCB386 /* FirebaseAuth */,
+				9AFDFDCF2C99045500CCB386 /* FirebaseCrashlytics */,
+				9AFDFDD12C99045500CCB386 /* FirebaseDatabase */,
+				9AFDFDD32C99045500CCB386 /* FirebaseFirestore */,
+				9AFDFDD52C99045500CCB386 /* FirebaseStorage */,
 			);
 			productName = Chikane;
 			productReference = 9AFDFD9D2C99033100CCB386 /* Chikane.app */;
@@ -195,6 +245,9 @@
 			);
 			mainGroup = 9AFDFD942C99033100CCB386;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9AFDFD9E2C99033100CCB386 /* Products */;
 			projectDirPath = "";
@@ -399,18 +452,30 @@
 				DEVELOPMENT_TEAM = NDHLV3J6XD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chikane/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is needed to record your sessions";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Save files to documents folder";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is needed to get accurate lap times";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to microphone so you have audio for your recording";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Chikane needs access to your photo library to save recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save videos to your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChikaneApp.Chikane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,18 +493,30 @@
 				DEVELOPMENT_TEAM = NDHLV3J6XD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chikane/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is needed to record your sessions";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Save files to documents folder";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is needed to get accurate lap times";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to microphone so you have audio for your recording";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Chikane needs access to your photo library to save recorded videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save videos to your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChikaneApp.Chikane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -558,6 +635,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AFDFDCB2C99045500CCB386 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9AFDFDCD2C99045500CCB386 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9AFDFDCF2C99045500CCB386 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		9AFDFDD12C99045500CCB386 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9AFDFDD32C99045500CCB386 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9AFDFDD52C99045500CCB386 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AFDFDCA2C99045500CCB386 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9AFDFD952C99033100CCB386 /* Project object */;
 }

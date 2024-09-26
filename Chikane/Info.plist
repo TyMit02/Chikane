@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Document types your app supports -->
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>JSON Document</string> <!-- Human-readable name for the document -->
+            <key>CFBundleTypeIconFiles</key>
+            <array>
+                <string>json-icon.png</string> <!-- Optional: Icon for JSON files -->
+            </array>
+            <key>LSHandlerRank</key>
+            <string>Owner</string> <!-- Declares your app as the handler for this file type -->
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.json</string> <!-- UTI for JSON files -->
+            </array>
+        </dict>
+    </array>
+    
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <false/>
+
+    <!-- Other app permissions -->
+    <key>NSCameraUsageDescription</key>
+    <string>Camera access is needed to film your sessions</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Microphone is needed for audio from your sessions</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Must be able to add to photo library to save your videos</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Need access to your photo library to add photos and videos</string>
+
+    <!-- URL schemes (if needed, otherwise can remain empty or be removed) -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <!-- Add URL schemes here if your app handles any -->
+    </array>
+
+    <!-- App Transport Security (for allowing arbitrary loads) -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
