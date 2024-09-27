@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "C.png",
+      "filename" : "WhiteChikaneIcon.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,6 +13,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "DarkChikaneLogo.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

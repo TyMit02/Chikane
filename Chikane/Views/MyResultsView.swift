@@ -21,30 +21,29 @@ struct MyResultsView: View {
     }
     
     var body: some View {
-          ZStack {
-              AppColors.background.edgesIgnoringSafeArea(.all)
-              
-              if viewModel.isLoading {
-                  ProgressView()
-              } else if viewModel.results.isEmpty {
-                  Text("No results found")
-                      .foregroundColor(AppColors.lightText)
-              } else {
-                  ScrollView {
-                      LazyVStack(spacing: 15) {
-                          ForEach(viewModel.results) { result in
-                              SessionResultView(result: result)
-                          }
-                      }
-                      .padding()
-                  }
-              }
-          }
-          .navigationTitle("My Results")
-          .onAppear { viewModel.fetchResults() }
-      }
-  }
-
+        ZStack {
+            AppColors.background.edgesIgnoringSafeArea(.all)
+            
+            if viewModel.isLoading {
+                ProgressView()
+            } else if viewModel.results.isEmpty {
+                Text("No results found")
+                    .foregroundColor(AppColors.lightText)
+            } else {
+                ScrollView {
+                    LazyVStack(spacing: 15) {
+                        ForEach(viewModel.results) { result in
+                            SessionResultView(result: result)
+                        }
+                    }
+                    .padding()
+                }
+            }
+        }
+        .navigationTitle("My Results")
+        .onAppear { viewModel.fetchResults() }
+    }
+}
 
 struct ResultRow: View {
     let result: SessionResult
@@ -82,8 +81,10 @@ class MyResultsViewModel: ObservableObject {
         guard let userId = Auth.auth().currentUser?.uid else { return }
         isLoading = true
         
-        db.collection("events").document(eventCode)
-            .collection("results").whereField("userId", isEqualTo: userId)
+        print("Fetching results for event: \(eventCode), user: \(userId)")
+        
+        db.collection("events").document(eventCode).collection("sessions")
+            .whereField("userId", isEqualTo: userId)
             .getDocuments { [weak self] snapshot, error in
                 self?.isLoading = false
                 if let error = error {
@@ -91,9 +92,25 @@ class MyResultsViewModel: ObservableObject {
                     return
                 }
                 
-                self?.results = snapshot?.documents.compactMap { document in
-                    try? document.data(as: SessionResult.self)
-                } ?? []
+                guard let documents = snapshot?.documents else {
+                    print("No session documents found")
+                    return
+                }
+                
+                print("Fetched \(documents.count) session documents")
+                
+                self?.results = documents.compactMap { document in
+                    do {
+                        let result = try document.data(as: SessionResult.self)
+                        print("Decoded session result: \(result.sessionName)")
+                        return result
+                    } catch {
+                        print("Error decoding session result: \(error)")
+                        return nil
+                    }
+                }
+                
+                print("Processed \(self?.results.count ?? 0) session results")
             }
     }
 }
@@ -107,20 +124,20 @@ struct SessionResultView: View {
                 .font(AppFonts.headline)
                 .foregroundColor(AppColors.text)
             
-            Text("Best Lap: \(result.bestLapTime)")
+            Text("Best Lap: \(result.formattedBestLapTime)")
                 .font(AppFonts.subheadline)
                 .foregroundColor(AppColors.accent)
             
-            Text("Average Lap: \(result.averageLapTime)")
+            Text("Average Lap: \(result.formattedAverageLapTime)")
                 .font(AppFonts.subheadline)
                 .foregroundColor(AppColors.lightText)
             
-            ForEach(Array(result.lapTimes.enumerated()), id: \.element) { index, lapTime in
+            ForEach(Array(result.formattedLapTimes.enumerated()), id: \.element) { index, lapTime in
                 HStack {
                     Text("Lap \(index + 1)")
                     Spacer()
                     Text(lapTime)
-                        .foregroundColor(lapTime == result.bestLapTime ? .purple : AppColors.text)
+                        .foregroundColor(lapTime == result.formattedBestLapTime ? .purple : AppColors.text)
                 }
                 .font(AppFonts.caption)
             }
@@ -135,7 +152,26 @@ struct SessionResult: Identifiable, Codable {
     @DocumentID var id: String?
     let userId: String
     let sessionName: String
-    let bestLapTime: String
-    let averageLapTime: String
-    let lapTimes: [String]
+    let bestLapTime: TimeInterval
+    let averageLapTime: TimeInterval
+    let lapTimes: [TimeInterval]
+    
+    var formattedBestLapTime: String {
+        formatTime(bestLapTime)
+    }
+    
+    var formattedAverageLapTime: String {
+        formatTime(averageLapTime)
+    }
+    
+    var formattedLapTimes: [String] {
+        lapTimes.map { formatTime($0) }
+    }
+    
+    private func formatTime(_ time: TimeInterval) -> String {
+        let minutes = Int(time) / 60
+        let seconds = Int(time) % 60
+        let milliseconds = Int((time.truncatingRemainder(dividingBy: 1)) * 1000)
+        return String(format: "%d:%02d.%03d", minutes, seconds, milliseconds)
+    }
 }

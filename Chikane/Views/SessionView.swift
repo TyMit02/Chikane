@@ -182,18 +182,30 @@ class SessionViewModel: NSObject, ObservableObject, CLLocationManagerDelegate, A
        let track: Track
        let carId: String
        let event: Event?
+       let eventCode: String?
        let car: Car?
-    
-    init(sessionName: String, track: Track, carId: String, event: Event? = nil, car: Car? = nil) {
-            self.sessionName = sessionName
-            self.track = track
-            self.carId = carId
-            self.event = event
-            self.car = car
-            super.init()
-            setupLocationManager()
-            setupStartFinishLine()
-        }
+    @Published var currentUsername: String = "Unknown"
+   
+    init(sessionName: String, track: Track, carId: String, event: Event?, car: Car?) {
+           self.sessionName = sessionName
+           self.track = track
+           self.carId = carId
+           self.event = event
+           self.car = car
+           self.eventCode = event?.eventCode
+           
+           super.init()
+           
+           if let eventCode = self.eventCode {
+               print("SessionViewModel init - Event code: \(eventCode)")
+           } else {
+               print("SessionViewModel init - No event associated (standalone session)")
+           }
+           
+           fetchCurrentUsername()
+           setupLocationManager()
+           setupStartFinishLine()
+       }
     
     @Published var isRunning = false
     @Published var elapsedTime: TimeInterval = 0
@@ -363,24 +375,25 @@ class SessionViewModel: NSObject, ObservableObject, CLLocationManagerDelegate, A
     }
     
     private func saveBestLapToLeaderboard() {
-        guard let userId = Auth.auth().currentUser?.uid,
-              let eventCode = event?.eventCode,
-              let bestLapTime = laps.min(),
-              let car = car else { return }
+           guard let userId = Auth.auth().currentUser?.uid,
+                 let eventCode = event?.eventCode,
+                 let bestLapTime = laps.min(),
+                 let car = car else { return }
 
-        let db = Firestore.firestore()
-        let leaderboardEntry = LeaderboardEntry(
-            position: 0, // This will be calculated server-side or when fetching the leaderboard
-            driverName: Auth.auth().currentUser?.displayName ?? "Unknown",
-            carInfo: "\(car.make) \(car.model)",
-            carMake: car.make,
-            carModel: car.model,
-            bestLapTime: formatTime(bestLapTime)
-        )
+           let db = Firestore.firestore()
+           let leaderboardEntry = LeaderboardEntry(
+               id: userId,
+               driverName: Auth.auth().currentUser?.displayName ?? "Unknown",
+               carMake: car.make,
+               carModel: car.model,
+               bestLapTime: bestLapTime
+           )
 
-        db.collection("events").document(eventCode).collection("leaderboard")
-            .document(userId).setData(try! Firestore.Encoder().encode(leaderboardEntry))
-    }
+           db.collection("events").document(eventCode).collection("leaderboard")
+               .document(userId).setData(try! Firestore.Encoder().encode(leaderboardEntry))
+       }
+
+
     
     private func updateElapsedTime() {
         guard let startTime = startTime else { return }
@@ -391,55 +404,111 @@ class SessionViewModel: NSObject, ObservableObject, CLLocationManagerDelegate, A
         stopSession()
     }
     
+    private func fetchCurrentUsername() {
+           guard let userId = Auth.auth().currentUser?.uid else {
+               print("fetchCurrentUsername: No user logged in")
+               return
+           }
+           
+           print("fetchCurrentUsername: Fetching username for user \(userId)")
+           AuthenticationManager.shared.fetchUserData { [weak self] result in
+               switch result {
+               case .success(let userProfile):
+                   DispatchQueue.main.async {
+                       self?.currentUsername = userProfile.username
+                       print("fetchCurrentUsername: Username fetched successfully: \(userProfile.username)")
+                   }
+               case .failure(let error):
+                   print("fetchCurrentUsername: Error fetching user data: \(error.localizedDescription)")
+               }
+           }
+       }
+    
     func saveAndExitSession() {
-        endSession()
-        guard let userId = AuthenticationManager.shared.user?.uid else {
-            print("Error: No user logged in")
-            self.alertItem = AlertItem(title: "Error", message: "No user logged in")
-            return
-            saveBestLapToLeaderboard()
-        }
+           endSession()
+           guard let userId = Auth.auth().currentUser?.uid else {
+               print("Error: No user logged in")
+               self.alertItem = AlertItem(title: "Error", message: "No user logged in")
+               return
+           }
+
+           print("saveAndExitSession: Saving session for user: \(userId)")
+           print("saveAndExitSession: Current username: \(currentUsername)")
+           print("saveAndExitSession: Best lap time: \(bestLapTime)")
+
+           let sessionResult = SessionResult(
+               id: UUID().uuidString,
+               userId: userId,
+               sessionName: sessionName,
+               bestLapTime: bestLapTime,
+               averageLapTime: averageLapTime,
+               lapTimes: laps
+           )
+
+           let db = Firestore.firestore()
+
+           // Save session
+           do {
+               try db.collection("sessions").addDocument(from: sessionResult) { [weak self] error in
+                   if let error = error {
+                       print("saveAndExitSession: Error saving session result: \(error.localizedDescription)")
+                       self?.alertItem = AlertItem(title: "Error", message: "Failed to save session result: \(error.localizedDescription)")
+                   } else {
+                       print("saveAndExitSession: Session result saved successfully")
+                       self?.updateLeaderboards(sessionResult: sessionResult)
+                   }
+               }
+           } catch {
+               print("saveAndExitSession: Error encoding session result: \(error.localizedDescription)")
+               self.alertItem = AlertItem(title: "Error", message: "Failed to encode session result: \(error.localizedDescription)")
+           }
+       }
+
+    private func updateLeaderboards(sessionResult: SessionResult) {
+        guard let userId = Auth.auth().currentUser?.uid else { return }
         
-        let session = Session(
-            id: UUID().uuidString,
-            userId: userId,
-            name: sessionName,
-            date: Date(),
-            track: track,
-            carId: carId,
-            lapTimes: laps,
-            sectorTimes: [], // Add sector times if you have them
-            bestLapTime: bestLapTime,
-            averageLapTime: averageLapTime,
-            weather: WeatherCondition(condition: "Unknown", temperature: 0, humidity: 0, windSpeed: 0, windDirection: "Unknown"),
-            totalDistance: totalDistance,
-            averageSpeed: averageSpeed,
-            maxSpeed: maxSpeed,
-            notes: nil,
-            fuelConsumption: nil,
-            tireCompound: nil,
-            trackTemperature: nil,
-            airTemperature: nil
+        let db = Firestore.firestore()
+        let leaderboardEntry = LeaderboardEntry(
+            id: userId,
+            driverName: currentUsername,
+            carMake: car?.make ?? "Unknown",
+            carModel: car?.model ?? "Unknown",
+            bestLapTime: sessionResult.bestLapTime
         )
         
-        print("Attempting to save session: \(session.id ?? "No ID") for user: \(userId)")
+        // Update global leaderboard
+        db.collection("globalLeaderboard").document(userId).setData(leaderboardEntry.dictionary, merge: true) { [weak self] error in
+            if let error = error {
+                print("updateLeaderboards: Error updating global leaderboard: \(error.localizedDescription)")
+                self?.alertItem = AlertItem(title: "Warning", message: "Failed to update global leaderboard: \(error.localizedDescription)")
+            } else {
+                print("updateLeaderboards: Global leaderboard updated successfully")
+            }
+        }
         
-        SessionManager.shared.saveSession(session)
-            .receive(on: DispatchQueue.main)
-            .sink { completion in
-                switch completion {
-                case .finished:
-                    print("Session saved successfully: \(session.id ?? "No ID")")
-                    self.alertItem = AlertItem(title: "Success", message: "Session saved successfully.")
-                case .failure(let error):
-                    print("Failed to save session: \(error.localizedDescription)")
-                    self.alertItem = AlertItem(title: "Error", message: "Failed to save session: \(error.localizedDescription)")
+        // Update track-specific leaderboard
+        db.collection("trackLeaderboards").document(track.id).collection("entries").document(userId).setData(leaderboardEntry.dictionary, merge: true) { [weak self] error in
+            if let error = error {
+                print("updateLeaderboards: Error updating track leaderboard: \(error.localizedDescription)")
+                self?.alertItem = AlertItem(title: "Warning", message: "Failed to update track leaderboard: \(error.localizedDescription)")
+            } else {
+                print("updateLeaderboards: Track leaderboard updated successfully")
+            }
+        }
+        
+        // If there's an event, update event-specific leaderboard
+        if let eventCode = self.eventCode {
+            db.collection("events").document(eventCode).collection("leaderboard").document(userId).setData(leaderboardEntry.dictionary, merge: true) { [weak self] error in
+                if let error = error {
+                    print("updateLeaderboards: Error updating event leaderboard: \(error.localizedDescription)")
+                    self?.alertItem = AlertItem(title: "Warning", message: "Failed to update event leaderboard: \(error.localizedDescription)")
+                } else {
+                    print("updateLeaderboards: Event leaderboard updated successfully")
                 }
-            } receiveValue: { _ in }
-            .store(in: &cancellables)
+            }
+        }
     }
-    
-   
+
     
     func formatTime(_ timeInterval: TimeInterval) -> String {
         let minutes = Int(timeInterval) / 60
@@ -557,4 +626,16 @@ struct VideoPreviewView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {}
+}
+
+extension LeaderboardEntry {
+    var dictionary: [String: Any] {
+        return [
+            "id": id,
+            "driverName": driverName,
+            "carMake": carMake,
+            "carModel": carModel,
+            "bestLapTime": bestLapTime
+        ]
+    }
 }

@@ -58,7 +58,7 @@ struct EventView: View {
         .navigationTitle(viewModel.event?.name ?? "Event")
         .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $showingNewSession) {
-            NewSessionView(preselectedTrack: viewModel.event?.trackObject)
+            NewSessionView(preselectedTrack: viewModel.event?.trackObject, eventCode: eventCode)
         }
         .sheet(isPresented: $showingMyResults) {
             MyResultsView(eventCode: eventCode)
@@ -170,10 +170,15 @@ struct EventView: View {
                    .foregroundColor(AppColors.text)
                    .frame(maxWidth: .infinity, alignment: .leading)
                
-               ForEach(viewModel.leaderboardEntries) { entry in
-                   LeaderboardEntryRow(entry: entry)
-                       .transition(.opacity.combined(with: .move(edge: .trailing)))
-                       .id(entry.id ?? UUID().uuidString)
+               if viewModel.leaderboardEntries.isEmpty {
+                   Text("No leaderboard entries yet")
+                       .foregroundColor(AppColors.lightText)
+               } else {
+                   ForEach(viewModel.leaderboardEntries) { entry in
+                       LeaderboardEntryRow(entry: entry)
+                           .transition(.opacity.combined(with: .move(edge: .trailing)))
+                           .id(entry.id)
+                   }
                }
            }
            .animation(.easeInOut, value: viewModel.leaderboardEntries.map { $0.id })
@@ -185,10 +190,17 @@ struct LeaderboardEntryRow: View {
     
     var body: some View {
         HStack {
-            Text("\(entry.position)")
-                .font(AppFonts.headline)
-                .foregroundColor(AppColors.accent)
-                .frame(width: 30)
+            if let position = entry.position {
+                Text("\(position)")
+                    .font(AppFonts.headline)
+                    .foregroundColor(AppColors.accent)
+                    .frame(width: 30)
+            } else {
+                Text("-")
+                    .font(AppFonts.headline)
+                    .foregroundColor(AppColors.accent)
+                    .frame(width: 30)
+            }
             
             VStack(alignment: .leading) {
                 Text(entry.driverName)
@@ -201,13 +213,20 @@ struct LeaderboardEntryRow: View {
             
             Spacer()
             
-            Text(entry.bestLapTime)
+            Text(formatTime(entry.bestLapTime))
                 .font(AppFonts.body)
                 .foregroundColor(AppColors.accent)
         }
         .padding()
         .background(AppColors.cardBackground)
         .cornerRadius(10)
+    }
+    
+    private func formatTime(_ time: TimeInterval) -> String {
+        let minutes = Int(time) / 60
+        let seconds = Int(time) % 60
+        let milliseconds = Int((time.truncatingRemainder(dividingBy: 1)) * 1000)
+        return String(format: "%d:%02d.%03d", minutes, seconds, milliseconds)
     }
 }
 
@@ -275,31 +294,42 @@ class EventViewModel: ObservableObject {
             }
         listeners.append(eventListener)
           
-          let leaderboardListener = db.collection("events").document(eventCode).collection("leaderboard")
-              .order(by: "bestLapTime")
-              .addSnapshotListener { [weak self] querySnapshot, error in
-                  guard let documents = querySnapshot?.documents else {
-                      print("Error fetching leaderboard: \(error?.localizedDescription ?? "Unknown error")")
-                      return
-                  }
-                  
-                  let entries = documents.enumerated().compactMap { (index, document) -> LeaderboardEntry? in
-                      do {
-                          var entry = try document.data(as: LeaderboardEntry.self)
-                          entry.position = index + 1
-                          return entry
-                      } catch {
-                          print("Error decoding leaderboard entry: \(error)")
-                          return nil
+        let leaderboardListener = db.collection("events").document(eventCode).collection("leaderboard")
+                  .order(by: "bestLapTime")
+                  .addSnapshotListener { [weak self] querySnapshot, error in
+                      if let error = error {
+                          print("EventViewModel - Error fetching leaderboard: \(error.localizedDescription)")
+                          return
+                      }
+                      
+                      guard let documents = querySnapshot?.documents else {
+                          print("EventViewModel - No leaderboard documents found for event: \(self?.eventCode ?? "unknown")")
+                          return
+                      }
+                      
+                      print("EventViewModel - Fetched \(documents.count) leaderboard entries for event: \(self?.eventCode ?? "unknown")")
+                      
+                      self?.leaderboardEntries = documents.enumerated().compactMap { (index, document) -> LeaderboardEntry? in
+                          do {
+                              var entry = try document.data(as: LeaderboardEntry.self)
+                              entry.position = index + 1
+                              print("EventViewModel - Decoded leaderboard entry: \(entry)")
+                              return entry
+                          } catch {
+                              print("EventViewModel - Error decoding leaderboard entry: \(error)")
+                              print("EventViewModel - Document data: \(document.data())")
+                              return nil
+                          }
+                      }
+                      
+                      print("EventViewModel - Processed \(self?.leaderboardEntries.count ?? 0) leaderboard entries")
+                      
+                      DispatchQueue.main.async {
+                          self?.objectWillChange.send()
                       }
                   }
-                  
-                  DispatchQueue.main.async {
-                      self?.leaderboardEntries = entries
-                  }
-              }
-          listeners.append(leaderboardListener)
-      }
+              listeners.append(leaderboardListener)
+          }
       
     func joinEvent() {
            guard let userId = Auth.auth().currentUser?.uid else {
@@ -509,17 +539,18 @@ struct EventView_Previews: PreviewProvider {
     }
 }
 
-struct LeaderboardEntry: Identifiable, Codable, Equatable {
-    @DocumentID var id: String?
-    var position: Int
+struct LeaderboardEntry: Identifiable, Codable {
+    let id: String
     let driverName: String
-    let carInfo: String
     let carMake: String
     let carModel: String
-    let bestLapTime: String
+    let bestLapTime: TimeInterval
+
+    // Position is not stored, but calculated when displaying
+    var position: Int?
 
     enum CodingKeys: String, CodingKey {
-        case id, position, driverName, carInfo, carMake, carModel, bestLapTime
+        case id, driverName, carMake, carModel, bestLapTime
     }
 }
 

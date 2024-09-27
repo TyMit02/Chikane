@@ -7,10 +7,11 @@
 
 
 import SwiftUI
-import Combine
+import Firebase
+import FirebaseFirestore
+import FirebaseAuth
 
 class CarDetailsViewModel: ObservableObject {
-    private var cancellables = Set<AnyCancellable>()
     @Published var make: String
     @Published var model: String
     @Published var year: Int
@@ -21,12 +22,10 @@ class CarDetailsViewModel: ObservableObject {
     @Published var notes: String
     
     private let car: Car
-    private let authManager: AuthenticationManager
+    private let db = Firestore.firestore()
     
-    init(car: Car, authManager: AuthenticationManager = .shared) {
+    init(car: Car) {
         self.car = car
-        self.authManager = authManager
-        
         self.make = car.make
         self.model = car.model
         self.year = car.year
@@ -38,6 +37,11 @@ class CarDetailsViewModel: ObservableObject {
     }
     
     func saveCar() {
+        guard let userId = Auth.auth().currentUser?.uid else {
+            print("Error: No user logged in")
+            return
+        }
+
         let updatedCar = Car(
             id: car.id,
             make: make,
@@ -50,28 +54,33 @@ class CarDetailsViewModel: ObservableObject {
             notes: notes.isEmpty ? nil : notes
         )
         
-        authManager.updateCar(updatedCar)
-            .sink { completion in
-                switch completion {
-                case .finished:
-                    print("Car updated successfully")
-                case .failure(let error):
-                    print("Failed to update car: \(error.localizedDescription)")
-                }
-            } receiveValue: { }
-            .store(in: &cancellables)
+        let carData: [String: Any] = [
+            "make": updatedCar.make,
+            "model": updatedCar.model,
+            "year": updatedCar.year,
+            "trim": updatedCar.trim as Any,
+            "horsepower": updatedCar.horsepower as Any,
+            "weight": updatedCar.weight as Any,
+            "torque": updatedCar.torque as Any,
+            "notes": updatedCar.notes as Any
+        ]
+        
+        db.collection("users").document(userId).collection("cars").document(updatedCar.id).setData(carData, merge: true) { error in
+            if let error = error {
+                print("Error saving car: \(error.localizedDescription)")
+            } else {
+                print("Car successfully saved with ID: \(updatedCar.id)")
+            }
+        }
     }
     
     func deleteCar() {
-        authManager.deleteCar(car)
-            .sink { completion in
-                switch completion {
-                case .finished:
-                    print("Car deleted successfully")
-                case .failure(let error):
-                    print("Failed to delete car: \(error.localizedDescription)")
-                }
-            } receiveValue: { }
-            .store(in: &cancellables)
+        db.collection("cars").document(car.id).delete { error in
+            if let error = error {
+                print("Error deleting car: \(error.localizedDescription)")
+            } else {
+                print("Car successfully deleted")
+            }
+        }
     }
 }

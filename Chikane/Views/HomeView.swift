@@ -22,6 +22,7 @@ struct HomeView: View {
     @State private var showingEventCreation = false
     @State private var eventCode = ""
     @State private var isShowingJoinEventAlert = false
+    @State private var isShowingNewSessionAlert = false
     @State private var tempEventCode = ""
 
     var body: some View {
@@ -49,7 +50,7 @@ struct HomeView: View {
                 }
             }
             .sheet(isPresented: $showingNewSession) {
-                NewSessionView()
+                NewSessionView(preselectedTrack: nil, eventCode: eventCode)
             }
             .sheet(isPresented: $showingJoinEvent) {
                 EventView(eventCode: eventCode)
@@ -63,7 +64,7 @@ struct HomeView: View {
             .sheet(isPresented: $showingSessionHistory) {
                 SessionHistoryView()
             }
-            .sheet(isPresented: $showingEventCreation){
+            .sheet(isPresented: $showingEventCreation) {
                 EventCreationView()
             }
             .alert("Join Event", isPresented: $isShowingJoinEventAlert) {
@@ -77,6 +78,18 @@ struct HomeView: View {
                 }
             } message: {
                 Text("Enter the event code")
+            }
+            .alert("New Session", isPresented: $isShowingNewSessionAlert) {
+                TextField("Event Code", text: $tempEventCode)
+                Button("Cancel", role: .cancel) { }
+                Button("Start Session") {
+                    if !tempEventCode.isEmpty {
+                        eventCode = tempEventCode
+                        showingNewSession = true
+                    }
+                }
+            } message: {
+                Text("Enter the event code for the new session")
             }
         }
         .onAppear {

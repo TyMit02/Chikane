@@ -18,9 +18,9 @@ struct NewSessionView: View {
     @State private var showingSetStartFinishLine = false
     @State private var showingTrackPicker = false
     
-    init(preselectedTrack: Track? = nil) {
-        _viewModel = StateObject(wrappedValue: NewSessionViewModel(preselectedTrack: preselectedTrack))
-    }
+    init(preselectedTrack: Track? = nil, eventCode: String) {
+            _viewModel = StateObject(wrappedValue: NewSessionViewModel(preselectedTrack: preselectedTrack, eventCode: eventCode))
+        }
     
     var body: some View {
         ZStack {
@@ -57,6 +57,8 @@ struct NewSessionView: View {
                     sessionName: viewModel.sessionName,
                     track: track,
                     carId: viewModel.selectedCarId,
+                    event: Event(name: "Current Event", date: Date(), track: track.name, trackId: track.id, organizerId: "", eventCode: viewModel.eventCode, participants: nil),
+                    car: viewModel.cars.first(where: { $0.id == viewModel.selectedCarId }),
                     isPresented: $showingSessionView
                 )
             }
@@ -165,12 +167,14 @@ class NewSessionViewModel: ObservableObject {
     @Published var selectedCarId = ""
     @Published var cars: [Car] = []
     @Published var alertItem: AlertItem?
+    let eventCode: String
     
     private var cancellables = Set<AnyCancellable>()
     private let authManager = AuthenticationManager.shared
     private let trackDatabase = TrackDatabase.shared
 
-    init(preselectedTrack: Track? = nil) {
+    init(preselectedTrack: Track? = nil, eventCode: String) {
+        self.eventCode = eventCode
         self.selectedTrack = preselectedTrack
         fetchCars()
     }
