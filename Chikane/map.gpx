@@ -1,0 +1,5032 @@
+<?xml version="1.0"?>
+<gpx version="1.0" creator="Marlin Track Mapper" xmlns="http://www.topografix.com/GPX/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  <bounds minlat="42.3285045000" minlon="-76.9291061667" maxlat="42.3442701667" maxlon="-76.9202555000"/>               
+  <trk>
+    <name>Marlin Track Map</name>
+    <cmt>marklatdegs="42.3409865000" marklondegs="-76.9289068333" markcourse="3.7800000000" numpoints="837"</cmt>         
+    <trkseg>
+      <trkpt lat="42.3409865000" lon="-76.9289068333">
+        <ele>481.500000</ele>
+        <time>2017-10-13T12:40:07.60Z</time>
+        <course>3.78</course>
+        <name>point 1</name>
+      </trkpt>
+      <trkpt lat="42.3410465000" lon="-76.9289015000">
+        <ele>481.400000</ele>
+        <time>2017-10-13T12:40:07.80Z</time>
+        <course>3.75</course>
+        <name>point 2</name>
+      </trkpt>
+      <trkpt lat="42.3411061667" lon="-76.9288960000">
+        <ele>481.300000</ele>
+        <time>2017-10-13T12:40:08.00Z</time>
+        <course>3.85</course>
+        <name>point 3</name>
+      </trkpt>
+      <trkpt lat="42.3411656667" lon="-76.9288905000">
+        <ele>481.200000</ele>
+        <time>2017-10-13T12:40:08.20Z</time>
+        <course>3.90</course>
+        <name>point 4</name>
+      </trkpt>
+      <trkpt lat="42.3412248333" lon="-76.9288846667">
+        <ele>481.000000</ele>
+        <time>2017-10-13T12:40:08.40Z</time>
+        <course>4.14</course>
+        <name>point 5</name>
+      </trkpt>
+      <trkpt lat="42.3412843333" lon="-76.9288791667">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:40:08.60Z</time>
+        <course>4.05</course>
+        <name>point 6</name>
+      </trkpt>
+      <trkpt lat="42.3413443333" lon="-76.9288733333">
+        <ele>480.800000</ele>
+        <time>2017-10-13T12:40:08.80Z</time>
+        <course>4.12</course>
+        <name>point 7</name>
+      </trkpt>
+      <trkpt lat="42.3414046667" lon="-76.9288676667">
+        <ele>480.700000</ele>
+        <time>2017-10-13T12:40:09.00Z</time>
+        <course>4.10</course>
+        <name>point 8</name>
+      </trkpt>
+      <trkpt lat="42.3414658333" lon="-76.9288618333">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:40:09.20Z</time>
+        <course>4.13</course>
+        <name>point 9</name>
+      </trkpt>
+      <trkpt lat="42.3415278333" lon="-76.9288561667">
+        <ele>480.400000</ele>
+        <time>2017-10-13T12:40:09.40Z</time>
+        <course>4.06</course>
+        <name>point 10</name>
+      </trkpt>
+      <trkpt lat="42.3415903333" lon="-76.9288508333">
+        <ele>480.200000</ele>
+        <time>2017-10-13T12:40:09.60Z</time>
+        <course>3.82</course>
+        <name>point 11</name>
+      </trkpt>
+      <trkpt lat="42.3416536667" lon="-76.9288453333">
+        <ele>480.100000</ele>
+        <time>2017-10-13T12:40:09.80Z</time>
+        <course>3.82</course>
+        <name>point 12</name>
+      </trkpt>
+      <trkpt lat="42.3417181667" lon="-76.9288398333">
+        <ele>480.000000</ele>
+        <time>2017-10-13T12:40:10.00Z</time>
+        <course>3.69</course>
+        <name>point 13</name>
+      </trkpt>
+      <trkpt lat="42.3417833333" lon="-76.9288346667">
+        <ele>479.800000</ele>
+        <time>2017-10-13T12:40:10.20Z</time>
+        <course>3.58</course>
+        <name>point 14</name>
+      </trkpt>
+      <trkpt lat="42.3418496667" lon="-76.9288295000">
+        <ele>479.600000</ele>
+        <time>2017-10-13T12:40:10.40Z</time>
+        <course>3.51</course>
+        <name>point 15</name>
+      </trkpt>
+      <trkpt lat="42.3419166667" lon="-76.9288241667">
+        <ele>479.500000</ele>
+        <time>2017-10-13T12:40:10.60Z</time>
+        <course>3.48</course>
+        <name>point 16</name>
+      </trkpt>
+      <trkpt lat="42.3419850000" lon="-76.9288191667">
+        <ele>479.300000</ele>
+        <time>2017-10-13T12:40:10.80Z</time>
+        <course>3.38</course>
+        <name>point 17</name>
+      </trkpt>
+      <trkpt lat="42.3420543333" lon="-76.9288138333">
+        <ele>479.100000</ele>
+        <time>2017-10-13T12:40:11.00Z</time>
+        <course>3.47</course>
+        <name>point 18</name>
+      </trkpt>
+      <trkpt lat="42.3421246667" lon="-76.9288088333">
+        <ele>478.900000</ele>
+        <time>2017-10-13T12:40:11.20Z</time>
+        <course>3.29</course>
+        <name>point 19</name>
+      </trkpt>
+      <trkpt lat="42.3421960000" lon="-76.9288035000">
+        <ele>478.700000</ele>
+        <time>2017-10-13T12:40:11.40Z</time>
+        <course>3.30</course>
+        <name>point 20</name>
+      </trkpt>
+      <trkpt lat="42.3422685000" lon="-76.9287981667">
+        <ele>478.400000</ele>
+        <time>2017-10-13T12:40:11.60Z</time>
+        <course>3.40</course>
+        <name>point 21</name>
+      </trkpt>
+      <trkpt lat="42.3423415000" lon="-76.9287926667">
+        <ele>478.200000</ele>
+        <time>2017-10-13T12:40:11.80Z</time>
+        <course>3.35</course>
+        <name>point 22</name>
+      </trkpt>
+      <trkpt lat="42.3424148333" lon="-76.9287871667">
+        <ele>478.000000</ele>
+        <time>2017-10-13T12:40:12.00Z</time>
+        <course>3.34</course>
+        <name>point 23</name>
+      </trkpt>
+      <trkpt lat="42.3424881667" lon="-76.9287816667">
+        <ele>477.800000</ele>
+        <time>2017-10-13T12:40:12.20Z</time>
+        <course>3.28</course>
+        <name>point 24</name>
+      </trkpt>
+      <trkpt lat="42.3425610000" lon="-76.9287756667">
+        <ele>477.600000</ele>
+        <time>2017-10-13T12:40:12.40Z</time>
+        <course>3.48</course>
+        <name>point 25</name>
+      </trkpt>
+      <trkpt lat="42.3426336667" lon="-76.9287698333">
+        <ele>477.400000</ele>
+        <time>2017-10-13T12:40:12.60Z</time>
+        <course>3.47</course>
+        <name>point 26</name>
+      </trkpt>
+      <trkpt lat="42.3427060000" lon="-76.9287638333">
+        <ele>477.200000</ele>
+        <time>2017-10-13T12:40:12.80Z</time>
+        <course>3.57</course>
+        <name>point 27</name>
+      </trkpt>
+      <trkpt lat="42.3427780000" lon="-76.9287580000">
+        <ele>477.000000</ele>
+        <time>2017-10-13T12:40:13.00Z</time>
+        <course>3.54</course>
+        <name>point 28</name>
+      </trkpt>
+      <trkpt lat="42.3428495000" lon="-76.9287520000">
+        <ele>476.700000</ele>
+        <time>2017-10-13T12:40:13.20Z</time>
+        <course>3.69</course>
+        <name>point 29</name>
+      </trkpt>
+      <trkpt lat="42.3429200000" lon="-76.9287458333">
+        <ele>476.500000</ele>
+        <time>2017-10-13T12:40:13.40Z</time>
+        <course>3.75</course>
+        <name>point 30</name>
+      </trkpt>
+      <trkpt lat="42.3429890000" lon="-76.9287395000">
+        <ele>476.300000</ele>
+        <time>2017-10-13T12:40:13.60Z</time>
+        <course>3.87</course>
+        <name>point 31</name>
+      </trkpt>
+      <trkpt lat="42.3430561667" lon="-76.9287331667">
+        <ele>476.000000</ele>
+        <time>2017-10-13T12:40:13.80Z</time>
+        <course>3.98</course>
+        <name>point 32</name>
+      </trkpt>
+      <trkpt lat="42.3431213333" lon="-76.9287266667">
+        <ele>475.800000</ele>
+        <time>2017-10-13T12:40:14.00Z</time>
+        <course>4.02</course>
+        <name>point 33</name>
+      </trkpt>
+      <trkpt lat="42.3431845000" lon="-76.9287206667">
+        <ele>475.600000</ele>
+        <time>2017-10-13T12:40:14.20Z</time>
+        <course>3.97</course>
+        <name>point 34</name>
+      </trkpt>
+      <trkpt lat="42.3432460000" lon="-76.9287148333">
+        <ele>475.300000</ele>
+        <time>2017-10-13T12:40:14.40Z</time>
+        <course>3.94</course>
+        <name>point 35</name>
+      </trkpt>
+      <trkpt lat="42.3433058333" lon="-76.9287098333">
+        <ele>475.000000</ele>
+        <time>2017-10-13T12:40:14.60Z</time>
+        <course>3.68</course>
+        <name>point 36</name>
+      </trkpt>
+      <trkpt lat="42.3433635000" lon="-76.9287046667">
+        <ele>474.800000</ele>
+        <time>2017-10-13T12:40:14.80Z</time>
+        <course>3.77</course>
+        <name>point 37</name>
+      </trkpt>
+      <trkpt lat="42.3434191667" lon="-76.9286996667">
+        <ele>474.700000</ele>
+        <time>2017-10-13T12:40:15.00Z</time>
+        <course>3.66</course>
+        <name>point 38</name>
+      </trkpt>
+      <trkpt lat="42.3434731667" lon="-76.9286951667">
+        <ele>474.400000</ele>
+        <time>2017-10-13T12:40:15.20Z</time>
+        <course>3.53</course>
+        <name>point 39</name>
+      </trkpt>
+      <trkpt lat="42.3435253333" lon="-76.9286905000">
+        <ele>474.300000</ele>
+        <time>2017-10-13T12:40:15.40Z</time>
+        <course>3.71</course>
+        <name>point 40</name>
+      </trkpt>
+      <trkpt lat="42.3435760000" lon="-76.9286855000">
+        <ele>474.000000</ele>
+        <time>2017-10-13T12:40:15.60Z</time>
+        <course>4.05</course>
+        <name>point 41</name>
+      </trkpt>
+      <trkpt lat="42.3436246667" lon="-76.9286800000">
+        <ele>473.800000</ele>
+        <time>2017-10-13T12:40:15.80Z</time>
+        <course>4.62</course>
+        <name>point 42</name>
+      </trkpt>
+      <trkpt lat="42.3436721667" lon="-76.9286731667">
+        <ele>473.500000</ele>
+        <time>2017-10-13T12:40:16.00Z</time>
+        <course>5.91</course>
+        <name>point 43</name>
+      </trkpt>
+      <trkpt lat="42.3437175000" lon="-76.9286638333">
+        <ele>473.200000</ele>
+        <time>2017-10-13T12:40:16.20Z</time>
+        <course>8.16</course>
+        <name>point 44</name>
+      </trkpt>
+      <trkpt lat="42.3437613333" lon="-76.9286516667">
+        <ele>473.000000</ele>
+        <time>2017-10-13T12:40:16.40Z</time>
+        <course>10.90</course>
+        <name>point 45</name>
+      </trkpt>
+      <trkpt lat="42.3438036667" lon="-76.9286370000">
+        <ele>472.700000</ele>
+        <time>2017-10-13T12:40:16.60Z</time>
+        <course>13.80</course>
+        <name>point 46</name>
+      </trkpt>
+      <trkpt lat="42.3438448333" lon="-76.9286195000">
+        <ele>472.400000</ele>
+        <time>2017-10-13T12:40:16.80Z</time>
+        <course>16.89</course>
+        <name>point 47</name>
+      </trkpt>
+      <trkpt lat="42.3438848333" lon="-76.9285990000">
+        <ele>472.000000</ele>
+        <time>2017-10-13T12:40:17.00Z</time>
+        <course>20.32</course>
+        <name>point 48</name>
+      </trkpt>
+      <trkpt lat="42.3439236667" lon="-76.9285751667">
+        <ele>471.700000</ele>
+        <time>2017-10-13T12:40:17.20Z</time>
+        <course>23.99</course>
+        <name>point 49</name>
+      </trkpt>
+      <trkpt lat="42.3439610000" lon="-76.9285478333">
+        <ele>471.300000</ele>
+        <time>2017-10-13T12:40:17.40Z</time>
+        <course>27.73</course>
+        <name>point 50</name>
+      </trkpt>
+      <trkpt lat="42.3439965000" lon="-76.9285173333">
+        <ele>470.900000</ele>
+        <time>2017-10-13T12:40:17.60Z</time>
+        <course>31.47</course>
+        <name>point 51</name>
+      </trkpt>
+      <trkpt lat="42.3440305000" lon="-76.9284840000">
+        <ele>470.500000</ele>
+        <time>2017-10-13T12:40:17.80Z</time>
+        <course>35.21</course>
+        <name>point 52</name>
+      </trkpt>
+      <trkpt lat="42.3440625000" lon="-76.9284478333">
+        <ele>470.100000</ele>
+        <time>2017-10-13T12:40:18.00Z</time>
+        <course>39.08</course>
+        <name>point 53</name>
+      </trkpt>
+      <trkpt lat="42.3440925000" lon="-76.9284086667">
+        <ele>469.700000</ele>
+        <time>2017-10-13T12:40:18.20Z</time>
+        <course>43.17</course>
+        <name>point 54</name>
+      </trkpt>
+      <trkpt lat="42.3441201667" lon="-76.9283670000">
+        <ele>469.400000</ele>
+        <time>2017-10-13T12:40:18.40Z</time>
+        <course>47.30</course>
+        <name>point 55</name>
+      </trkpt>
+      <trkpt lat="42.3441455000" lon="-76.9283231667">
+        <ele>469.100000</ele>
+        <time>2017-10-13T12:40:18.60Z</time>
+        <course>51.22</course>
+        <name>point 56</name>
+      </trkpt>
+      <trkpt lat="42.3441685000" lon="-76.9282773333">
+        <ele>468.900000</ele>
+        <time>2017-10-13T12:40:18.80Z</time>
+        <course>55.21</course>
+        <name>point 57</name>
+      </trkpt>
+      <trkpt lat="42.3441890000" lon="-76.9282296667">
+        <ele>468.700000</ele>
+        <time>2017-10-13T12:40:19.00Z</time>
+        <course>59.41</course>
+        <name>point 58</name>
+      </trkpt>
+      <trkpt lat="42.3442066667" lon="-76.9281803333">
+        <ele>468.400000</ele>
+        <time>2017-10-13T12:40:19.20Z</time>
+        <course>63.57</course>
+        <name>point 59</name>
+      </trkpt>
+      <trkpt lat="42.3442221667" lon="-76.9281286667">
+        <ele>468.300000</ele>
+        <time>2017-10-13T12:40:19.40Z</time>
+        <course>67.41</course>
+        <name>point 60</name>
+      </trkpt>
+      <trkpt lat="42.3442355000" lon="-76.9280748333">
+        <ele>468.100000</ele>
+        <time>2017-10-13T12:40:19.60Z</time>
+        <course>70.96</course>
+        <name>point 61</name>
+      </trkpt>
+      <trkpt lat="42.3442470000" lon="-76.9280186667">
+        <ele>467.900000</ele>
+        <time>2017-10-13T12:40:19.80Z</time>
+        <course>74.08</course>
+        <name>point 62</name>
+      </trkpt>
+      <trkpt lat="42.3442563333" lon="-76.9279603333">
+        <ele>467.700000</ele>
+        <time>2017-10-13T12:40:20.00Z</time>
+        <course>77.31</course>
+        <name>point 63</name>
+      </trkpt>
+      <trkpt lat="42.3442633333" lon="-76.9279001667">
+        <ele>467.600000</ele>
+        <time>2017-10-13T12:40:20.20Z</time>
+        <course>80.66</course>
+        <name>point 64</name>
+      </trkpt>
+      <trkpt lat="42.3442680000" lon="-76.9278385000">
+        <ele>467.400000</ele>
+        <time>2017-10-13T12:40:20.40Z</time>
+        <course>83.83</course>
+        <name>point 65</name>
+      </trkpt>
+      <trkpt lat="42.3442701667" lon="-76.9277756667">
+        <ele>467.200000</ele>
+        <time>2017-10-13T12:40:20.60Z</time>
+        <course>86.94</course>
+        <name>point 66</name>
+      </trkpt>
+      <trkpt lat="42.3442701667" lon="-76.9277115000">
+        <ele>467.000000</ele>
+        <time>2017-10-13T12:40:20.80Z</time>
+        <course>89.74</course>
+        <name>point 67</name>
+      </trkpt>
+      <trkpt lat="42.3442681667" lon="-76.9276461667">
+        <ele>466.800000</ele>
+        <time>2017-10-13T12:40:21.00Z</time>
+        <course>92.22</course>
+        <name>point 68</name>
+      </trkpt>
+      <trkpt lat="42.3442638333" lon="-76.9275796667">
+        <ele>466.600000</ele>
+        <time>2017-10-13T12:40:21.20Z</time>
+        <course>94.60</course>
+        <name>point 69</name>
+      </trkpt>
+      <trkpt lat="42.3442576667" lon="-76.9275118333">
+        <ele>466.400000</ele>
+        <time>2017-10-13T12:40:21.40Z</time>
+        <course>96.77</course>
+        <name>point 70</name>
+      </trkpt>
+      <trkpt lat="42.3442496667" lon="-76.9274428333">
+        <ele>466.100000</ele>
+        <time>2017-10-13T12:40:21.60Z</time>
+        <course>98.71</course>
+        <name>point 71</name>
+      </trkpt>
+      <trkpt lat="42.3442403333" lon="-76.9273726667">
+        <ele>465.800000</ele>
+        <time>2017-10-13T12:40:21.80Z</time>
+        <course>100.14</course>
+        <name>point 72</name>
+      </trkpt>
+      <trkpt lat="42.3442300000" lon="-76.9273011667">
+        <ele>465.500000</ele>
+        <time>2017-10-13T12:40:22.00Z</time>
+        <course>101.05</course>
+        <name>point 73</name>
+      </trkpt>
+      <trkpt lat="42.3442195000" lon="-76.9272281667">
+        <ele>465.200000</ele>
+        <time>2017-10-13T12:40:22.20Z</time>
+        <course>101.18</course>
+        <name>point 74</name>
+      </trkpt>
+      <trkpt lat="42.3442088333" lon="-76.9271536667">
+        <ele>464.900000</ele>
+        <time>2017-10-13T12:40:22.40Z</time>
+        <course>101.17</course>
+        <name>point 75</name>
+      </trkpt>
+      <trkpt lat="42.3441978333" lon="-76.9270770000">
+        <ele>464.700000</ele>
+        <time>2017-10-13T12:40:22.60Z</time>
+        <course>101.16</course>
+        <name>point 76</name>
+      </trkpt>
+      <trkpt lat="42.3441868333" lon="-76.9269986667">
+        <ele>464.400000</ele>
+        <time>2017-10-13T12:40:22.80Z</time>
+        <course>101.03</course>
+        <name>point 77</name>
+      </trkpt>
+      <trkpt lat="42.3441756667" lon="-76.9269185000">
+        <ele>464.100000</ele>
+        <time>2017-10-13T12:40:23.00Z</time>
+        <course>100.88</course>
+        <name>point 78</name>
+      </trkpt>
+      <trkpt lat="42.3441641667" lon="-76.9268363333">
+        <ele>463.700000</ele>
+        <time>2017-10-13T12:40:23.20Z</time>
+        <course>100.86</course>
+        <name>point 79</name>
+      </trkpt>
+      <trkpt lat="42.3441526667" lon="-76.9267523333">
+        <ele>463.400000</ele>
+        <time>2017-10-13T12:40:23.40Z</time>
+        <course>100.73</course>
+        <name>point 80</name>
+      </trkpt>
+      <trkpt lat="42.3441408333" lon="-76.9266663333">
+        <ele>463.200000</ele>
+        <time>2017-10-13T12:40:23.60Z</time>
+        <course>100.69</course>
+        <name>point 81</name>
+      </trkpt>
+      <trkpt lat="42.3441290000" lon="-76.9265788333">
+        <ele>462.900000</ele>
+        <time>2017-10-13T12:40:23.80Z</time>
+        <course>100.52</course>
+        <name>point 82</name>
+      </trkpt>
+      <trkpt lat="42.3441171667" lon="-76.9264900000">
+        <ele>462.500000</ele>
+        <time>2017-10-13T12:40:24.00Z</time>
+        <course>100.34</course>
+        <name>point 83</name>
+      </trkpt>
+      <trkpt lat="42.3441053333" lon="-76.9264000000">
+        <ele>462.200000</ele>
+        <time>2017-10-13T12:40:24.20Z</time>
+        <course>100.24</course>
+        <name>point 84</name>
+      </trkpt>
+      <trkpt lat="42.3440933333" lon="-76.9263091667">
+        <ele>461.900000</ele>
+        <time>2017-10-13T12:40:24.40Z</time>
+        <course>100.28</course>
+        <name>point 85</name>
+      </trkpt>
+      <trkpt lat="42.3440815000" lon="-76.9262178333">
+        <ele>461.500000</ele>
+        <time>2017-10-13T12:40:24.60Z</time>
+        <course>100.15</course>
+        <name>point 86</name>
+      </trkpt>
+      <trkpt lat="42.3440696667" lon="-76.9261263333">
+        <ele>461.200000</ele>
+        <time>2017-10-13T12:40:24.80Z</time>
+        <course>100.06</course>
+        <name>point 87</name>
+      </trkpt>
+      <trkpt lat="42.3440576667" lon="-76.9260351667">
+        <ele>460.900000</ele>
+        <time>2017-10-13T12:40:25.00Z</time>
+        <course>100.11</course>
+        <name>point 88</name>
+      </trkpt>
+      <trkpt lat="42.3440456667" lon="-76.9259443333">
+        <ele>460.500000</ele>
+        <time>2017-10-13T12:40:25.20Z</time>
+        <course>100.31</course>
+        <name>point 89</name>
+      </trkpt>
+      <trkpt lat="42.3440333333" lon="-76.9258540000">
+        <ele>460.200000</ele>
+        <time>2017-10-13T12:40:25.40Z</time>
+        <course>100.40</course>
+        <name>point 90</name>
+      </trkpt>
+      <trkpt lat="42.3440211667" lon="-76.9257643333">
+        <ele>459.900000</ele>
+        <time>2017-10-13T12:40:25.60Z</time>
+        <course>100.47</course>
+        <name>point 91</name>
+      </trkpt>
+      <trkpt lat="42.3440088333" lon="-76.9256761667">
+        <ele>459.700000</ele>
+        <time>2017-10-13T12:40:25.80Z</time>
+        <course>100.78</course>
+        <name>point 92</name>
+      </trkpt>
+      <trkpt lat="42.3439963333" lon="-76.9255900000">
+        <ele>459.400000</ele>
+        <time>2017-10-13T12:40:26.00Z</time>
+        <course>101.15</course>
+        <name>point 93</name>
+      </trkpt>
+      <trkpt lat="42.3439831667" lon="-76.9255053333">
+        <ele>459.100000</ele>
+        <time>2017-10-13T12:40:26.20Z</time>
+        <course>101.81</course>
+        <name>point 94</name>
+      </trkpt>
+      <trkpt lat="42.3439693333" lon="-76.9254220000">
+        <ele>458.800000</ele>
+        <time>2017-10-13T12:40:26.40Z</time>
+        <course>102.64</course>
+        <name>point 95</name>
+      </trkpt>
+      <trkpt lat="42.3439543333" lon="-76.9253401667">
+        <ele>458.400000</ele>
+        <time>2017-10-13T12:40:26.60Z</time>
+        <course>103.91</course>
+        <name>point 96</name>
+      </trkpt>
+      <trkpt lat="42.3439378333" lon="-76.9252596667">
+        <ele>458.100000</ele>
+        <time>2017-10-13T12:40:26.80Z</time>
+        <course>105.32</course>
+        <name>point 97</name>
+      </trkpt>
+      <trkpt lat="42.3439196667" lon="-76.9251798333">
+        <ele>457.800000</ele>
+        <time>2017-10-13T12:40:27.00Z</time>
+        <course>106.94</course>
+        <name>point 98</name>
+      </trkpt>
+      <trkpt lat="42.3438996667" lon="-76.9251015000">
+        <ele>457.500000</ele>
+        <time>2017-10-13T12:40:27.20Z</time>
+        <course>108.81</course>
+        <name>point 99</name>
+      </trkpt>
+      <trkpt lat="42.3438778333" lon="-76.9250243333">
+        <ele>457.200000</ele>
+        <time>2017-10-13T12:40:27.40Z</time>
+        <course>110.62</course>
+        <name>point 100</name>
+      </trkpt>
+      <trkpt lat="42.3438541667" lon="-76.9249483333">
+        <ele>456.900000</ele>
+        <time>2017-10-13T12:40:27.60Z</time>
+        <course>112.56</course>
+        <name>point 101</name>
+      </trkpt>
+      <trkpt lat="42.3438280000" lon="-76.9248735000">
+        <ele>456.700000</ele>
+        <time>2017-10-13T12:40:27.80Z</time>
+        <course>114.79</course>
+        <name>point 102</name>
+      </trkpt>
+      <trkpt lat="42.3438000000" lon="-76.9247995000">
+        <ele>456.400000</ele>
+        <time>2017-10-13T12:40:28.00Z</time>
+        <course>116.84</course>
+        <name>point 103</name>
+      </trkpt>
+      <trkpt lat="42.3437700000" lon="-76.9247266667">
+        <ele>456.100000</ele>
+        <time>2017-10-13T12:40:28.20Z</time>
+        <course>118.85</course>
+        <name>point 104</name>
+      </trkpt>
+      <trkpt lat="42.3437378333" lon="-76.9246551667">
+        <ele>455.900000</ele>
+        <time>2017-10-13T12:40:28.40Z</time>
+        <course>120.92</course>
+        <name>point 105</name>
+      </trkpt>
+      <trkpt lat="42.3437040000" lon="-76.9245850000">
+        <ele>455.600000</ele>
+        <time>2017-10-13T12:40:28.60Z</time>
+        <course>122.83</course>
+        <name>point 106</name>
+      </trkpt>
+      <trkpt lat="42.3436681667" lon="-76.9245165000">
+        <ele>455.500000</ele>
+        <time>2017-10-13T12:40:28.80Z</time>
+        <course>124.97</course>
+        <name>point 107</name>
+      </trkpt>
+      <trkpt lat="42.3436303333" lon="-76.9244501667">
+        <ele>455.400000</ele>
+        <time>2017-10-13T12:40:29.00Z</time>
+        <course>127.32</course>
+        <name>point 108</name>
+      </trkpt>
+      <trkpt lat="42.3435905000" lon="-76.9243858333">
+        <ele>455.400000</ele>
+        <time>2017-10-13T12:40:29.20Z</time>
+        <course>129.66</course>
+        <name>point 109</name>
+      </trkpt>
+      <trkpt lat="42.3435488333" lon="-76.9243236667">
+        <ele>455.300000</ele>
+        <time>2017-10-13T12:40:29.40Z</time>
+        <course>131.99</course>
+        <name>point 110</name>
+      </trkpt>
+      <trkpt lat="42.3435056667" lon="-76.9242641667">
+        <ele>455.300000</ele>
+        <time>2017-10-13T12:40:29.60Z</time>
+        <course>134.34</course>
+        <name>point 111</name>
+      </trkpt>
+      <trkpt lat="42.3434606667" lon="-76.9242070000">
+        <ele>455.300000</ele>
+        <time>2017-10-13T12:40:29.80Z</time>
+        <course>136.71</course>
+        <name>point 112</name>
+      </trkpt>
+      <trkpt lat="42.3434138333" lon="-76.9241521667">
+        <ele>455.400000</ele>
+        <time>2017-10-13T12:40:30.00Z</time>
+        <course>139.01</course>
+        <name>point 113</name>
+      </trkpt>
+      <trkpt lat="42.3433653333" lon="-76.9241000000">
+        <ele>455.500000</ele>
+        <time>2017-10-13T12:40:30.20Z</time>
+        <course>141.38</course>
+        <name>point 114</name>
+      </trkpt>
+      <trkpt lat="42.3433153333" lon="-76.9240501667">
+        <ele>455.700000</ele>
+        <time>2017-10-13T12:40:30.40Z</time>
+        <course>143.58</course>
+        <name>point 115</name>
+      </trkpt>
+      <trkpt lat="42.3432640000" lon="-76.9240025000">
+        <ele>455.900000</ele>
+        <time>2017-10-13T12:40:30.60Z</time>
+        <course>145.70</course>
+        <name>point 116</name>
+      </trkpt>
+      <trkpt lat="42.3432111667" lon="-76.9239573333">
+        <ele>456.100000</ele>
+        <time>2017-10-13T12:40:30.80Z</time>
+        <course>147.70</course>
+        <name>point 117</name>
+      </trkpt>
+      <trkpt lat="42.3431573333" lon="-76.9239143333">
+        <ele>456.400000</ele>
+        <time>2017-10-13T12:40:31.00Z</time>
+        <course>149.57</course>
+        <name>point 118</name>
+      </trkpt>
+      <trkpt lat="42.3431023333" lon="-76.9238735000">
+        <ele>456.700000</ele>
+        <time>2017-10-13T12:40:31.20Z</time>
+        <course>151.37</course>
+        <name>point 119</name>
+      </trkpt>
+      <trkpt lat="42.3430461667" lon="-76.9238350000">
+        <ele>457.100000</ele>
+        <time>2017-10-13T12:40:31.40Z</time>
+        <course>153.22</course>
+        <name>point 120</name>
+      </trkpt>
+      <trkpt lat="42.3429890000" lon="-76.9237986667">
+        <ele>457.500000</ele>
+        <time>2017-10-13T12:40:31.60Z</time>
+        <course>155.05</course>
+        <name>point 121</name>
+      </trkpt>
+      <trkpt lat="42.3429306667" lon="-76.9237650000">
+        <ele>458.000000</ele>
+        <time>2017-10-13T12:40:31.80Z</time>
+        <course>156.93</course>
+        <name>point 122</name>
+      </trkpt>
+      <trkpt lat="42.3428715000" lon="-76.9237338333">
+        <ele>458.500000</ele>
+        <time>2017-10-13T12:40:32.00Z</time>
+        <course>158.85</course>
+        <name>point 123</name>
+      </trkpt>
+      <trkpt lat="42.3428115000" lon="-76.9237056667">
+        <ele>459.200000</ele>
+        <time>2017-10-13T12:40:32.20Z</time>
+        <course>160.82</course>
+        <name>point 124</name>
+      </trkpt>
+      <trkpt lat="42.3427508333" lon="-76.9236803333">
+        <ele>459.800000</ele>
+        <time>2017-10-13T12:40:32.40Z</time>
+        <course>162.91</course>
+        <name>point 125</name>
+      </trkpt>
+      <trkpt lat="42.3426895000" lon="-76.9236580000">
+        <ele>460.400000</ele>
+        <time>2017-10-13T12:40:32.60Z</time>
+        <course>164.93</course>
+        <name>point 126</name>
+      </trkpt>
+      <trkpt lat="42.3426275000" lon="-76.9236381667">
+        <ele>461.100000</ele>
+        <time>2017-10-13T12:40:32.80Z</time>
+        <course>166.76</course>
+        <name>point 127</name>
+      </trkpt>
+      <trkpt lat="42.3425653333" lon="-76.9236210000">
+        <ele>461.900000</ele>
+        <time>2017-10-13T12:40:33.00Z</time>
+        <course>168.70</course>
+        <name>point 128</name>
+      </trkpt>
+      <trkpt lat="42.3425031667" lon="-76.9236066667">
+        <ele>462.700000</ele>
+        <time>2017-10-13T12:40:33.20Z</time>
+        <course>170.41</course>
+        <name>point 129</name>
+      </trkpt>
+      <trkpt lat="42.3424413333" lon="-76.9235930000">
+        <ele>463.600000</ele>
+        <time>2017-10-13T12:40:33.40Z</time>
+        <course>171.01</course>
+        <name>point 130</name>
+      </trkpt>
+      <trkpt lat="42.3423800000" lon="-76.9235793333">
+        <ele>464.400000</ele>
+        <time>2017-10-13T12:40:33.60Z</time>
+        <course>170.94</course>
+        <name>point 131</name>
+      </trkpt>
+      <trkpt lat="42.3423191667" lon="-76.9235651667">
+        <ele>465.100000</ele>
+        <time>2017-10-13T12:40:33.80Z</time>
+        <course>170.63</course>
+        <name>point 132</name>
+      </trkpt>
+      <trkpt lat="42.3422580000" lon="-76.9235498333">
+        <ele>465.900000</ele>
+        <time>2017-10-13T12:40:34.00Z</time>
+        <course>169.93</course>
+        <name>point 133</name>
+      </trkpt>
+      <trkpt lat="42.3421973333" lon="-76.9235335000">
+        <ele>466.700000</ele>
+        <time>2017-10-13T12:40:34.20Z</time>
+        <course>169.14</course>
+        <name>point 134</name>
+      </trkpt>
+      <trkpt lat="42.3421366667" lon="-76.9235155000">
+        <ele>467.400000</ele>
+        <time>2017-10-13T12:40:34.40Z</time>
+        <course>168.00</course>
+        <name>point 135</name>
+      </trkpt>
+      <trkpt lat="42.3420763333" lon="-76.9234958333">
+        <ele>468.000000</ele>
+        <time>2017-10-13T12:40:34.60Z</time>
+        <course>166.71</course>
+        <name>point 136</name>
+      </trkpt>
+      <trkpt lat="42.3420163333" lon="-76.9234741667">
+        <ele>468.700000</ele>
+        <time>2017-10-13T12:40:34.80Z</time>
+        <course>165.31</course>
+        <name>point 137</name>
+      </trkpt>
+      <trkpt lat="42.3419563333" lon="-76.9234505000">
+        <ele>469.300000</ele>
+        <time>2017-10-13T12:40:35.00Z</time>
+        <course>163.91</course>
+        <name>point 138</name>
+      </trkpt>
+      <trkpt lat="42.3418966667" lon="-76.9234251667">
+        <ele>469.800000</ele>
+        <time>2017-10-13T12:40:35.20Z</time>
+        <course>162.74</course>
+        <name>point 139</name>
+      </trkpt>
+      <trkpt lat="42.3418375000" lon="-76.9233978333">
+        <ele>470.400000</ele>
+        <time>2017-10-13T12:40:35.40Z</time>
+        <course>161.43</course>
+        <name>point 140</name>
+      </trkpt>
+      <trkpt lat="42.3417785000" lon="-76.9233685000">
+        <ele>470.900000</ele>
+        <time>2017-10-13T12:40:35.60Z</time>
+        <course>160.02</course>
+        <name>point 141</name>
+      </trkpt>
+      <trkpt lat="42.3417205000" lon="-76.9233371667">
+        <ele>471.400000</ele>
+        <time>2017-10-13T12:40:35.80Z</time>
+        <course>158.47</course>
+        <name>point 142</name>
+      </trkpt>
+      <trkpt lat="42.3416628333" lon="-76.9233035000">
+        <ele>471.900000</ele>
+        <time>2017-10-13T12:40:36.00Z</time>
+        <course>156.92</course>
+        <name>point 143</name>
+      </trkpt>
+      <trkpt lat="42.3416056667" lon="-76.9232680000">
+        <ele>472.400000</ele>
+        <time>2017-10-13T12:40:36.20Z</time>
+        <course>155.43</course>
+        <name>point 144</name>
+      </trkpt>
+      <trkpt lat="42.3415493333" lon="-76.9232300000">
+        <ele>472.800000</ele>
+        <time>2017-10-13T12:40:36.40Z</time>
+        <course>153.71</course>
+        <name>point 145</name>
+      </trkpt>
+      <trkpt lat="42.3414938333" lon="-76.9231901667">
+        <ele>473.200000</ele>
+        <time>2017-10-13T12:40:36.60Z</time>
+        <course>152.09</course>
+        <name>point 146</name>
+      </trkpt>
+      <trkpt lat="42.3414390000" lon="-76.9231480000">
+        <ele>473.700000</ele>
+        <time>2017-10-13T12:40:36.80Z</time>
+        <course>150.50</course>
+        <name>point 147</name>
+      </trkpt>
+      <trkpt lat="42.3413850000" lon="-76.9231033333">
+        <ele>474.100000</ele>
+        <time>2017-10-13T12:40:37.00Z</time>
+        <course>148.78</course>
+        <name>point 148</name>
+      </trkpt>
+      <trkpt lat="42.3413318333" lon="-76.9230566667">
+        <ele>474.500000</ele>
+        <time>2017-10-13T12:40:37.20Z</time>
+        <course>147.19</course>
+        <name>point 149</name>
+      </trkpt>
+      <trkpt lat="42.3412793333" lon="-76.9230078333">
+        <ele>474.900000</ele>
+        <time>2017-10-13T12:40:37.40Z</time>
+        <course>145.58</course>
+        <name>point 150</name>
+      </trkpt>
+      <trkpt lat="42.3412275000" lon="-76.9229570000">
+        <ele>475.400000</ele>
+        <time>2017-10-13T12:40:37.60Z</time>
+        <course>144.11</course>
+        <name>point 151</name>
+      </trkpt>
+      <trkpt lat="42.3411763333" lon="-76.9229041667">
+        <ele>475.800000</ele>
+        <time>2017-10-13T12:40:37.80Z</time>
+        <course>142.74</course>
+        <name>point 152</name>
+      </trkpt>
+      <trkpt lat="42.3411260000" lon="-76.9228493333">
+        <ele>476.200000</ele>
+        <time>2017-10-13T12:40:38.00Z</time>
+        <course>141.27</course>
+        <name>point 153</name>
+      </trkpt>
+      <trkpt lat="42.3410763333" lon="-76.9227928333">
+        <ele>476.600000</ele>
+        <time>2017-10-13T12:40:38.20Z</time>
+        <course>139.93</course>
+        <name>point 154</name>
+      </trkpt>
+      <trkpt lat="42.3410275000" lon="-76.9227345000">
+        <ele>477.000000</ele>
+        <time>2017-10-13T12:40:38.40Z</time>
+        <course>138.64</course>
+        <name>point 155</name>
+      </trkpt>
+      <trkpt lat="42.3409788333" lon="-76.9226743333">
+        <ele>477.300000</ele>
+        <time>2017-10-13T12:40:38.60Z</time>
+        <course>137.53</course>
+        <name>point 156</name>
+      </trkpt>
+      <trkpt lat="42.3409306667" lon="-76.9226126667">
+        <ele>477.700000</ele>
+        <time>2017-10-13T12:40:38.80Z</time>
+        <course>136.55</course>
+        <name>point 157</name>
+      </trkpt>
+      <trkpt lat="42.3408826667" lon="-76.9225493333">
+        <ele>478.000000</ele>
+        <time>2017-10-13T12:40:39.00Z</time>
+        <course>135.68</course>
+        <name>point 158</name>
+      </trkpt>
+      <trkpt lat="42.3408346667" lon="-76.9224845000">
+        <ele>478.200000</ele>
+        <time>2017-10-13T12:40:39.20Z</time>
+        <course>134.93</course>
+        <name>point 159</name>
+      </trkpt>
+      <trkpt lat="42.3407865000" lon="-76.9224183333">
+        <ele>478.500000</ele>
+        <time>2017-10-13T12:40:39.40Z</time>
+        <course>134.55</course>
+        <name>point 160</name>
+      </trkpt>
+      <trkpt lat="42.3407383333" lon="-76.9223508333">
+        <ele>478.800000</ele>
+        <time>2017-10-13T12:40:39.60Z</time>
+        <course>134.01</course>
+        <name>point 161</name>
+      </trkpt>
+      <trkpt lat="42.3406898333" lon="-76.9222823333">
+        <ele>479.000000</ele>
+        <time>2017-10-13T12:40:39.80Z</time>
+        <course>133.63</course>
+        <name>point 162</name>
+      </trkpt>
+      <trkpt lat="42.3406410000" lon="-76.9222128333">
+        <ele>479.100000</ele>
+        <time>2017-10-13T12:40:40.00Z</time>
+        <course>133.53</course>
+        <name>point 163</name>
+      </trkpt>
+      <trkpt lat="42.3405918333" lon="-76.9221423333">
+        <ele>479.300000</ele>
+        <time>2017-10-13T12:40:40.20Z</time>
+        <course>133.35</course>
+        <name>point 164</name>
+      </trkpt>
+      <trkpt lat="42.3405416667" lon="-76.9220715000">
+        <ele>479.500000</ele>
+        <time>2017-10-13T12:40:40.40Z</time>
+        <course>133.67</course>
+        <name>point 165</name>
+      </trkpt>
+      <trkpt lat="42.3404905000" lon="-76.9220008333">
+        <ele>479.700000</ele>
+        <time>2017-10-13T12:40:40.60Z</time>
+        <course>134.21</course>
+        <name>point 166</name>
+      </trkpt>
+      <trkpt lat="42.3404381667" lon="-76.9219305000">
+        <ele>480.000000</ele>
+        <time>2017-10-13T12:40:40.80Z</time>
+        <course>134.95</course>
+        <name>point 167</name>
+      </trkpt>
+      <trkpt lat="42.3403848333" lon="-76.9218601667">
+        <ele>480.300000</ele>
+        <time>2017-10-13T12:40:41.00Z</time>
+        <course>135.59</course>
+        <name>point 168</name>
+      </trkpt>
+      <trkpt lat="42.3403311667" lon="-76.9217905000">
+        <ele>480.300000</ele>
+        <time>2017-10-13T12:40:41.20Z</time>
+        <course>136.22</course>
+        <name>point 169</name>
+      </trkpt>
+      <trkpt lat="42.3402760000" lon="-76.9217218333">
+        <ele>480.300000</ele>
+        <time>2017-10-13T12:40:41.40Z</time>
+        <course>137.28</course>
+        <name>point 170</name>
+      </trkpt>
+      <trkpt lat="42.3402195000" lon="-76.9216545000">
+        <ele>480.400000</ele>
+        <time>2017-10-13T12:40:41.60Z</time>
+        <course>138.54</course>
+        <name>point 171</name>
+      </trkpt>
+      <trkpt lat="42.3401616667" lon="-76.9215890000">
+        <ele>480.400000</ele>
+        <time>2017-10-13T12:40:41.80Z</time>
+        <course>139.86</course>
+        <name>point 172</name>
+      </trkpt>
+      <trkpt lat="42.3401025000" lon="-76.9215251667">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:40:42.00Z</time>
+        <course>141.28</course>
+        <name>point 173</name>
+      </trkpt>
+      <trkpt lat="42.3400421667" lon="-76.9214635000">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:40:42.20Z</time>
+        <course>142.76</course>
+        <name>point 174</name>
+      </trkpt>
+      <trkpt lat="42.3399806667" lon="-76.9214031667">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:40:42.40Z</time>
+        <course>143.87</course>
+        <name>point 175</name>
+      </trkpt>
+      <trkpt lat="42.3399180000" lon="-76.9213445000">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:40:42.60Z</time>
+        <course>145.20</course>
+        <name>point 176</name>
+      </trkpt>
+      <trkpt lat="42.3398543333" lon="-76.9212880000">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:40:42.80Z</time>
+        <course>146.55</course>
+        <name>point 177</name>
+      </trkpt>
+      <trkpt lat="42.3397898333" lon="-76.9212335000">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:40:43.00Z</time>
+        <course>147.92</course>
+        <name>point 178</name>
+      </trkpt>
+      <trkpt lat="42.3397241667" lon="-76.9211813333">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:40:43.20Z</time>
+        <course>149.38</course>
+        <name>point 179</name>
+      </trkpt>
+      <trkpt lat="42.3396575000" lon="-76.9211311667">
+        <ele>480.700000</ele>
+        <time>2017-10-13T12:40:43.40Z</time>
+        <course>150.84</course>
+        <name>point 180</name>
+      </trkpt>
+      <trkpt lat="42.3395898333" lon="-76.9210833333">
+        <ele>480.700000</ele>
+        <time>2017-10-13T12:40:43.60Z</time>
+        <course>152.31</course>
+        <name>point 181</name>
+      </trkpt>
+      <trkpt lat="42.3395210000" lon="-76.9210380000">
+        <ele>480.700000</ele>
+        <time>2017-10-13T12:40:43.80Z</time>
+        <course>153.87</course>
+        <name>point 182</name>
+      </trkpt>
+      <trkpt lat="42.3394510000" lon="-76.9209950000">
+        <ele>480.800000</ele>
+        <time>2017-10-13T12:40:44.00Z</time>
+        <course>155.49</course>
+        <name>point 183</name>
+      </trkpt>
+      <trkpt lat="42.3393800000" lon="-76.9209543333">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:40:44.20Z</time>
+        <course>157.00</course>
+        <name>point 184</name>
+      </trkpt>
+      <trkpt lat="42.3393080000" lon="-76.9209160000">
+        <ele>481.000000</ele>
+        <time>2017-10-13T12:40:44.40Z</time>
+        <course>158.52</course>
+        <name>point 185</name>
+      </trkpt>
+      <trkpt lat="42.3392351667" lon="-76.9208798333">
+        <ele>481.100000</ele>
+        <time>2017-10-13T12:40:44.60Z</time>
+        <course>159.80</course>
+        <name>point 186</name>
+      </trkpt>
+      <trkpt lat="42.3391613333" lon="-76.9208455000">
+        <ele>481.300000</ele>
+        <time>2017-10-13T12:40:44.80Z</time>
+        <course>161.07</course>
+        <name>point 187</name>
+      </trkpt>
+      <trkpt lat="42.3390866667" lon="-76.9208133333">
+        <ele>481.500000</ele>
+        <time>2017-10-13T12:40:45.00Z</time>
+        <course>162.35</course>
+        <name>point 188</name>
+      </trkpt>
+      <trkpt lat="42.3390111667" lon="-76.9207831667">
+        <ele>481.600000</ele>
+        <time>2017-10-13T12:40:45.20Z</time>
+        <course>163.60</course>
+        <name>point 189</name>
+      </trkpt>
+      <trkpt lat="42.3389348333" lon="-76.9207550000">
+        <ele>481.800000</ele>
+        <time>2017-10-13T12:40:45.40Z</time>
+        <course>164.79</course>
+        <name>point 190</name>
+      </trkpt>
+      <trkpt lat="42.3388576667" lon="-76.9207290000">
+        <ele>482.000000</ele>
+        <time>2017-10-13T12:40:45.60Z</time>
+        <course>166.02</course>
+        <name>point 191</name>
+      </trkpt>
+      <trkpt lat="42.3387801667" lon="-76.9207053333">
+        <ele>482.200000</ele>
+        <time>2017-10-13T12:40:45.80Z</time>
+        <course>167.25</course>
+        <name>point 192</name>
+      </trkpt>
+      <trkpt lat="42.3387025000" lon="-76.9206843333">
+        <ele>482.500000</ele>
+        <time>2017-10-13T12:40:46.00Z</time>
+        <course>168.69</course>
+        <name>point 193</name>
+      </trkpt>
+      <trkpt lat="42.3386251667" lon="-76.9206663333">
+        <ele>482.700000</ele>
+        <time>2017-10-13T12:40:46.20Z</time>
+        <course>170.23</course>
+        <name>point 194</name>
+      </trkpt>
+      <trkpt lat="42.3385480000" lon="-76.9206510000">
+        <ele>483.000000</ele>
+        <time>2017-10-13T12:40:46.40Z</time>
+        <course>171.52</course>
+        <name>point 195</name>
+      </trkpt>
+      <trkpt lat="42.3384713333" lon="-76.9206378333">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:40:46.60Z</time>
+        <course>172.77</course>
+        <name>point 196</name>
+      </trkpt>
+      <trkpt lat="42.3383951667" lon="-76.9206268333">
+        <ele>483.500000</ele>
+        <time>2017-10-13T12:40:46.80Z</time>
+        <course>173.93</course>
+        <name>point 197</name>
+      </trkpt>
+      <trkpt lat="42.3383193333" lon="-76.9206178333">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:40:47.00Z</time>
+        <course>174.92</course>
+        <name>point 198</name>
+      </trkpt>
+      <trkpt lat="42.3382441667" lon="-76.9206105000">
+        <ele>484.000000</ele>
+        <time>2017-10-13T12:40:47.20Z</time>
+        <course>175.83</course>
+        <name>point 199</name>
+      </trkpt>
+      <trkpt lat="42.3381695000" lon="-76.9206041667">
+        <ele>484.200000</ele>
+        <time>2017-10-13T12:40:47.40Z</time>
+        <course>176.42</course>
+        <name>point 200</name>
+      </trkpt>
+      <trkpt lat="42.3380953333" lon="-76.9205986667">
+        <ele>484.400000</ele>
+        <time>2017-10-13T12:40:47.60Z</time>
+        <course>176.82</course>
+        <name>point 201</name>
+      </trkpt>
+      <trkpt lat="42.3380218333" lon="-76.9205935000">
+        <ele>484.500000</ele>
+        <time>2017-10-13T12:40:47.80Z</time>
+        <course>176.98</course>
+        <name>point 202</name>
+      </trkpt>
+      <trkpt lat="42.3379490000" lon="-76.9205886667">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:40:48.00Z</time>
+        <course>177.26</course>
+        <name>point 203</name>
+      </trkpt>
+      <trkpt lat="42.3378766667" lon="-76.9205843333">
+        <ele>484.900000</ele>
+        <time>2017-10-13T12:40:48.20Z</time>
+        <course>177.51</course>
+        <name>point 204</name>
+      </trkpt>
+      <trkpt lat="42.3378050000" lon="-76.9205801667">
+        <ele>485.100000</ele>
+        <time>2017-10-13T12:40:48.40Z</time>
+        <course>177.65</course>
+        <name>point 205</name>
+      </trkpt>
+      <trkpt lat="42.3377338333" lon="-76.9205763333">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:40:48.60Z</time>
+        <course>177.76</course>
+        <name>point 206</name>
+      </trkpt>
+      <trkpt lat="42.3376633333" lon="-76.9205726667">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:40:48.80Z</time>
+        <course>177.86</course>
+        <name>point 207</name>
+      </trkpt>
+      <trkpt lat="42.3375931667" lon="-76.9205690000">
+        <ele>485.600000</ele>
+        <time>2017-10-13T12:40:49.00Z</time>
+        <course>177.93</course>
+        <name>point 208</name>
+      </trkpt>
+      <trkpt lat="42.3375236667" lon="-76.9205651667">
+        <ele>485.700000</ele>
+        <time>2017-10-13T12:40:49.20Z</time>
+        <course>177.84</course>
+        <name>point 209</name>
+      </trkpt>
+      <trkpt lat="42.3374546667" lon="-76.9205610000">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:40:49.40Z</time>
+        <course>177.70</course>
+        <name>point 210</name>
+      </trkpt>
+      <trkpt lat="42.3373861667" lon="-76.9205570000">
+        <ele>486.100000</ele>
+        <time>2017-10-13T12:40:49.60Z</time>
+        <course>177.62</course>
+        <name>point 211</name>
+      </trkpt>
+      <trkpt lat="42.3373181667" lon="-76.9205526667">
+        <ele>486.200000</ele>
+        <time>2017-10-13T12:40:49.80Z</time>
+        <course>177.52</course>
+        <name>point 212</name>
+      </trkpt>
+      <trkpt lat="42.3372506667" lon="-76.9205486667">
+        <ele>486.400000</ele>
+        <time>2017-10-13T12:40:50.00Z</time>
+        <course>177.59</course>
+        <name>point 213</name>
+      </trkpt>
+      <trkpt lat="42.3371836667" lon="-76.9205443333">
+        <ele>486.500000</ele>
+        <time>2017-10-13T12:40:50.20Z</time>
+        <course>177.52</course>
+        <name>point 214</name>
+      </trkpt>
+      <trkpt lat="42.3371170000" lon="-76.9205405000">
+        <ele>486.700000</ele>
+        <time>2017-10-13T12:40:50.40Z</time>
+        <course>177.69</course>
+        <name>point 215</name>
+      </trkpt>
+      <trkpt lat="42.3370508333" lon="-76.9205370000">
+        <ele>486.800000</ele>
+        <time>2017-10-13T12:40:50.60Z</time>
+        <course>177.94</course>
+        <name>point 216</name>
+      </trkpt>
+      <trkpt lat="42.3369851667" lon="-76.9205338333">
+        <ele>487.000000</ele>
+        <time>2017-10-13T12:40:50.80Z</time>
+        <course>178.01</course>
+        <name>point 217</name>
+      </trkpt>
+      <trkpt lat="42.3369198333" lon="-76.9205303333">
+        <ele>487.200000</ele>
+        <time>2017-10-13T12:40:51.00Z</time>
+        <course>177.93</course>
+        <name>point 218</name>
+      </trkpt>
+      <trkpt lat="42.3368550000" lon="-76.9205266667">
+        <ele>487.300000</ele>
+        <time>2017-10-13T12:40:51.20Z</time>
+        <course>177.80</course>
+        <name>point 219</name>
+      </trkpt>
+      <trkpt lat="42.3367903333" lon="-76.9205233333">
+        <ele>487.500000</ele>
+        <time>2017-10-13T12:40:51.40Z</time>
+        <course>177.92</course>
+        <name>point 220</name>
+      </trkpt>
+      <trkpt lat="42.3367258333" lon="-76.9205201667">
+        <ele>487.700000</ele>
+        <time>2017-10-13T12:40:51.60Z</time>
+        <course>178.01</course>
+        <name>point 221</name>
+      </trkpt>
+      <trkpt lat="42.3366613333" lon="-76.9205168333">
+        <ele>487.900000</ele>
+        <time>2017-10-13T12:40:51.80Z</time>
+        <course>177.87</course>
+        <name>point 222</name>
+      </trkpt>
+      <trkpt lat="42.3365970000" lon="-76.9205135000">
+        <ele>488.000000</ele>
+        <time>2017-10-13T12:40:52.00Z</time>
+        <course>177.90</course>
+        <name>point 223</name>
+      </trkpt>
+      <trkpt lat="42.3365326667" lon="-76.9205101667">
+        <ele>488.200000</ele>
+        <time>2017-10-13T12:40:52.20Z</time>
+        <course>177.90</course>
+        <name>point 224</name>
+      </trkpt>
+      <trkpt lat="42.3364680000" lon="-76.9205068333">
+        <ele>488.400000</ele>
+        <time>2017-10-13T12:40:52.40Z</time>
+        <course>178.01</course>
+        <name>point 225</name>
+      </trkpt>
+      <trkpt lat="42.3364025000" lon="-76.9205036667">
+        <ele>488.600000</ele>
+        <time>2017-10-13T12:40:52.60Z</time>
+        <course>178.06</course>
+        <name>point 226</name>
+      </trkpt>
+      <trkpt lat="42.3363361667" lon="-76.9205003333">
+        <ele>488.700000</ele>
+        <time>2017-10-13T12:40:52.80Z</time>
+        <course>177.96</course>
+        <name>point 227</name>
+      </trkpt>
+      <trkpt lat="42.3362686667" lon="-76.9204970000">
+        <ele>488.900000</ele>
+        <time>2017-10-13T12:40:53.00Z</time>
+        <course>178.07</course>
+        <name>point 228</name>
+      </trkpt>
+      <trkpt lat="42.3362001667" lon="-76.9204933333">
+        <ele>489.100000</ele>
+        <time>2017-10-13T12:40:53.20Z</time>
+        <course>177.98</course>
+        <name>point 229</name>
+      </trkpt>
+      <trkpt lat="42.3361305000" lon="-76.9204896667">
+        <ele>489.300000</ele>
+        <time>2017-10-13T12:40:53.40Z</time>
+        <course>178.00</course>
+        <name>point 230</name>
+      </trkpt>
+      <trkpt lat="42.3360598333" lon="-76.9204860000">
+        <ele>489.400000</ele>
+        <time>2017-10-13T12:40:53.60Z</time>
+        <course>177.92</course>
+        <name>point 231</name>
+      </trkpt>
+      <trkpt lat="42.3359881667" lon="-76.9204823333">
+        <ele>489.500000</ele>
+        <time>2017-10-13T12:40:53.80Z</time>
+        <course>177.96</course>
+        <name>point 232</name>
+      </trkpt>
+      <trkpt lat="42.3359155000" lon="-76.9204786667">
+        <ele>489.700000</ele>
+        <time>2017-10-13T12:40:54.00Z</time>
+        <course>178.03</course>
+        <name>point 233</name>
+      </trkpt>
+      <trkpt lat="42.3358420000" lon="-76.9204755000">
+        <ele>489.900000</ele>
+        <time>2017-10-13T12:40:54.20Z</time>
+        <course>178.22</course>
+        <name>point 234</name>
+      </trkpt>
+      <trkpt lat="42.3357676667" lon="-76.9204721667">
+        <ele>490.100000</ele>
+        <time>2017-10-13T12:40:54.40Z</time>
+        <course>178.29</course>
+        <name>point 235</name>
+      </trkpt>
+      <trkpt lat="42.3356926667" lon="-76.9204690000">
+        <ele>490.200000</ele>
+        <time>2017-10-13T12:40:54.60Z</time>
+        <course>178.30</course>
+        <name>point 236</name>
+      </trkpt>
+      <trkpt lat="42.3356165000" lon="-76.9204656667">
+        <ele>490.500000</ele>
+        <time>2017-10-13T12:40:54.80Z</time>
+        <course>178.39</course>
+        <name>point 237</name>
+      </trkpt>
+      <trkpt lat="42.3355396667" lon="-76.9204625000">
+        <ele>490.700000</ele>
+        <time>2017-10-13T12:40:55.00Z</time>
+        <course>178.36</course>
+        <name>point 238</name>
+      </trkpt>
+      <trkpt lat="42.3354620000" lon="-76.9204591667">
+        <ele>490.900000</ele>
+        <time>2017-10-13T12:40:55.20Z</time>
+        <course>178.43</course>
+        <name>point 239</name>
+      </trkpt>
+      <trkpt lat="42.3353838333" lon="-76.9204556667">
+        <ele>491.100000</ele>
+        <time>2017-10-13T12:40:55.40Z</time>
+        <course>178.26</course>
+        <name>point 240</name>
+      </trkpt>
+      <trkpt lat="42.3353051667" lon="-76.9204521667">
+        <ele>491.300000</ele>
+        <time>2017-10-13T12:40:55.60Z</time>
+        <course>178.20</course>
+        <name>point 241</name>
+      </trkpt>
+      <trkpt lat="42.3352260000" lon="-76.9204481667">
+        <ele>491.400000</ele>
+        <time>2017-10-13T12:40:55.80Z</time>
+        <course>178.06</course>
+        <name>point 242</name>
+      </trkpt>
+      <trkpt lat="42.3351461667" lon="-76.9204445000">
+        <ele>491.700000</ele>
+        <time>2017-10-13T12:40:56.00Z</time>
+        <course>178.16</course>
+        <name>point 243</name>
+      </trkpt>
+      <trkpt lat="42.3350665000" lon="-76.9204405000">
+        <ele>491.900000</ele>
+        <time>2017-10-13T12:40:56.20Z</time>
+        <course>178.04</course>
+        <name>point 244</name>
+      </trkpt>
+      <trkpt lat="42.3349871667" lon="-76.9204365000">
+        <ele>492.100000</ele>
+        <time>2017-10-13T12:40:56.40Z</time>
+        <course>177.92</course>
+        <name>point 245</name>
+      </trkpt>
+      <trkpt lat="42.3349083333" lon="-76.9204323333">
+        <ele>492.300000</ele>
+        <time>2017-10-13T12:40:56.60Z</time>
+        <course>177.88</course>
+        <name>point 246</name>
+      </trkpt>
+      <trkpt lat="42.3348301667" lon="-76.9204283333">
+        <ele>492.500000</ele>
+        <time>2017-10-13T12:40:56.80Z</time>
+        <course>177.85</course>
+        <name>point 247</name>
+      </trkpt>
+      <trkpt lat="42.3347526667" lon="-76.9204240000">
+        <ele>492.700000</ele>
+        <time>2017-10-13T12:40:57.00Z</time>
+        <course>177.72</course>
+        <name>point 248</name>
+      </trkpt>
+      <trkpt lat="42.3346761667" lon="-76.9204201667">
+        <ele>492.900000</ele>
+        <time>2017-10-13T12:40:57.20Z</time>
+        <course>177.76</course>
+        <name>point 249</name>
+      </trkpt>
+      <trkpt lat="42.3346008333" lon="-76.9204160000">
+        <ele>493.100000</ele>
+        <time>2017-10-13T12:40:57.40Z</time>
+        <course>177.68</course>
+        <name>point 250</name>
+      </trkpt>
+      <trkpt lat="42.3345268333" lon="-76.9204121667">
+        <ele>493.300000</ele>
+        <time>2017-10-13T12:40:57.60Z</time>
+        <course>177.73</course>
+        <name>point 251</name>
+      </trkpt>
+      <trkpt lat="42.3344548333" lon="-76.9204086667">
+        <ele>493.500000</ele>
+        <time>2017-10-13T12:40:57.80Z</time>
+        <course>177.78</course>
+        <name>point 252</name>
+      </trkpt>
+      <trkpt lat="42.3343846667" lon="-76.9204055000">
+        <ele>493.600000</ele>
+        <time>2017-10-13T12:40:58.00Z</time>
+        <course>177.96</course>
+        <name>point 253</name>
+      </trkpt>
+      <trkpt lat="42.3343170000" lon="-76.9204026667">
+        <ele>493.800000</ele>
+        <time>2017-10-13T12:40:58.20Z</time>
+        <course>178.10</course>
+        <name>point 254</name>
+      </trkpt>
+      <trkpt lat="42.3342513333" lon="-76.9204008333">
+        <ele>493.900000</ele>
+        <time>2017-10-13T12:40:58.40Z</time>
+        <course>178.48</course>
+        <name>point 255</name>
+      </trkpt>
+      <trkpt lat="42.3341876667" lon="-76.9203993333">
+        <ele>494.100000</ele>
+        <time>2017-10-13T12:40:58.60Z</time>
+        <course>178.84</course>
+        <name>point 256</name>
+      </trkpt>
+      <trkpt lat="42.3341258333" lon="-76.9203991667">
+        <ele>494.200000</ele>
+        <time>2017-10-13T12:40:58.80Z</time>
+        <course>179.54</course>
+        <name>point 257</name>
+      </trkpt>
+      <trkpt lat="42.3340660000" lon="-76.9204003333">
+        <ele>494.300000</ele>
+        <time>2017-10-13T12:40:59.00Z</time>
+        <course>180.47</course>
+        <name>point 258</name>
+      </trkpt>
+      <trkpt lat="42.3340075000" lon="-76.9204030000">
+        <ele>494.400000</ele>
+        <time>2017-10-13T12:40:59.20Z</time>
+        <course>181.63</course>
+        <name>point 259</name>
+      </trkpt>
+      <trkpt lat="42.3339506667" lon="-76.9204076667">
+        <ele>494.600000</ele>
+        <time>2017-10-13T12:40:59.40Z</time>
+        <course>183.21</course>
+        <name>point 260</name>
+      </trkpt>
+      <trkpt lat="42.3338955000" lon="-76.9204146667">
+        <ele>494.700000</ele>
+        <time>2017-10-13T12:40:59.60Z</time>
+        <course>184.93</course>
+        <name>point 261</name>
+      </trkpt>
+      <trkpt lat="42.3338418333" lon="-76.9204235000">
+        <ele>494.900000</ele>
+        <time>2017-10-13T12:40:59.80Z</time>
+        <course>186.69</course>
+        <name>point 262</name>
+      </trkpt>
+      <trkpt lat="42.3337891667" lon="-76.9204345000">
+        <ele>495.000000</ele>
+        <time>2017-10-13T12:41:00.00Z</time>
+        <course>188.55</course>
+        <name>point 263</name>
+      </trkpt>
+      <trkpt lat="42.3337373333" lon="-76.9204480000">
+        <ele>495.100000</ele>
+        <time>2017-10-13T12:41:00.20Z</time>
+        <course>190.58</course>
+        <name>point 264</name>
+      </trkpt>
+      <trkpt lat="42.3336863333" lon="-76.9204643333">
+        <ele>495.200000</ele>
+        <time>2017-10-13T12:41:00.40Z</time>
+        <course>192.89</course>
+        <name>point 265</name>
+      </trkpt>
+      <trkpt lat="42.3336361667" lon="-76.9204833333">
+        <ele>495.300000</ele>
+        <time>2017-10-13T12:41:00.60Z</time>
+        <course>195.44</course>
+        <name>point 266</name>
+      </trkpt>
+      <trkpt lat="42.3335871667" lon="-76.9205051667">
+        <ele>495.400000</ele>
+        <time>2017-10-13T12:41:00.80Z</time>
+        <course>197.90</course>
+        <name>point 267</name>
+      </trkpt>
+      <trkpt lat="42.3335393333" lon="-76.9205291667">
+        <ele>495.600000</ele>
+        <time>2017-10-13T12:41:01.00Z</time>
+        <course>200.13</course>
+        <name>point 268</name>
+      </trkpt>
+      <trkpt lat="42.3334925000" lon="-76.9205553333">
+        <ele>495.700000</ele>
+        <time>2017-10-13T12:41:01.20Z</time>
+        <course>202.22</course>
+        <name>point 269</name>
+      </trkpt>
+      <trkpt lat="42.3334466667" lon="-76.9205838333">
+        <ele>495.800000</ele>
+        <time>2017-10-13T12:41:01.40Z</time>
+        <course>204.34</course>
+        <name>point 270</name>
+      </trkpt>
+      <trkpt lat="42.3334020000" lon="-76.9206136667">
+        <ele>495.800000</ele>
+        <time>2017-10-13T12:41:01.60Z</time>
+        <course>206.08</course>
+        <name>point 271</name>
+      </trkpt>
+      <trkpt lat="42.3333580000" lon="-76.9206440000">
+        <ele>495.900000</ele>
+        <time>2017-10-13T12:41:01.80Z</time>
+        <course>207.02</course>
+        <name>point 272</name>
+      </trkpt>
+      <trkpt lat="42.3333145000" lon="-76.9206735000">
+        <ele>496.000000</ele>
+        <time>2017-10-13T12:41:02.00Z</time>
+        <course>206.77</course>
+        <name>point 273</name>
+      </trkpt>
+      <trkpt lat="42.3332706667" lon="-76.9207011667">
+        <ele>496.000000</ele>
+        <time>2017-10-13T12:41:02.20Z</time>
+        <course>205.37</course>
+        <name>point 274</name>
+      </trkpt>
+      <trkpt lat="42.3332265000" lon="-76.9207256667">
+        <ele>496.000000</ele>
+        <time>2017-10-13T12:41:02.40Z</time>
+        <course>202.97</course>
+        <name>point 275</name>
+      </trkpt>
+      <trkpt lat="42.3331816667" lon="-76.9207476667">
+        <ele>496.100000</ele>
+        <time>2017-10-13T12:41:02.60Z</time>
+        <course>200.48</course>
+        <name>point 276</name>
+      </trkpt>
+      <trkpt lat="42.3331360000" lon="-76.9207666667">
+        <ele>496.200000</ele>
+        <time>2017-10-13T12:41:02.80Z</time>
+        <course>197.96</course>
+        <name>point 277</name>
+      </trkpt>
+      <trkpt lat="42.3330893333" lon="-76.9207830000">
+        <ele>496.200000</ele>
+        <time>2017-10-13T12:41:03.00Z</time>
+        <course>195.29</course>
+        <name>point 278</name>
+      </trkpt>
+      <trkpt lat="42.3330420000" lon="-76.9207966667">
+        <ele>496.400000</ele>
+        <time>2017-10-13T12:41:03.20Z</time>
+        <course>192.78</course>
+        <name>point 279</name>
+      </trkpt>
+      <trkpt lat="42.3329936667" lon="-76.9208075000">
+        <ele>496.500000</ele>
+        <time>2017-10-13T12:41:03.40Z</time>
+        <course>190.18</course>
+        <name>point 280</name>
+      </trkpt>
+      <trkpt lat="42.3329446667" lon="-76.9208151667">
+        <ele>496.600000</ele>
+        <time>2017-10-13T12:41:03.60Z</time>
+        <course>187.47</course>
+        <name>point 281</name>
+      </trkpt>
+      <trkpt lat="42.3328955000" lon="-76.9208196667">
+        <ele>496.700000</ele>
+        <time>2017-10-13T12:41:03.80Z</time>
+        <course>184.54</course>
+        <name>point 282</name>
+      </trkpt>
+      <trkpt lat="42.3328463333" lon="-76.9208205000">
+        <ele>496.900000</ele>
+        <time>2017-10-13T12:41:04.00Z</time>
+        <course>181.41</course>
+        <name>point 283</name>
+      </trkpt>
+      <trkpt lat="42.3327975000" lon="-76.9208175000">
+        <ele>497.000000</ele>
+        <time>2017-10-13T12:41:04.20Z</time>
+        <course>178.08</course>
+        <name>point 284</name>
+      </trkpt>
+      <trkpt lat="42.3327486667" lon="-76.9208110000">
+        <ele>497.100000</ele>
+        <time>2017-10-13T12:41:04.40Z</time>
+        <course>175.02</course>
+        <name>point 285</name>
+      </trkpt>
+      <trkpt lat="42.3326998333" lon="-76.9208010000">
+        <ele>497.100000</ele>
+        <time>2017-10-13T12:41:04.60Z</time>
+        <course>171.94</course>
+        <name>point 286</name>
+      </trkpt>
+      <trkpt lat="42.3326511667" lon="-76.9207876667">
+        <ele>497.200000</ele>
+        <time>2017-10-13T12:41:04.80Z</time>
+        <course>168.92</course>
+        <name>point 287</name>
+      </trkpt>
+      <trkpt lat="42.3326026667" lon="-76.9207708333">
+        <ele>497.300000</ele>
+        <time>2017-10-13T12:41:05.00Z</time>
+        <course>166.00</course>
+        <name>point 288</name>
+      </trkpt>
+      <trkpt lat="42.3325545000" lon="-76.9207505000">
+        <ele>497.400000</ele>
+        <time>2017-10-13T12:41:05.20Z</time>
+        <course>163.06</course>
+        <name>point 289</name>
+      </trkpt>
+      <trkpt lat="42.3325070000" lon="-76.9207268333">
+        <ele>497.500000</ele>
+        <time>2017-10-13T12:41:05.40Z</time>
+        <course>160.15</course>
+        <name>point 290</name>
+      </trkpt>
+      <trkpt lat="42.3324600000" lon="-76.9206998333">
+        <ele>497.600000</ele>
+        <time>2017-10-13T12:41:05.60Z</time>
+        <course>157.36</course>
+        <name>point 291</name>
+      </trkpt>
+      <trkpt lat="42.3324136667" lon="-76.9206700000">
+        <ele>497.800000</ele>
+        <time>2017-10-13T12:41:05.80Z</time>
+        <course>154.83</course>
+        <name>point 292</name>
+      </trkpt>
+      <trkpt lat="42.3323676667" lon="-76.9206376667">
+        <ele>497.900000</ele>
+        <time>2017-10-13T12:41:06.00Z</time>
+        <course>152.69</course>
+        <name>point 293</name>
+      </trkpt>
+      <trkpt lat="42.3323220000" lon="-76.9206036667">
+        <ele>498.000000</ele>
+        <time>2017-10-13T12:41:06.20Z</time>
+        <course>151.29</course>
+        <name>point 294</name>
+      </trkpt>
+      <trkpt lat="42.3322758333" lon="-76.9205690000">
+        <ele>498.100000</ele>
+        <time>2017-10-13T12:41:06.40Z</time>
+        <course>151.04</course>
+        <name>point 295</name>
+      </trkpt>
+      <trkpt lat="42.3322290000" lon="-76.9205348333">
+        <ele>498.200000</ele>
+        <time>2017-10-13T12:41:06.60Z</time>
+        <course>151.51</course>
+        <name>point 296</name>
+      </trkpt>
+      <trkpt lat="42.3321818333" lon="-76.9205011667">
+        <ele>498.300000</ele>
+        <time>2017-10-13T12:41:06.80Z</time>
+        <course>152.25</course>
+        <name>point 297</name>
+      </trkpt>
+      <trkpt lat="42.3321335000" lon="-76.9204690000">
+        <ele>498.400000</ele>
+        <time>2017-10-13T12:41:07.00Z</time>
+        <course>153.51</course>
+        <name>point 298</name>
+      </trkpt>
+      <trkpt lat="42.3320843333" lon="-76.9204390000">
+        <ele>498.600000</ele>
+        <time>2017-10-13T12:41:07.20Z</time>
+        <course>155.53</course>
+        <name>point 299</name>
+      </trkpt>
+      <trkpt lat="42.3320343333" lon="-76.9204115000">
+        <ele>498.700000</ele>
+        <time>2017-10-13T12:41:07.40Z</time>
+        <course>157.62</course>
+        <name>point 300</name>
+      </trkpt>
+      <trkpt lat="42.3319836667" lon="-76.9203863333">
+        <ele>498.800000</ele>
+        <time>2017-10-13T12:41:07.60Z</time>
+        <course>159.58</course>
+        <name>point 301</name>
+      </trkpt>
+      <trkpt lat="42.3319325000" lon="-76.9203636667">
+        <ele>499.000000</ele>
+        <time>2017-10-13T12:41:07.80Z</time>
+        <course>161.58</course>
+        <name>point 302</name>
+      </trkpt>
+      <trkpt lat="42.3318805000" lon="-76.9203435000">
+        <ele>499.100000</ele>
+        <time>2017-10-13T12:41:08.00Z</time>
+        <course>163.69</course>
+        <name>point 303</name>
+      </trkpt>
+      <trkpt lat="42.3318280000" lon="-76.9203256667">
+        <ele>499.300000</ele>
+        <time>2017-10-13T12:41:08.20Z</time>
+        <course>165.63</course>
+        <name>point 304</name>
+      </trkpt>
+      <trkpt lat="42.3317750000" lon="-76.9203098333">
+        <ele>499.300000</ele>
+        <time>2017-10-13T12:41:08.40Z</time>
+        <course>167.25</course>
+        <name>point 305</name>
+      </trkpt>
+      <trkpt lat="42.3317215000" lon="-76.9202958333">
+        <ele>499.400000</ele>
+        <time>2017-10-13T12:41:08.60Z</time>
+        <course>168.80</course>
+        <name>point 306</name>
+      </trkpt>
+      <trkpt lat="42.3316680000" lon="-76.9202841667">
+        <ele>499.400000</ele>
+        <time>2017-10-13T12:41:08.80Z</time>
+        <course>170.56</course>
+        <name>point 307</name>
+      </trkpt>
+      <trkpt lat="42.3316146667" lon="-76.9202750000">
+        <ele>499.500000</ele>
+        <time>2017-10-13T12:41:09.00Z</time>
+        <course>172.33</course>
+        <name>point 308</name>
+      </trkpt>
+      <trkpt lat="42.3315613333" lon="-76.9202676667">
+        <ele>499.500000</ele>
+        <time>2017-10-13T12:41:09.20Z</time>
+        <course>173.89</course>
+        <name>point 309</name>
+      </trkpt>
+      <trkpt lat="42.3315083333" lon="-76.9202620000">
+        <ele>499.500000</ele>
+        <time>2017-10-13T12:41:09.40Z</time>
+        <course>175.19</course>
+        <name>point 310</name>
+      </trkpt>
+      <trkpt lat="42.3314555000" lon="-76.9202580000">
+        <ele>499.500000</ele>
+        <time>2017-10-13T12:41:09.60Z</time>
+        <course>176.56</course>
+        <name>point 311</name>
+      </trkpt>
+      <trkpt lat="42.3314028333" lon="-76.9202558333">
+        <ele>499.500000</ele>
+        <time>2017-10-13T12:41:09.80Z</time>
+        <course>177.99</course>
+        <name>point 312</name>
+      </trkpt>
+      <trkpt lat="42.3313505000" lon="-76.9202555000">
+        <ele>499.600000</ele>
+        <time>2017-10-13T12:41:10.00Z</time>
+        <course>179.37</course>
+        <name>point 313</name>
+      </trkpt>
+      <trkpt lat="42.3312985000" lon="-76.9202571667">
+        <ele>499.600000</ele>
+        <time>2017-10-13T12:41:10.20Z</time>
+        <course>181.07</course>
+        <name>point 314</name>
+      </trkpt>
+      <trkpt lat="42.3312470000" lon="-76.9202608333">
+        <ele>499.500000</ele>
+        <time>2017-10-13T12:41:10.40Z</time>
+        <course>182.71</course>
+        <name>point 315</name>
+      </trkpt>
+      <trkpt lat="42.3311960000" lon="-76.9202668333">
+        <ele>499.500000</ele>
+        <time>2017-10-13T12:41:10.60Z</time>
+        <course>184.67</course>
+        <name>point 316</name>
+      </trkpt>
+      <trkpt lat="42.3311455000" lon="-76.9202753333">
+        <ele>499.400000</ele>
+        <time>2017-10-13T12:41:10.80Z</time>
+        <course>186.72</course>
+        <name>point 317</name>
+      </trkpt>
+      <trkpt lat="42.3310956667" lon="-76.9202861667">
+        <ele>499.400000</ele>
+        <time>2017-10-13T12:41:11.00Z</time>
+        <course>188.71</course>
+        <name>point 318</name>
+      </trkpt>
+      <trkpt lat="42.3310465000" lon="-76.9202993333">
+        <ele>499.400000</ele>
+        <time>2017-10-13T12:41:11.20Z</time>
+        <course>190.90</course>
+        <name>point 319</name>
+      </trkpt>
+      <trkpt lat="42.3309981667" lon="-76.9203155000">
+        <ele>499.300000</ele>
+        <time>2017-10-13T12:41:11.40Z</time>
+        <course>193.58</course>
+        <name>point 320</name>
+      </trkpt>
+      <trkpt lat="42.3309511667" lon="-76.9203350000">
+        <ele>499.300000</ele>
+        <time>2017-10-13T12:41:11.60Z</time>
+        <course>196.48</course>
+        <name>point 321</name>
+      </trkpt>
+      <trkpt lat="42.3309053333" lon="-76.9203571667">
+        <ele>499.200000</ele>
+        <time>2017-10-13T12:41:11.80Z</time>
+        <course>199.25</course>
+        <name>point 322</name>
+      </trkpt>
+      <trkpt lat="42.3308605000" lon="-76.9203818333">
+        <ele>499.200000</ele>
+        <time>2017-10-13T12:41:12.00Z</time>
+        <course>201.89</course>
+        <name>point 323</name>
+      </trkpt>
+      <trkpt lat="42.3308168333" lon="-76.9204086667">
+        <ele>499.100000</ele>
+        <time>2017-10-13T12:41:12.20Z</time>
+        <course>204.35</course>
+        <name>point 324</name>
+      </trkpt>
+      <trkpt lat="42.3307745000" lon="-76.9204380000">
+        <ele>499.100000</ele>
+        <time>2017-10-13T12:41:12.40Z</time>
+        <course>206.75</course>
+        <name>point 325</name>
+      </trkpt>
+      <trkpt lat="42.3307335000" lon="-76.9204693333">
+        <ele>499.100000</ele>
+        <time>2017-10-13T12:41:12.60Z</time>
+        <course>209.22</course>
+        <name>point 326</name>
+      </trkpt>
+      <trkpt lat="42.3306936667" lon="-76.9205030000">
+        <ele>499.000000</ele>
+        <time>2017-10-13T12:41:12.80Z</time>
+        <course>211.74</course>
+        <name>point 327</name>
+      </trkpt>
+      <trkpt lat="42.3306550000" lon="-76.9205388333">
+        <ele>499.000000</ele>
+        <time>2017-10-13T12:41:13.00Z</time>
+        <course>214.23</course>
+        <name>point 328</name>
+      </trkpt>
+      <trkpt lat="42.3306173333" lon="-76.9205770000">
+        <ele>498.900000</ele>
+        <time>2017-10-13T12:41:13.20Z</time>
+        <course>216.67</course>
+        <name>point 329</name>
+      </trkpt>
+      <trkpt lat="42.3305811667" lon="-76.9206173333">
+        <ele>498.800000</ele>
+        <time>2017-10-13T12:41:13.40Z</time>
+        <course>219.19</course>
+        <name>point 330</name>
+      </trkpt>
+      <trkpt lat="42.3305463333" lon="-76.9206598333">
+        <ele>498.700000</ele>
+        <time>2017-10-13T12:41:13.60Z</time>
+        <course>221.76</course>
+        <name>point 331</name>
+      </trkpt>
+      <trkpt lat="42.3305131667" lon="-76.9207041667">
+        <ele>498.600000</ele>
+        <time>2017-10-13T12:41:13.80Z</time>
+        <course>224.28</course>
+        <name>point 332</name>
+      </trkpt>
+      <trkpt lat="42.3304816667" lon="-76.9207501667">
+        <ele>498.500000</ele>
+        <time>2017-10-13T12:41:14.00Z</time>
+        <course>226.81</course>
+        <name>point 333</name>
+      </trkpt>
+      <trkpt lat="42.3304518333" lon="-76.9207976667">
+        <ele>498.400000</ele>
+        <time>2017-10-13T12:41:14.20Z</time>
+        <course>229.33</course>
+        <name>point 334</name>
+      </trkpt>
+      <trkpt lat="42.3304236667" lon="-76.9208465000">
+        <ele>498.300000</ele>
+        <time>2017-10-13T12:41:14.40Z</time>
+        <course>231.74</course>
+        <name>point 335</name>
+      </trkpt>
+      <trkpt lat="42.3303968333" lon="-76.9208966667">
+        <ele>498.200000</ele>
+        <time>2017-10-13T12:41:14.60Z</time>
+        <course>233.95</course>
+        <name>point 336</name>
+      </trkpt>
+      <trkpt lat="42.3303715000" lon="-76.9209486667">
+        <ele>498.000000</ele>
+        <time>2017-10-13T12:41:14.80Z</time>
+        <course>236.39</course>
+        <name>point 337</name>
+      </trkpt>
+      <trkpt lat="42.3303478333" lon="-76.9210026667">
+        <ele>497.900000</ele>
+        <time>2017-10-13T12:41:15.00Z</time>
+        <course>238.99</course>
+        <name>point 338</name>
+      </trkpt>
+      <trkpt lat="42.3303258333" lon="-76.9210585000">
+        <ele>497.800000</ele>
+        <time>2017-10-13T12:41:15.20Z</time>
+        <course>241.56</course>
+        <name>point 339</name>
+      </trkpt>
+      <trkpt lat="42.3303055000" lon="-76.9211158333">
+        <ele>497.600000</ele>
+        <time>2017-10-13T12:41:15.40Z</time>
+        <course>244.09</course>
+        <name>point 340</name>
+      </trkpt>
+      <trkpt lat="42.3302870000" lon="-76.9211743333">
+        <ele>497.400000</ele>
+        <time>2017-10-13T12:41:15.60Z</time>
+        <course>246.51</course>
+        <name>point 341</name>
+      </trkpt>
+      <trkpt lat="42.3302701667" lon="-76.9212341667">
+        <ele>497.200000</ele>
+        <time>2017-10-13T12:41:15.80Z</time>
+        <course>248.86</course>
+        <name>point 342</name>
+      </trkpt>
+      <trkpt lat="42.3302550000" lon="-76.9212951667">
+        <ele>497.000000</ele>
+        <time>2017-10-13T12:41:16.00Z</time>
+        <course>251.15</course>
+        <name>point 343</name>
+      </trkpt>
+      <trkpt lat="42.3302415000" lon="-76.9213571667">
+        <ele>496.700000</ele>
+        <time>2017-10-13T12:41:16.20Z</time>
+        <course>253.46</course>
+        <name>point 344</name>
+      </trkpt>
+      <trkpt lat="42.3302296667" lon="-76.9214203333">
+        <ele>496.500000</ele>
+        <time>2017-10-13T12:41:16.40Z</time>
+        <course>255.64</course>
+        <name>point 345</name>
+      </trkpt>
+      <trkpt lat="42.3302198333" lon="-76.9214846667">
+        <ele>496.200000</ele>
+        <time>2017-10-13T12:41:16.60Z</time>
+        <course>258.09</course>
+        <name>point 346</name>
+      </trkpt>
+      <trkpt lat="42.3302120000" lon="-76.9215498333">
+        <ele>495.900000</ele>
+        <time>2017-10-13T12:41:16.80Z</time>
+        <course>260.58</course>
+        <name>point 347</name>
+      </trkpt>
+      <trkpt lat="42.3302060000" lon="-76.9216158333">
+        <ele>495.600000</ele>
+        <time>2017-10-13T12:41:17.00Z</time>
+        <course>262.87</course>
+        <name>point 348</name>
+      </trkpt>
+      <trkpt lat="42.3302020000" lon="-76.9216823333">
+        <ele>495.300000</ele>
+        <time>2017-10-13T12:41:17.20Z</time>
+        <course>265.16</course>
+        <name>point 349</name>
+      </trkpt>
+      <trkpt lat="42.3302000000" lon="-76.9217491667">
+        <ele>495.000000</ele>
+        <time>2017-10-13T12:41:17.40Z</time>
+        <course>267.44</course>
+        <name>point 350</name>
+      </trkpt>
+      <trkpt lat="42.3302000000" lon="-76.9218160000">
+        <ele>494.600000</ele>
+        <time>2017-10-13T12:41:17.60Z</time>
+        <course>269.84</course>
+        <name>point 351</name>
+      </trkpt>
+      <trkpt lat="42.3302023333" lon="-76.9218826667">
+        <ele>494.300000</ele>
+        <time>2017-10-13T12:41:17.80Z</time>
+        <course>272.44</course>
+        <name>point 352</name>
+      </trkpt>
+      <trkpt lat="42.3302070000" lon="-76.9219490000">
+        <ele>493.900000</ele>
+        <time>2017-10-13T12:41:18.00Z</time>
+        <course>275.15</course>
+        <name>point 353</name>
+      </trkpt>
+      <trkpt lat="42.3302140000" lon="-76.9220150000">
+        <ele>493.500000</ele>
+        <time>2017-10-13T12:41:18.20Z</time>
+        <course>277.89</course>
+        <name>point 354</name>
+      </trkpt>
+      <trkpt lat="42.3302231667" lon="-76.9220803333">
+        <ele>493.100000</ele>
+        <time>2017-10-13T12:41:18.40Z</time>
+        <course>280.61</course>
+        <name>point 355</name>
+      </trkpt>
+      <trkpt lat="42.3302346667" lon="-76.9221451667">
+        <ele>492.700000</ele>
+        <time>2017-10-13T12:41:18.60Z</time>
+        <course>283.20</course>
+        <name>point 356</name>
+      </trkpt>
+      <trkpt lat="42.3302483333" lon="-76.9222095000">
+        <ele>492.200000</ele>
+        <time>2017-10-13T12:41:18.80Z</time>
+        <course>285.87</course>
+        <name>point 357</name>
+      </trkpt>
+      <trkpt lat="42.3302643333" lon="-76.9222730000">
+        <ele>491.800000</ele>
+        <time>2017-10-13T12:41:19.00Z</time>
+        <course>288.48</course>
+        <name>point 358</name>
+      </trkpt>
+      <trkpt lat="42.3302821667" lon="-76.9223360000">
+        <ele>491.400000</ele>
+        <time>2017-10-13T12:41:19.20Z</time>
+        <course>290.99</course>
+        <name>point 359</name>
+      </trkpt>
+      <trkpt lat="42.3303025000" lon="-76.9223981667">
+        <ele>490.900000</ele>
+        <time>2017-10-13T12:41:19.40Z</time>
+        <course>293.65</course>
+        <name>point 360</name>
+      </trkpt>
+      <trkpt lat="42.3303251667" lon="-76.9224590000">
+        <ele>490.500000</ele>
+        <time>2017-10-13T12:41:19.60Z</time>
+        <course>296.49</course>
+        <name>point 361</name>
+      </trkpt>
+      <trkpt lat="42.3303500000" lon="-76.9225185000">
+        <ele>490.100000</ele>
+        <time>2017-10-13T12:41:19.80Z</time>
+        <course>299.27</course>
+        <name>point 362</name>
+      </trkpt>
+      <trkpt lat="42.3303770000" lon="-76.9225766667">
+        <ele>489.700000</ele>
+        <time>2017-10-13T12:41:20.00Z</time>
+        <course>301.88</course>
+        <name>point 363</name>
+      </trkpt>
+      <trkpt lat="42.3304060000" lon="-76.9226331667">
+        <ele>489.400000</ele>
+        <time>2017-10-13T12:41:20.20Z</time>
+        <course>304.54</course>
+        <name>point 364</name>
+      </trkpt>
+      <trkpt lat="42.3304368333" lon="-76.9226881667">
+        <ele>489.100000</ele>
+        <time>2017-10-13T12:41:20.40Z</time>
+        <course>307.12</course>
+        <name>point 365</name>
+      </trkpt>
+      <trkpt lat="42.3304695000" lon="-76.9227411667">
+        <ele>488.800000</ele>
+        <time>2017-10-13T12:41:20.60Z</time>
+        <course>309.63</course>
+        <name>point 366</name>
+      </trkpt>
+      <trkpt lat="42.3305038333" lon="-76.9227925000">
+        <ele>488.600000</ele>
+        <time>2017-10-13T12:41:20.80Z</time>
+        <course>311.97</course>
+        <name>point 367</name>
+      </trkpt>
+      <trkpt lat="42.3305395000" lon="-76.9228423333">
+        <ele>488.400000</ele>
+        <time>2017-10-13T12:41:21.00Z</time>
+        <course>314.08</course>
+        <name>point 368</name>
+      </trkpt>
+      <trkpt lat="42.3305766667" lon="-76.9228906667">
+        <ele>488.200000</ele>
+        <time>2017-10-13T12:41:21.20Z</time>
+        <course>316.03</course>
+        <name>point 369</name>
+      </trkpt>
+      <trkpt lat="42.3306153333" lon="-76.9229378333">
+        <ele>488.000000</ele>
+        <time>2017-10-13T12:41:21.40Z</time>
+        <course>317.83</course>
+        <name>point 370</name>
+      </trkpt>
+      <trkpt lat="42.3306553333" lon="-76.9229843333">
+        <ele>487.900000</ele>
+        <time>2017-10-13T12:41:21.60Z</time>
+        <course>319.28</course>
+        <name>point 371</name>
+      </trkpt>
+      <trkpt lat="42.3306965000" lon="-76.9230303333">
+        <ele>487.700000</ele>
+        <time>2017-10-13T12:41:21.80Z</time>
+        <course>320.49</course>
+        <name>point 372</name>
+      </trkpt>
+      <trkpt lat="42.3307391667" lon="-76.9230761667">
+        <ele>487.600000</ele>
+        <time>2017-10-13T12:41:22.00Z</time>
+        <course>321.45</course>
+        <name>point 373</name>
+      </trkpt>
+      <trkpt lat="42.3307830000" lon="-76.9231220000">
+        <ele>487.500000</ele>
+        <time>2017-10-13T12:41:22.20Z</time>
+        <course>322.18</course>
+        <name>point 374</name>
+      </trkpt>
+      <trkpt lat="42.3308278333" lon="-76.9231681667">
+        <ele>487.400000</ele>
+        <time>2017-10-13T12:41:22.40Z</time>
+        <course>322.84</course>
+        <name>point 375</name>
+      </trkpt>
+      <trkpt lat="42.3308741667" lon="-76.9232146667">
+        <ele>487.300000</ele>
+        <time>2017-10-13T12:41:22.60Z</time>
+        <course>323.37</course>
+        <name>point 376</name>
+      </trkpt>
+      <trkpt lat="42.3309216667" lon="-76.9232616667">
+        <ele>487.300000</ele>
+        <time>2017-10-13T12:41:22.80Z</time>
+        <course>323.77</course>
+        <name>point 377</name>
+      </trkpt>
+      <trkpt lat="42.3309701667" lon="-76.9233095000">
+        <ele>487.200000</ele>
+        <time>2017-10-13T12:41:23.00Z</time>
+        <course>323.92</course>
+        <name>point 378</name>
+      </trkpt>
+      <trkpt lat="42.3310200000" lon="-76.9233583333">
+        <ele>487.200000</ele>
+        <time>2017-10-13T12:41:23.20Z</time>
+        <course>324.11</course>
+        <name>point 379</name>
+      </trkpt>
+      <trkpt lat="42.3310708333" lon="-76.9234078333">
+        <ele>487.000000</ele>
+        <time>2017-10-13T12:41:23.40Z</time>
+        <course>324.27</course>
+        <name>point 380</name>
+      </trkpt>
+      <trkpt lat="42.3311228333" lon="-76.9234581667">
+        <ele>486.800000</ele>
+        <time>2017-10-13T12:41:23.60Z</time>
+        <course>324.40</course>
+        <name>point 381</name>
+      </trkpt>
+      <trkpt lat="42.3311758333" lon="-76.9235095000">
+        <ele>486.600000</ele>
+        <time>2017-10-13T12:41:23.80Z</time>
+        <course>324.47</course>
+        <name>point 382</name>
+      </trkpt>
+      <trkpt lat="42.3312298333" lon="-76.9235616667">
+        <ele>486.400000</ele>
+        <time>2017-10-13T12:41:24.00Z</time>
+        <course>324.48</course>
+        <name>point 383</name>
+      </trkpt>
+      <trkpt lat="42.3312845000" lon="-76.9236146667">
+        <ele>486.200000</ele>
+        <time>2017-10-13T12:41:24.20Z</time>
+        <course>324.52</course>
+        <name>point 384</name>
+      </trkpt>
+      <trkpt lat="42.3313398333" lon="-76.9236680000">
+        <ele>486.000000</ele>
+        <time>2017-10-13T12:41:24.40Z</time>
+        <course>324.56</course>
+        <name>point 385</name>
+      </trkpt>
+      <trkpt lat="42.3313955000" lon="-76.9237218333">
+        <ele>485.700000</ele>
+        <time>2017-10-13T12:41:24.60Z</time>
+        <course>324.46</course>
+        <name>point 386</name>
+      </trkpt>
+      <trkpt lat="42.3314513333" lon="-76.9237763333">
+        <ele>485.500000</ele>
+        <time>2017-10-13T12:41:24.80Z</time>
+        <course>324.34</course>
+        <name>point 387</name>
+      </trkpt>
+      <trkpt lat="42.3315070000" lon="-76.9238308333">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:41:25.00Z</time>
+        <course>324.16</course>
+        <name>point 388</name>
+      </trkpt>
+      <trkpt lat="42.3315625000" lon="-76.9238855000">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:41:25.20Z</time>
+        <course>324.05</course>
+        <name>point 389</name>
+      </trkpt>
+      <trkpt lat="42.3316175000" lon="-76.9239400000">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:41:25.40Z</time>
+        <course>323.85</course>
+        <name>point 390</name>
+      </trkpt>
+      <trkpt lat="42.3316720000" lon="-76.9239950000">
+        <ele>484.400000</ele>
+        <time>2017-10-13T12:41:25.60Z</time>
+        <course>323.43</course>
+        <name>point 391</name>
+      </trkpt>
+      <trkpt lat="42.3317261667" lon="-76.9240501667">
+        <ele>484.100000</ele>
+        <time>2017-10-13T12:41:25.80Z</time>
+        <course>323.06</course>
+        <name>point 392</name>
+      </trkpt>
+      <trkpt lat="42.3317798333" lon="-76.9241056667">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:41:26.00Z</time>
+        <course>322.67</course>
+        <name>point 393</name>
+      </trkpt>
+      <trkpt lat="42.3318326667" lon="-76.9241611667">
+        <ele>483.500000</ele>
+        <time>2017-10-13T12:41:26.20Z</time>
+        <course>322.31</course>
+        <name>point 394</name>
+      </trkpt>
+      <trkpt lat="42.3318843333" lon="-76.9242158333">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:41:26.40Z</time>
+        <course>322.01</course>
+        <name>point 395</name>
+      </trkpt>
+      <trkpt lat="42.3319346667" lon="-76.9242698333">
+        <ele>482.900000</ele>
+        <time>2017-10-13T12:41:26.60Z</time>
+        <course>321.65</course>
+        <name>point 396</name>
+      </trkpt>
+      <trkpt lat="42.3319835000" lon="-76.9243231667">
+        <ele>482.600000</ele>
+        <time>2017-10-13T12:41:26.80Z</time>
+        <course>321.17</course>
+        <name>point 397</name>
+      </trkpt>
+      <trkpt lat="42.3320306667" lon="-76.9243753333">
+        <ele>482.300000</ele>
+        <time>2017-10-13T12:41:27.00Z</time>
+        <course>320.83</course>
+        <name>point 398</name>
+      </trkpt>
+      <trkpt lat="42.3320761667" lon="-76.9244260000">
+        <ele>482.000000</ele>
+        <time>2017-10-13T12:41:27.20Z</time>
+        <course>320.56</course>
+        <name>point 399</name>
+      </trkpt>
+      <trkpt lat="42.3321200000" lon="-76.9244753333">
+        <ele>481.700000</ele>
+        <time>2017-10-13T12:41:27.40Z</time>
+        <course>320.37</course>
+        <name>point 400</name>
+      </trkpt>
+      <trkpt lat="42.3321620000" lon="-76.9245230000">
+        <ele>481.400000</ele>
+        <time>2017-10-13T12:41:27.60Z</time>
+        <course>320.06</course>
+        <name>point 401</name>
+      </trkpt>
+      <trkpt lat="42.3322021667" lon="-76.9245696667">
+        <ele>481.200000</ele>
+        <time>2017-10-13T12:41:27.80Z</time>
+        <course>319.45</course>
+        <name>point 402</name>
+      </trkpt>
+      <trkpt lat="42.3322406667" lon="-76.9246146667">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:41:28.00Z</time>
+        <course>319.25</course>
+        <name>point 403</name>
+      </trkpt>
+      <trkpt lat="42.3322771667" lon="-76.9246578333">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:41:28.20Z</time>
+        <course>318.74</course>
+        <name>point 404</name>
+      </trkpt>
+      <trkpt lat="42.3323116667" lon="-76.9247005000">
+        <ele>480.300000</ele>
+        <time>2017-10-13T12:41:28.40Z</time>
+        <course>317.88</course>
+        <name>point 405</name>
+      </trkpt>
+      <trkpt lat="42.3323445000" lon="-76.9247426667">
+        <ele>480.000000</ele>
+        <time>2017-10-13T12:41:28.60Z</time>
+        <course>316.74</course>
+        <name>point 406</name>
+      </trkpt>
+      <trkpt lat="42.3323750000" lon="-76.9247846667">
+        <ele>479.700000</ele>
+        <time>2017-10-13T12:41:28.80Z</time>
+        <course>314.87</course>
+        <name>point 407</name>
+      </trkpt>
+      <trkpt lat="42.3324031667" lon="-76.9248275000">
+        <ele>479.400000</ele>
+        <time>2017-10-13T12:41:29.00Z</time>
+        <course>312.16</course>
+        <name>point 408</name>
+      </trkpt>
+      <trkpt lat="42.3324286667" lon="-76.9248718333">
+        <ele>479.100000</ele>
+        <time>2017-10-13T12:41:29.20Z</time>
+        <course>308.91</course>
+        <name>point 409</name>
+      </trkpt>
+      <trkpt lat="42.3324523333" lon="-76.9249171667">
+        <ele>478.700000</ele>
+        <time>2017-10-13T12:41:29.40Z</time>
+        <course>305.68</course>
+        <name>point 410</name>
+      </trkpt>
+      <trkpt lat="42.3324735000" lon="-76.9249650000">
+        <ele>478.300000</ele>
+        <time>2017-10-13T12:41:29.60Z</time>
+        <course>301.77</course>
+        <name>point 411</name>
+      </trkpt>
+      <trkpt lat="42.3324921667" lon="-76.9250150000">
+        <ele>478.000000</ele>
+        <time>2017-10-13T12:41:29.80Z</time>
+        <course>297.57</course>
+        <name>point 412</name>
+      </trkpt>
+      <trkpt lat="42.3325086667" lon="-76.9250668333">
+        <ele>477.600000</ele>
+        <time>2017-10-13T12:41:30.00Z</time>
+        <course>293.65</course>
+        <name>point 413</name>
+      </trkpt>
+      <trkpt lat="42.3325225000" lon="-76.9251210000">
+        <ele>477.200000</ele>
+        <time>2017-10-13T12:41:30.20Z</time>
+        <course>289.54</course>
+        <name>point 414</name>
+      </trkpt>
+      <trkpt lat="42.3325336667" lon="-76.9251770000">
+        <ele>476.700000</ele>
+        <time>2017-10-13T12:41:30.40Z</time>
+        <course>285.61</course>
+        <name>point 415</name>
+      </trkpt>
+      <trkpt lat="42.3325420000" lon="-76.9252345000">
+        <ele>476.300000</ele>
+        <time>2017-10-13T12:41:30.60Z</time>
+        <course>281.63</course>
+        <name>point 416</name>
+      </trkpt>
+      <trkpt lat="42.3325475000" lon="-76.9252931667">
+        <ele>475.800000</ele>
+        <time>2017-10-13T12:41:30.80Z</time>
+        <course>277.85</course>
+        <name>point 417</name>
+      </trkpt>
+      <trkpt lat="42.3325500000" lon="-76.9253526667">
+        <ele>475.400000</ele>
+        <time>2017-10-13T12:41:31.00Z</time>
+        <course>273.89</course>
+        <name>point 418</name>
+      </trkpt>
+      <trkpt lat="42.3325493333" lon="-76.9254126667">
+        <ele>475.000000</ele>
+        <time>2017-10-13T12:41:31.20Z</time>
+        <course>270.00</course>
+        <name>point 419</name>
+      </trkpt>
+      <trkpt lat="42.3325455000" lon="-76.9254735000">
+        <ele>474.600000</ele>
+        <time>2017-10-13T12:41:31.40Z</time>
+        <course>266.04</course>
+        <name>point 420</name>
+      </trkpt>
+      <trkpt lat="42.3325386667" lon="-76.9255340000">
+        <ele>474.200000</ele>
+        <time>2017-10-13T12:41:31.60Z</time>
+        <course>262.30</course>
+        <name>point 421</name>
+      </trkpt>
+      <trkpt lat="42.3325291667" lon="-76.9255938333">
+        <ele>473.800000</ele>
+        <time>2017-10-13T12:41:31.80Z</time>
+        <course>258.71</course>
+        <name>point 422</name>
+      </trkpt>
+      <trkpt lat="42.3325168333" lon="-76.9256528333">
+        <ele>473.400000</ele>
+        <time>2017-10-13T12:41:32.00Z</time>
+        <course>255.07</course>
+        <name>point 423</name>
+      </trkpt>
+      <trkpt lat="42.3325015000" lon="-76.9257105000">
+        <ele>473.000000</ele>
+        <time>2017-10-13T12:41:32.20Z</time>
+        <course>251.30</course>
+        <name>point 424</name>
+      </trkpt>
+      <trkpt lat="42.3324835000" lon="-76.9257671667">
+        <ele>472.500000</ele>
+        <time>2017-10-13T12:41:32.40Z</time>
+        <course>247.65</course>
+        <name>point 425</name>
+      </trkpt>
+      <trkpt lat="42.3324625000" lon="-76.9258223333">
+        <ele>472.100000</ele>
+        <time>2017-10-13T12:41:32.60Z</time>
+        <course>243.95</course>
+        <name>point 426</name>
+      </trkpt>
+      <trkpt lat="42.3324386667" lon="-76.9258763333">
+        <ele>471.700000</ele>
+        <time>2017-10-13T12:41:32.80Z</time>
+        <course>240.21</course>
+        <name>point 427</name>
+      </trkpt>
+      <trkpt lat="42.3324123333" lon="-76.9259286667">
+        <ele>471.200000</ele>
+        <time>2017-10-13T12:41:33.00Z</time>
+        <course>236.80</course>
+        <name>point 428</name>
+      </trkpt>
+      <trkpt lat="42.3323835000" lon="-76.9259788333">
+        <ele>470.800000</ele>
+        <time>2017-10-13T12:41:33.20Z</time>
+        <course>233.21</course>
+        <name>point 429</name>
+      </trkpt>
+      <trkpt lat="42.3323518333" lon="-76.9260261667">
+        <ele>470.400000</ele>
+        <time>2017-10-13T12:41:33.40Z</time>
+        <course>229.18</course>
+        <name>point 430</name>
+      </trkpt>
+      <trkpt lat="42.3323178333" lon="-76.9260708333">
+        <ele>470.000000</ele>
+        <time>2017-10-13T12:41:33.60Z</time>
+        <course>225.37</course>
+        <name>point 431</name>
+      </trkpt>
+      <trkpt lat="42.3322818333" lon="-76.9261128333">
+        <ele>469.500000</ele>
+        <time>2017-10-13T12:41:33.80Z</time>
+        <course>221.71</course>
+        <name>point 432</name>
+      </trkpt>
+      <trkpt lat="42.3322435000" lon="-76.9261515000">
+        <ele>469.100000</ele>
+        <time>2017-10-13T12:41:34.00Z</time>
+        <course>217.92</course>
+        <name>point 433</name>
+      </trkpt>
+      <trkpt lat="42.3322031667" lon="-76.9261868333">
+        <ele>468.800000</ele>
+        <time>2017-10-13T12:41:34.20Z</time>
+        <course>214.09</course>
+        <name>point 434</name>
+      </trkpt>
+      <trkpt lat="42.3321610000" lon="-76.9262188333">
+        <ele>468.400000</ele>
+        <time>2017-10-13T12:41:34.40Z</time>
+        <course>210.39</course>
+        <name>point 435</name>
+      </trkpt>
+      <trkpt lat="42.3321170000" lon="-76.9262473333">
+        <ele>468.100000</ele>
+        <time>2017-10-13T12:41:34.60Z</time>
+        <course>206.76</course>
+        <name>point 436</name>
+      </trkpt>
+      <trkpt lat="42.3320711667" lon="-76.9262721667">
+        <ele>467.800000</ele>
+        <time>2017-10-13T12:41:34.80Z</time>
+        <course>203.15</course>
+        <name>point 437</name>
+      </trkpt>
+      <trkpt lat="42.3320236667" lon="-76.9262940000">
+        <ele>467.500000</ele>
+        <time>2017-10-13T12:41:35.00Z</time>
+        <course>199.93</course>
+        <name>point 438</name>
+      </trkpt>
+      <trkpt lat="42.3319746667" lon="-76.9263133333">
+        <ele>467.300000</ele>
+        <time>2017-10-13T12:41:35.20Z</time>
+        <course>197.25</course>
+        <name>point 439</name>
+      </trkpt>
+      <trkpt lat="42.3319238333" lon="-76.9263303333">
+        <ele>467.000000</ele>
+        <time>2017-10-13T12:41:35.40Z</time>
+        <course>194.86</course>
+        <name>point 440</name>
+      </trkpt>
+      <trkpt lat="42.3318715000" lon="-76.9263450000">
+        <ele>466.800000</ele>
+        <time>2017-10-13T12:41:35.60Z</time>
+        <course>192.52</course>
+        <name>point 441</name>
+      </trkpt>
+      <trkpt lat="42.3318171667" lon="-76.9263570000">
+        <ele>466.700000</ele>
+        <time>2017-10-13T12:41:35.80Z</time>
+        <course>190.28</course>
+        <name>point 442</name>
+      </trkpt>
+      <trkpt lat="42.3317618333" lon="-76.9263666667">
+        <ele>466.500000</ele>
+        <time>2017-10-13T12:41:36.00Z</time>
+        <course>188.09</course>
+        <name>point 443</name>
+      </trkpt>
+      <trkpt lat="42.3317053333" lon="-76.9263736667">
+        <ele>466.200000</ele>
+        <time>2017-10-13T12:41:36.20Z</time>
+        <course>185.89</course>
+        <name>point 444</name>
+      </trkpt>
+      <trkpt lat="42.3316473333" lon="-76.9263785000">
+        <ele>466.000000</ele>
+        <time>2017-10-13T12:41:36.40Z</time>
+        <course>183.93</course>
+        <name>point 445</name>
+      </trkpt>
+      <trkpt lat="42.3315881667" lon="-76.9263808333">
+        <ele>465.800000</ele>
+        <time>2017-10-13T12:41:36.60Z</time>
+        <course>182.18</course>
+        <name>point 446</name>
+      </trkpt>
+      <trkpt lat="42.3315281667" lon="-76.9263815000">
+        <ele>465.400000</ele>
+        <time>2017-10-13T12:41:36.80Z</time>
+        <course>180.74</course>
+        <name>point 447</name>
+      </trkpt>
+      <trkpt lat="42.3314666667" lon="-76.9263801667">
+        <ele>465.100000</ele>
+        <time>2017-10-13T12:41:37.00Z</time>
+        <course>179.28</course>
+        <name>point 448</name>
+      </trkpt>
+      <trkpt lat="42.3314038333" lon="-76.9263768333">
+        <ele>464.900000</ele>
+        <time>2017-10-13T12:41:37.20Z</time>
+        <course>178.01</course>
+        <name>point 449</name>
+      </trkpt>
+      <trkpt lat="42.3313396667" lon="-76.9263720000">
+        <ele>464.600000</ele>
+        <time>2017-10-13T12:41:37.40Z</time>
+        <course>176.96</course>
+        <name>point 450</name>
+      </trkpt>
+      <trkpt lat="42.3312741667" lon="-76.9263656667">
+        <ele>464.300000</ele>
+        <time>2017-10-13T12:41:37.60Z</time>
+        <course>176.13</course>
+        <name>point 451</name>
+      </trkpt>
+      <trkpt lat="42.3312075000" lon="-76.9263583333">
+        <ele>463.900000</ele>
+        <time>2017-10-13T12:41:37.80Z</time>
+        <course>175.43</course>
+        <name>point 452</name>
+      </trkpt>
+      <trkpt lat="42.3311393333" lon="-76.9263500000">
+        <ele>463.600000</ele>
+        <time>2017-10-13T12:41:38.00Z</time>
+        <course>174.96</course>
+        <name>point 453</name>
+      </trkpt>
+      <trkpt lat="42.3310696667" lon="-76.9263411667">
+        <ele>463.200000</ele>
+        <time>2017-10-13T12:41:38.20Z</time>
+        <course>174.70</course>
+        <name>point 454</name>
+      </trkpt>
+      <trkpt lat="42.3309988333" lon="-76.9263320000">
+        <ele>462.900000</ele>
+        <time>2017-10-13T12:41:38.40Z</time>
+        <course>174.57</course>
+        <name>point 455</name>
+      </trkpt>
+      <trkpt lat="42.3309265000" lon="-76.9263225000">
+        <ele>462.500000</ele>
+        <time>2017-10-13T12:41:38.60Z</time>
+        <course>174.45</course>
+        <name>point 456</name>
+      </trkpt>
+      <trkpt lat="42.3308528333" lon="-76.9263126667">
+        <ele>462.100000</ele>
+        <time>2017-10-13T12:41:38.80Z</time>
+        <course>174.34</course>
+        <name>point 457</name>
+      </trkpt>
+      <trkpt lat="42.3307778333" lon="-76.9263023333">
+        <ele>461.700000</ele>
+        <time>2017-10-13T12:41:39.00Z</time>
+        <course>174.22</course>
+        <name>point 458</name>
+      </trkpt>
+      <trkpt lat="42.3307015000" lon="-76.9262918333">
+        <ele>461.300000</ele>
+        <time>2017-10-13T12:41:39.20Z</time>
+        <course>174.15</course>
+        <name>point 459</name>
+      </trkpt>
+      <trkpt lat="42.3306240000" lon="-76.9262813333">
+        <ele>460.900000</ele>
+        <time>2017-10-13T12:41:39.40Z</time>
+        <course>174.29</course>
+        <name>point 460</name>
+      </trkpt>
+      <trkpt lat="42.3305455000" lon="-76.9262710000">
+        <ele>460.400000</ele>
+        <time>2017-10-13T12:41:39.60Z</time>
+        <course>174.42</course>
+        <name>point 461</name>
+      </trkpt>
+      <trkpt lat="42.3304660000" lon="-76.9262606667">
+        <ele>460.100000</ele>
+        <time>2017-10-13T12:41:39.80Z</time>
+        <course>174.55</course>
+        <name>point 462</name>
+      </trkpt>
+      <trkpt lat="42.3303861667" lon="-76.9262506667">
+        <ele>459.700000</ele>
+        <time>2017-10-13T12:41:40.00Z</time>
+        <course>174.71</course>
+        <name>point 463</name>
+      </trkpt>
+      <trkpt lat="42.3303063333" lon="-76.9262415000">
+        <ele>459.200000</ele>
+        <time>2017-10-13T12:41:40.20Z</time>
+        <course>175.04</course>
+        <name>point 464</name>
+      </trkpt>
+      <trkpt lat="42.3302268333" lon="-76.9262330000">
+        <ele>458.900000</ele>
+        <time>2017-10-13T12:41:40.40Z</time>
+        <course>175.42</course>
+        <name>point 465</name>
+      </trkpt>
+      <trkpt lat="42.3301476667" lon="-76.9262255000">
+        <ele>458.500000</ele>
+        <time>2017-10-13T12:41:40.60Z</time>
+        <course>175.83</course>
+        <name>point 466</name>
+      </trkpt>
+      <trkpt lat="42.3300688333" lon="-76.9262185000">
+        <ele>458.100000</ele>
+        <time>2017-10-13T12:41:40.80Z</time>
+        <course>176.23</course>
+        <name>point 467</name>
+      </trkpt>
+      <trkpt lat="42.3299910000" lon="-76.9262118333">
+        <ele>457.800000</ele>
+        <time>2017-10-13T12:41:41.00Z</time>
+        <course>176.36</course>
+        <name>point 468</name>
+      </trkpt>
+      <trkpt lat="42.3299140000" lon="-76.9262053333">
+        <ele>457.400000</ele>
+        <time>2017-10-13T12:41:41.20Z</time>
+        <course>176.38</course>
+        <name>point 469</name>
+      </trkpt>
+      <trkpt lat="42.3298383333" lon="-76.9261991667">
+        <ele>457.100000</ele>
+        <time>2017-10-13T12:41:41.40Z</time>
+        <course>176.51</course>
+        <name>point 470</name>
+      </trkpt>
+      <trkpt lat="42.3297643333" lon="-76.9261935000">
+        <ele>456.700000</ele>
+        <time>2017-10-13T12:41:41.60Z</time>
+        <course>176.61</course>
+        <name>point 471</name>
+      </trkpt>
+      <trkpt lat="42.3296925000" lon="-76.9261878333">
+        <ele>456.300000</ele>
+        <time>2017-10-13T12:41:41.80Z</time>
+        <course>176.64</course>
+        <name>point 472</name>
+      </trkpt>
+      <trkpt lat="42.3296226667" lon="-76.9261823333">
+        <ele>456.000000</ele>
+        <time>2017-10-13T12:41:42.00Z</time>
+        <course>176.56</course>
+        <name>point 473</name>
+      </trkpt>
+      <trkpt lat="42.3295551667" lon="-76.9261768333">
+        <ele>455.800000</ele>
+        <time>2017-10-13T12:41:42.20Z</time>
+        <course>176.46</course>
+        <name>point 474</name>
+      </trkpt>
+      <trkpt lat="42.3294901667" lon="-76.9261713333">
+        <ele>455.500000</ele>
+        <time>2017-10-13T12:41:42.40Z</time>
+        <course>176.37</course>
+        <name>point 475</name>
+      </trkpt>
+      <trkpt lat="42.3294276667" lon="-76.9261658333">
+        <ele>455.300000</ele>
+        <time>2017-10-13T12:41:42.60Z</time>
+        <course>176.29</course>
+        <name>point 476</name>
+      </trkpt>
+      <trkpt lat="42.3293675000" lon="-76.9261608333">
+        <ele>455.100000</ele>
+        <time>2017-10-13T12:41:42.80Z</time>
+        <course>176.37</course>
+        <name>point 477</name>
+      </trkpt>
+      <trkpt lat="42.3293095000" lon="-76.9261563333">
+        <ele>455.100000</ele>
+        <time>2017-10-13T12:41:43.00Z</time>
+        <course>176.65</course>
+        <name>point 478</name>
+      </trkpt>
+      <trkpt lat="42.3292535000" lon="-76.9261520000">
+        <ele>455.000000</ele>
+        <time>2017-10-13T12:41:43.20Z</time>
+        <course>176.86</course>
+        <name>point 479</name>
+      </trkpt>
+      <trkpt lat="42.3292001667" lon="-76.9261488333">
+        <ele>455.000000</ele>
+        <time>2017-10-13T12:41:43.40Z</time>
+        <course>177.45</course>
+        <name>point 480</name>
+      </trkpt>
+      <trkpt lat="42.3291490000" lon="-76.9261470000">
+        <ele>454.900000</ele>
+        <time>2017-10-13T12:41:43.60Z</time>
+        <course>178.27</course>
+        <name>point 481</name>
+      </trkpt>
+      <trkpt lat="42.3290993333" lon="-76.9261476667">
+        <ele>454.900000</ele>
+        <time>2017-10-13T12:41:43.80Z</time>
+        <course>180.22</course>
+        <name>point 482</name>
+      </trkpt>
+      <trkpt lat="42.3290515000" lon="-76.9261510000">
+        <ele>454.900000</ele>
+        <time>2017-10-13T12:41:44.00Z</time>
+        <course>182.56</course>
+        <name>point 483</name>
+      </trkpt>
+      <trkpt lat="42.3290056667" lon="-76.9261575000">
+        <ele>455.000000</ele>
+        <time>2017-10-13T12:41:44.20Z</time>
+        <course>185.41</course>
+        <name>point 484</name>
+      </trkpt>
+      <trkpt lat="42.3289613333" lon="-76.9261676667">
+        <ele>455.100000</ele>
+        <time>2017-10-13T12:41:44.40Z</time>
+        <course>189.00</course>
+        <name>point 485</name>
+      </trkpt>
+      <trkpt lat="42.3289183333" lon="-76.9261811667">
+        <ele>455.100000</ele>
+        <time>2017-10-13T12:41:44.60Z</time>
+        <course>192.53</course>
+        <name>point 486</name>
+      </trkpt>
+      <trkpt lat="42.3288766667" lon="-76.9261981667">
+        <ele>455.300000</ele>
+        <time>2017-10-13T12:41:44.80Z</time>
+        <course>196.12</course>
+        <name>point 487</name>
+      </trkpt>
+      <trkpt lat="42.3288363333" lon="-76.9262188333">
+        <ele>455.400000</ele>
+        <time>2017-10-13T12:41:45.00Z</time>
+        <course>200.00</course>
+        <name>point 488</name>
+      </trkpt>
+      <trkpt lat="42.3287978333" lon="-76.9262430000">
+        <ele>455.500000</ele>
+        <time>2017-10-13T12:41:45.20Z</time>
+        <course>204.08</course>
+        <name>point 489</name>
+      </trkpt>
+      <trkpt lat="42.3287611667" lon="-76.9262716667">
+        <ele>455.700000</ele>
+        <time>2017-10-13T12:41:45.40Z</time>
+        <course>208.82</course>
+        <name>point 490</name>
+      </trkpt>
+      <trkpt lat="42.3287261667" lon="-76.9263053333">
+        <ele>455.900000</ele>
+        <time>2017-10-13T12:41:45.60Z</time>
+        <course>214.19</course>
+        <name>point 491</name>
+      </trkpt>
+      <trkpt lat="42.3286930000" lon="-76.9263423333">
+        <ele>456.100000</ele>
+        <time>2017-10-13T12:41:45.80Z</time>
+        <course>218.73</course>
+        <name>point 492</name>
+      </trkpt>
+      <trkpt lat="42.3286620000" lon="-76.9263825000">
+        <ele>456.300000</ele>
+        <time>2017-10-13T12:41:46.00Z</time>
+        <course>223.18</course>
+        <name>point 493</name>
+      </trkpt>
+      <trkpt lat="42.3286331667" lon="-76.9264261667">
+        <ele>456.600000</ele>
+        <time>2017-10-13T12:41:46.20Z</time>
+        <course>227.57</course>
+        <name>point 494</name>
+      </trkpt>
+      <trkpt lat="42.3286065000" lon="-76.9264731667">
+        <ele>456.900000</ele>
+        <time>2017-10-13T12:41:46.40Z</time>
+        <course>231.85</course>
+        <name>point 495</name>
+      </trkpt>
+      <trkpt lat="42.3285823333" lon="-76.9265230000">
+        <ele>457.300000</ele>
+        <time>2017-10-13T12:41:46.60Z</time>
+        <course>236.10</course>
+        <name>point 496</name>
+      </trkpt>
+      <trkpt lat="42.3285613333" lon="-76.9265751667">
+        <ele>457.600000</ele>
+        <time>2017-10-13T12:41:46.80Z</time>
+        <course>240.69</course>
+        <name>point 497</name>
+      </trkpt>
+      <trkpt lat="42.3285435000" lon="-76.9266293333">
+        <ele>458.000000</ele>
+        <time>2017-10-13T12:41:47.00Z</time>
+        <course>245.23</course>
+        <name>point 498</name>
+      </trkpt>
+      <trkpt lat="42.3285291667" lon="-76.9266855000">
+        <ele>458.400000</ele>
+        <time>2017-10-13T12:41:47.20Z</time>
+        <course>250.00</course>
+        <name>point 499</name>
+      </trkpt>
+      <trkpt lat="42.3285181667" lon="-76.9267428333">
+        <ele>458.700000</ele>
+        <time>2017-10-13T12:41:47.40Z</time>
+        <course>254.41</course>
+        <name>point 500</name>
+      </trkpt>
+      <trkpt lat="42.3285100000" lon="-76.9268015000">
+        <ele>459.100000</ele>
+        <time>2017-10-13T12:41:47.60Z</time>
+        <course>258.61</course>
+        <name>point 501</name>
+      </trkpt>
+      <trkpt lat="42.3285055000" lon="-76.9268611667">
+        <ele>459.500000</ele>
+        <time>2017-10-13T12:41:47.80Z</time>
+        <course>263.14</course>
+        <name>point 502</name>
+      </trkpt>
+      <trkpt lat="42.3285045000" lon="-76.9269213333">
+        <ele>459.900000</ele>
+        <time>2017-10-13T12:41:48.00Z</time>
+        <course>267.64</course>
+        <name>point 503</name>
+      </trkpt>
+      <trkpt lat="42.3285066667" lon="-76.9269816667">
+        <ele>460.300000</ele>
+        <time>2017-10-13T12:41:48.20Z</time>
+        <course>271.96</course>
+        <name>point 504</name>
+      </trkpt>
+      <trkpt lat="42.3285120000" lon="-76.9270420000">
+        <ele>460.700000</ele>
+        <time>2017-10-13T12:41:48.40Z</time>
+        <course>276.18</course>
+        <name>point 505</name>
+      </trkpt>
+      <trkpt lat="42.3285208333" lon="-76.9271018333">
+        <ele>461.200000</ele>
+        <time>2017-10-13T12:41:48.60Z</time>
+        <course>280.57</course>
+        <name>point 506</name>
+      </trkpt>
+      <trkpt lat="42.3285330000" lon="-76.9271606667">
+        <ele>461.600000</ele>
+        <time>2017-10-13T12:41:48.80Z</time>
+        <course>284.93</course>
+        <name>point 507</name>
+      </trkpt>
+      <trkpt lat="42.3285483333" lon="-76.9272185000">
+        <ele>462.000000</ele>
+        <time>2017-10-13T12:41:49.00Z</time>
+        <course>289.15</course>
+        <name>point 508</name>
+      </trkpt>
+      <trkpt lat="42.3285668333" lon="-76.9272745000">
+        <ele>462.500000</ele>
+        <time>2017-10-13T12:41:49.20Z</time>
+        <course>293.51</course>
+        <name>point 509</name>
+      </trkpt>
+      <trkpt lat="42.3285885000" lon="-76.9273290000">
+        <ele>463.000000</ele>
+        <time>2017-10-13T12:41:49.40Z</time>
+        <course>297.74</course>
+        <name>point 510</name>
+      </trkpt>
+      <trkpt lat="42.3286133333" lon="-76.9273813333">
+        <ele>463.400000</ele>
+        <time>2017-10-13T12:41:49.60Z</time>
+        <course>302.20</course>
+        <name>point 511</name>
+      </trkpt>
+      <trkpt lat="42.3286411667" lon="-76.9274313333">
+        <ele>463.900000</ele>
+        <time>2017-10-13T12:41:49.80Z</time>
+        <course>306.48</course>
+        <name>point 512</name>
+      </trkpt>
+      <trkpt lat="42.3286715000" lon="-76.9274786667">
+        <ele>464.400000</ele>
+        <time>2017-10-13T12:41:50.00Z</time>
+        <course>310.53</course>
+        <name>point 513</name>
+      </trkpt>
+      <trkpt lat="42.3287045000" lon="-76.9275231667">
+        <ele>464.800000</ele>
+        <time>2017-10-13T12:41:50.20Z</time>
+        <course>314.54</course>
+        <name>point 514</name>
+      </trkpt>
+      <trkpt lat="42.3287396667" lon="-76.9275653333">
+        <ele>465.300000</ele>
+        <time>2017-10-13T12:41:50.40Z</time>
+        <course>318.15</course>
+        <name>point 515</name>
+      </trkpt>
+      <trkpt lat="42.3287771667" lon="-76.9276045000">
+        <ele>465.800000</ele>
+        <time>2017-10-13T12:41:50.60Z</time>
+        <course>321.89</course>
+        <name>point 516</name>
+      </trkpt>
+      <trkpt lat="42.3288166667" lon="-76.9276406667">
+        <ele>466.300000</ele>
+        <time>2017-10-13T12:41:50.80Z</time>
+        <course>325.50</course>
+        <name>point 517</name>
+      </trkpt>
+      <trkpt lat="42.3288580000" lon="-76.9276743333">
+        <ele>466.800000</ele>
+        <time>2017-10-13T12:41:51.00Z</time>
+        <course>328.76</course>
+        <name>point 518</name>
+      </trkpt>
+      <trkpt lat="42.3289008333" lon="-76.9277051667">
+        <ele>467.300000</ele>
+        <time>2017-10-13T12:41:51.20Z</time>
+        <course>331.65</course>
+        <name>point 519</name>
+      </trkpt>
+      <trkpt lat="42.3289455000" lon="-76.9277336667">
+        <ele>467.800000</ele>
+        <time>2017-10-13T12:41:51.40Z</time>
+        <course>334.41</course>
+        <name>point 520</name>
+      </trkpt>
+      <trkpt lat="42.3289918333" lon="-76.9277596667">
+        <ele>468.300000</ele>
+        <time>2017-10-13T12:41:51.60Z</time>
+        <course>337.26</course>
+        <name>point 521</name>
+      </trkpt>
+      <trkpt lat="42.3290395000" lon="-76.9277830000">
+        <ele>468.800000</ele>
+        <time>2017-10-13T12:41:51.80Z</time>
+        <course>340.04</course>
+        <name>point 522</name>
+      </trkpt>
+      <trkpt lat="42.3290883333" lon="-76.9278036667">
+        <ele>469.200000</ele>
+        <time>2017-10-13T12:41:52.00Z</time>
+        <course>342.48</course>
+        <name>point 523</name>
+      </trkpt>
+      <trkpt lat="42.3291386667" lon="-76.9278225000">
+        <ele>469.700000</ele>
+        <time>2017-10-13T12:41:52.20Z</time>
+        <course>344.55</course>
+        <name>point 524</name>
+      </trkpt>
+      <trkpt lat="42.3291900000" lon="-76.9278391667">
+        <ele>470.100000</ele>
+        <time>2017-10-13T12:41:52.40Z</time>
+        <course>346.47</course>
+        <name>point 525</name>
+      </trkpt>
+      <trkpt lat="42.3292426667" lon="-76.9278536667">
+        <ele>470.600000</ele>
+        <time>2017-10-13T12:41:52.60Z</time>
+        <course>348.43</course>
+        <name>point 526</name>
+      </trkpt>
+      <trkpt lat="42.3292965000" lon="-76.9278665000">
+        <ele>470.900000</ele>
+        <time>2017-10-13T12:41:52.80Z</time>
+        <course>350.13</course>
+        <name>point 527</name>
+      </trkpt>
+      <trkpt lat="42.3293513333" lon="-76.9278771667">
+        <ele>471.300000</ele>
+        <time>2017-10-13T12:41:53.00Z</time>
+        <course>351.98</course>
+        <name>point 528</name>
+      </trkpt>
+      <trkpt lat="42.3294070000" lon="-76.9278860000">
+        <ele>471.600000</ele>
+        <time>2017-10-13T12:41:53.20Z</time>
+        <course>353.38</course>
+        <name>point 529</name>
+      </trkpt>
+      <trkpt lat="42.3294631667" lon="-76.9278935000">
+        <ele>471.900000</ele>
+        <time>2017-10-13T12:41:53.40Z</time>
+        <course>354.49</course>
+        <name>point 530</name>
+      </trkpt>
+      <trkpt lat="42.3295200000" lon="-76.9279006667">
+        <ele>472.300000</ele>
+        <time>2017-10-13T12:41:53.60Z</time>
+        <course>354.98</course>
+        <name>point 531</name>
+      </trkpt>
+      <trkpt lat="42.3295771667" lon="-76.9279078333">
+        <ele>472.600000</ele>
+        <time>2017-10-13T12:41:53.80Z</time>
+        <course>354.97</course>
+        <name>point 532</name>
+      </trkpt>
+      <trkpt lat="42.3296351667" lon="-76.9279150000">
+        <ele>472.900000</ele>
+        <time>2017-10-13T12:41:54.00Z</time>
+        <course>355.01</course>
+        <name>point 533</name>
+      </trkpt>
+      <trkpt lat="42.3296931667" lon="-76.9279220000">
+        <ele>473.400000</ele>
+        <time>2017-10-13T12:41:54.20Z</time>
+        <course>355.04</course>
+        <name>point 534</name>
+      </trkpt>
+      <trkpt lat="42.3297520000" lon="-76.9279290000">
+        <ele>473.700000</ele>
+        <time>2017-10-13T12:41:54.40Z</time>
+        <course>355.17</course>
+        <name>point 535</name>
+      </trkpt>
+      <trkpt lat="42.3298110000" lon="-76.9279358333">
+        <ele>474.000000</ele>
+        <time>2017-10-13T12:41:54.60Z</time>
+        <course>355.27</course>
+        <name>point 536</name>
+      </trkpt>
+      <trkpt lat="42.3298706667" lon="-76.9279428333">
+        <ele>474.300000</ele>
+        <time>2017-10-13T12:41:54.80Z</time>
+        <course>355.30</course>
+        <name>point 537</name>
+      </trkpt>
+      <trkpt lat="42.3299303333" lon="-76.9279493333">
+        <ele>474.600000</ele>
+        <time>2017-10-13T12:41:55.00Z</time>
+        <course>355.49</course>
+        <name>point 538</name>
+      </trkpt>
+      <trkpt lat="42.3299903333" lon="-76.9279560000">
+        <ele>474.900000</ele>
+        <time>2017-10-13T12:41:55.20Z</time>
+        <course>355.49</course>
+        <name>point 539</name>
+      </trkpt>
+      <trkpt lat="42.3300510000" lon="-76.9279626667">
+        <ele>475.200000</ele>
+        <time>2017-10-13T12:41:55.40Z</time>
+        <course>355.55</course>
+        <name>point 540</name>
+      </trkpt>
+      <trkpt lat="42.3301118333" lon="-76.9279691667">
+        <ele>475.400000</ele>
+        <time>2017-10-13T12:41:55.60Z</time>
+        <course>355.69</course>
+        <name>point 541</name>
+      </trkpt>
+      <trkpt lat="42.3301723333" lon="-76.9279755000">
+        <ele>475.800000</ele>
+        <time>2017-10-13T12:41:55.80Z</time>
+        <course>355.70</course>
+        <name>point 542</name>
+      </trkpt>
+      <trkpt lat="42.3302330000" lon="-76.9279818333">
+        <ele>476.100000</ele>
+        <time>2017-10-13T12:41:56.00Z</time>
+        <course>355.71</course>
+        <name>point 543</name>
+      </trkpt>
+      <trkpt lat="42.3302938333" lon="-76.9279883333">
+        <ele>476.300000</ele>
+        <time>2017-10-13T12:41:56.20Z</time>
+        <course>355.77</course>
+        <name>point 544</name>
+      </trkpt>
+      <trkpt lat="42.3303541667" lon="-76.9279948333">
+        <ele>476.500000</ele>
+        <time>2017-10-13T12:41:56.40Z</time>
+        <course>355.65</course>
+        <name>point 545</name>
+      </trkpt>
+      <trkpt lat="42.3304145000" lon="-76.9280011667">
+        <ele>476.800000</ele>
+        <time>2017-10-13T12:41:56.60Z</time>
+        <course>355.68</course>
+        <name>point 546</name>
+      </trkpt>
+      <trkpt lat="42.3304746667" lon="-76.9280080000">
+        <ele>477.000000</ele>
+        <time>2017-10-13T12:41:56.80Z</time>
+        <course>355.51</course>
+        <name>point 547</name>
+      </trkpt>
+      <trkpt lat="42.3305348333" lon="-76.9280148333">
+        <ele>477.200000</ele>
+        <time>2017-10-13T12:41:57.00Z</time>
+        <course>355.45</course>
+        <name>point 548</name>
+      </trkpt>
+      <trkpt lat="42.3305953333" lon="-76.9280216667">
+        <ele>477.400000</ele>
+        <time>2017-10-13T12:41:57.20Z</time>
+        <course>355.47</course>
+        <name>point 549</name>
+      </trkpt>
+      <trkpt lat="42.3306563333" lon="-76.9280286667">
+        <ele>477.600000</ele>
+        <time>2017-10-13T12:41:57.40Z</time>
+        <course>355.41</course>
+        <name>point 550</name>
+      </trkpt>
+      <trkpt lat="42.3307181667" lon="-76.9280360000">
+        <ele>477.900000</ele>
+        <time>2017-10-13T12:41:57.60Z</time>
+        <course>355.32</course>
+        <name>point 551</name>
+      </trkpt>
+      <trkpt lat="42.3307806667" lon="-76.9280435000">
+        <ele>478.000000</ele>
+        <time>2017-10-13T12:41:57.80Z</time>
+        <course>355.18</course>
+        <name>point 552</name>
+      </trkpt>
+      <trkpt lat="42.3308430000" lon="-76.9280513333">
+        <ele>478.200000</ele>
+        <time>2017-10-13T12:41:58.00Z</time>
+        <course>355.01</course>
+        <name>point 553</name>
+      </trkpt>
+      <trkpt lat="42.3309048333" lon="-76.9280588333">
+        <ele>478.400000</ele>
+        <time>2017-10-13T12:41:58.20Z</time>
+        <course>355.02</course>
+        <name>point 554</name>
+      </trkpt>
+      <trkpt lat="42.3309665000" lon="-76.9280665000">
+        <ele>478.600000</ele>
+        <time>2017-10-13T12:41:58.40Z</time>
+        <course>355.00</course>
+        <name>point 555</name>
+      </trkpt>
+      <trkpt lat="42.3310278333" lon="-76.9280741667">
+        <ele>478.800000</ele>
+        <time>2017-10-13T12:41:58.60Z</time>
+        <course>354.95</course>
+        <name>point 556</name>
+      </trkpt>
+      <trkpt lat="42.3310886667" lon="-76.9280816667">
+        <ele>479.000000</ele>
+        <time>2017-10-13T12:41:58.80Z</time>
+        <course>354.99</course>
+        <name>point 557</name>
+      </trkpt>
+      <trkpt lat="42.3311493333" lon="-76.9280893333">
+        <ele>479.100000</ele>
+        <time>2017-10-13T12:41:59.00Z</time>
+        <course>354.94</course>
+        <name>point 558</name>
+      </trkpt>
+      <trkpt lat="42.3312095000" lon="-76.9280968333">
+        <ele>479.300000</ele>
+        <time>2017-10-13T12:41:59.20Z</time>
+        <course>354.94</course>
+        <name>point 559</name>
+      </trkpt>
+      <trkpt lat="42.3312693333" lon="-76.9281043333">
+        <ele>479.500000</ele>
+        <time>2017-10-13T12:41:59.40Z</time>
+        <course>354.83</course>
+        <name>point 560</name>
+      </trkpt>
+      <trkpt lat="42.3313288333" lon="-76.9281118333">
+        <ele>479.700000</ele>
+        <time>2017-10-13T12:41:59.60Z</time>
+        <course>354.83</course>
+        <name>point 561</name>
+      </trkpt>
+      <trkpt lat="42.3313880000" lon="-76.9281195000">
+        <ele>479.800000</ele>
+        <time>2017-10-13T12:41:59.80Z</time>
+        <course>354.73</course>
+        <name>point 562</name>
+      </trkpt>
+      <trkpt lat="42.3314466667" lon="-76.9281273333">
+        <ele>480.000000</ele>
+        <time>2017-10-13T12:42:00.00Z</time>
+        <course>354.70</course>
+        <name>point 563</name>
+      </trkpt>
+      <trkpt lat="42.3315051667" lon="-76.9281348333">
+        <ele>480.100000</ele>
+        <time>2017-10-13T12:42:00.20Z</time>
+        <course>354.77</course>
+        <name>point 564</name>
+      </trkpt>
+      <trkpt lat="42.3315631667" lon="-76.9281420000">
+        <ele>480.200000</ele>
+        <time>2017-10-13T12:42:00.40Z</time>
+        <course>354.93</course>
+        <name>point 565</name>
+      </trkpt>
+      <trkpt lat="42.3316206667" lon="-76.9281488333">
+        <ele>480.200000</ele>
+        <time>2017-10-13T12:42:00.60Z</time>
+        <course>355.06</course>
+        <name>point 566</name>
+      </trkpt>
+      <trkpt lat="42.3316776667" lon="-76.9281556667">
+        <ele>480.400000</ele>
+        <time>2017-10-13T12:42:00.80Z</time>
+        <course>355.06</course>
+        <name>point 567</name>
+      </trkpt>
+      <trkpt lat="42.3317345000" lon="-76.9281628333">
+        <ele>480.400000</ele>
+        <time>2017-10-13T12:42:01.00Z</time>
+        <course>355.04</course>
+        <name>point 568</name>
+      </trkpt>
+      <trkpt lat="42.3317905000" lon="-76.9281695000">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:42:01.20Z</time>
+        <course>355.03</course>
+        <name>point 569</name>
+      </trkpt>
+      <trkpt lat="42.3318461667" lon="-76.9281765000">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:42:01.40Z</time>
+        <course>354.91</course>
+        <name>point 570</name>
+      </trkpt>
+      <trkpt lat="42.3319016667" lon="-76.9281831667">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:42:01.60Z</time>
+        <course>355.06</course>
+        <name>point 571</name>
+      </trkpt>
+      <trkpt lat="42.3319570000" lon="-76.9281896667">
+        <ele>480.700000</ele>
+        <time>2017-10-13T12:42:01.80Z</time>
+        <course>355.13</course>
+        <name>point 572</name>
+      </trkpt>
+      <trkpt lat="42.3320123333" lon="-76.9281961667">
+        <ele>480.800000</ele>
+        <time>2017-10-13T12:42:02.00Z</time>
+        <course>355.20</course>
+        <name>point 573</name>
+      </trkpt>
+      <trkpt lat="42.3320673333" lon="-76.9282025000">
+        <ele>480.800000</ele>
+        <time>2017-10-13T12:42:02.20Z</time>
+        <course>355.35</course>
+        <name>point 574</name>
+      </trkpt>
+      <trkpt lat="42.3321225000" lon="-76.9282088333">
+        <ele>480.800000</ele>
+        <time>2017-10-13T12:42:02.40Z</time>
+        <course>355.38</course>
+        <name>point 575</name>
+      </trkpt>
+      <trkpt lat="42.3321778333" lon="-76.9282150000">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:42:02.60Z</time>
+        <course>355.43</course>
+        <name>point 576</name>
+      </trkpt>
+      <trkpt lat="42.3322338333" lon="-76.9282213333">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:42:02.80Z</time>
+        <course>355.46</course>
+        <name>point 577</name>
+      </trkpt>
+      <trkpt lat="42.3322911667" lon="-76.9282276667">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:42:03.00Z</time>
+        <course>355.45</course>
+        <name>point 578</name>
+      </trkpt>
+      <trkpt lat="42.3323500000" lon="-76.9282343333">
+        <ele>481.000000</ele>
+        <time>2017-10-13T12:42:03.20Z</time>
+        <course>355.44</course>
+        <name>point 579</name>
+      </trkpt>
+      <trkpt lat="42.3324101667" lon="-76.9282408333">
+        <ele>481.000000</ele>
+        <time>2017-10-13T12:42:03.40Z</time>
+        <course>355.57</course>
+        <name>point 580</name>
+      </trkpt>
+      <trkpt lat="42.3324720000" lon="-76.9282475000">
+        <ele>481.100000</ele>
+        <time>2017-10-13T12:42:03.60Z</time>
+        <course>355.54</course>
+        <name>point 581</name>
+      </trkpt>
+      <trkpt lat="42.3325351667" lon="-76.9282543333">
+        <ele>481.100000</ele>
+        <time>2017-10-13T12:42:03.80Z</time>
+        <course>355.61</course>
+        <name>point 582</name>
+      </trkpt>
+      <trkpt lat="42.3325996667" lon="-76.9282613333">
+        <ele>481.200000</ele>
+        <time>2017-10-13T12:42:04.00Z</time>
+        <course>355.53</course>
+        <name>point 583</name>
+      </trkpt>
+      <trkpt lat="42.3326656667" lon="-76.9282685000">
+        <ele>481.300000</ele>
+        <time>2017-10-13T12:42:04.20Z</time>
+        <course>355.48</course>
+        <name>point 584</name>
+      </trkpt>
+      <trkpt lat="42.3327330000" lon="-76.9282758333">
+        <ele>481.300000</ele>
+        <time>2017-10-13T12:42:04.40Z</time>
+        <course>355.45</course>
+        <name>point 585</name>
+      </trkpt>
+      <trkpt lat="42.3328013333" lon="-76.9282838333">
+        <ele>481.400000</ele>
+        <time>2017-10-13T12:42:04.60Z</time>
+        <course>355.24</course>
+        <name>point 586</name>
+      </trkpt>
+      <trkpt lat="42.3328705000" lon="-76.9282920000">
+        <ele>481.400000</ele>
+        <time>2017-10-13T12:42:04.80Z</time>
+        <course>355.23</course>
+        <name>point 587</name>
+      </trkpt>
+      <trkpt lat="42.3329396667" lon="-76.9283000000">
+        <ele>481.400000</ele>
+        <time>2017-10-13T12:42:05.00Z</time>
+        <course>355.14</course>
+        <name>point 588</name>
+      </trkpt>
+      <trkpt lat="42.3330085000" lon="-76.9283086667">
+        <ele>481.300000</ele>
+        <time>2017-10-13T12:42:05.20Z</time>
+        <course>354.94</course>
+        <name>point 589</name>
+      </trkpt>
+      <trkpt lat="42.3330771667" lon="-76.9283173333">
+        <ele>481.300000</ele>
+        <time>2017-10-13T12:42:05.40Z</time>
+        <course>354.91</course>
+        <name>point 590</name>
+      </trkpt>
+      <trkpt lat="42.3331451667" lon="-76.9283260000">
+        <ele>481.200000</ele>
+        <time>2017-10-13T12:42:05.60Z</time>
+        <course>354.74</course>
+        <name>point 591</name>
+      </trkpt>
+      <trkpt lat="42.3332116667" lon="-76.9283346667">
+        <ele>481.100000</ele>
+        <time>2017-10-13T12:42:05.80Z</time>
+        <course>354.62</course>
+        <name>point 592</name>
+      </trkpt>
+      <trkpt lat="42.3332766667" lon="-76.9283430000">
+        <ele>481.000000</ele>
+        <time>2017-10-13T12:42:06.00Z</time>
+        <course>354.62</course>
+        <name>point 593</name>
+      </trkpt>
+      <trkpt lat="42.3333393333" lon="-76.9283513333">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:42:06.20Z</time>
+        <course>354.41</course>
+        <name>point 594</name>
+      </trkpt>
+      <trkpt lat="42.3333991667" lon="-76.9283593333">
+        <ele>480.900000</ele>
+        <time>2017-10-13T12:42:06.40Z</time>
+        <course>354.30</course>
+        <name>point 595</name>
+      </trkpt>
+      <trkpt lat="42.3334565000" lon="-76.9283671667">
+        <ele>480.800000</ele>
+        <time>2017-10-13T12:42:06.60Z</time>
+        <course>354.17</course>
+        <name>point 596</name>
+      </trkpt>
+      <trkpt lat="42.3335116667" lon="-76.9283750000">
+        <ele>480.700000</ele>
+        <time>2017-10-13T12:42:06.80Z</time>
+        <course>354.10</course>
+        <name>point 597</name>
+      </trkpt>
+      <trkpt lat="42.3335650000" lon="-76.9283823333">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:42:07.00Z</time>
+        <course>354.20</course>
+        <name>point 598</name>
+      </trkpt>
+      <trkpt lat="42.3336160000" lon="-76.9283893333">
+        <ele>480.600000</ele>
+        <time>2017-10-13T12:42:07.20Z</time>
+        <course>354.17</course>
+        <name>point 599</name>
+      </trkpt>
+      <trkpt lat="42.3336648333" lon="-76.9283958333">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:42:07.40Z</time>
+        <course>354.35</course>
+        <name>point 600</name>
+      </trkpt>
+      <trkpt lat="42.3337123333" lon="-76.9284015000">
+        <ele>480.400000</ele>
+        <time>2017-10-13T12:42:07.60Z</time>
+        <course>354.81</course>
+        <name>point 601</name>
+      </trkpt>
+      <trkpt lat="42.3337590000" lon="-76.9284056667">
+        <ele>480.300000</ele>
+        <time>2017-10-13T12:42:07.80Z</time>
+        <course>356.13</course>
+        <name>point 602</name>
+      </trkpt>
+      <trkpt lat="42.3338050000" lon="-76.9284073333">
+        <ele>480.200000</ele>
+        <time>2017-10-13T12:42:08.00Z</time>
+        <course>358.30</course>
+        <name>point 603</name>
+      </trkpt>
+      <trkpt lat="42.3338500000" lon="-76.9284056667">
+        <ele>480.100000</ele>
+        <time>2017-10-13T12:42:08.20Z</time>
+        <course>1.17</course>
+        <name>point 604</name>
+      </trkpt>
+      <trkpt lat="42.3338941667" lon="-76.9284006667">
+        <ele>479.900000</ele>
+        <time>2017-10-13T12:42:08.40Z</time>
+        <course>4.40</course>
+        <name>point 605</name>
+      </trkpt>
+      <trkpt lat="42.3339378333" lon="-76.9283920000">
+        <ele>479.700000</ele>
+        <time>2017-10-13T12:42:08.60Z</time>
+        <course>7.95</course>
+        <name>point 606</name>
+      </trkpt>
+      <trkpt lat="42.3339803333" lon="-76.9283790000">
+        <ele>479.500000</ele>
+        <time>2017-10-13T12:42:08.80Z</time>
+        <course>12.00</course>
+        <name>point 607</name>
+      </trkpt>
+      <trkpt lat="42.3340218333" lon="-76.9283616667">
+        <ele>479.400000</ele>
+        <time>2017-10-13T12:42:09.00Z</time>
+        <course>16.38</course>
+        <name>point 608</name>
+      </trkpt>
+      <trkpt lat="42.3340621667" lon="-76.9283405000">
+        <ele>479.100000</ele>
+        <time>2017-10-13T12:42:09.20Z</time>
+        <course>20.67</course>
+        <name>point 609</name>
+      </trkpt>
+      <trkpt lat="42.3341005000" lon="-76.9283145000">
+        <ele>478.900000</ele>
+        <time>2017-10-13T12:42:09.40Z</time>
+        <course>25.51</course>
+        <name>point 610</name>
+      </trkpt>
+      <trkpt lat="42.3341366667" lon="-76.9282838333">
+        <ele>478.700000</ele>
+        <time>2017-10-13T12:42:09.60Z</time>
+        <course>30.70</course>
+        <name>point 611</name>
+      </trkpt>
+      <trkpt lat="42.3341701667" lon="-76.9282485000">
+        <ele>478.500000</ele>
+        <time>2017-10-13T12:42:09.80Z</time>
+        <course>36.15</course>
+        <name>point 612</name>
+      </trkpt>
+      <trkpt lat="42.3342010000" lon="-76.9282088333">
+        <ele>478.300000</ele>
+        <time>2017-10-13T12:42:10.00Z</time>
+        <course>41.76</course>
+        <name>point 613</name>
+      </trkpt>
+      <trkpt lat="42.3342290000" lon="-76.9281650000">
+        <ele>478.100000</ele>
+        <time>2017-10-13T12:42:10.20Z</time>
+        <course>47.25</course>
+        <name>point 614</name>
+      </trkpt>
+      <trkpt lat="42.3342543333" lon="-76.9281173333">
+        <ele>478.000000</ele>
+        <time>2017-10-13T12:42:10.40Z</time>
+        <course>52.65</course>
+        <name>point 615</name>
+      </trkpt>
+      <trkpt lat="42.3342765000" lon="-76.9280663333">
+        <ele>477.900000</ele>
+        <time>2017-10-13T12:42:10.60Z</time>
+        <course>57.93</course>
+        <name>point 616</name>
+      </trkpt>
+      <trkpt lat="42.3342956667" lon="-76.9280125000">
+        <ele>477.700000</ele>
+        <time>2017-10-13T12:42:10.80Z</time>
+        <course>63.04</course>
+        <name>point 617</name>
+      </trkpt>
+      <trkpt lat="42.3343118333" lon="-76.9279561667">
+        <ele>477.500000</ele>
+        <time>2017-10-13T12:42:11.00Z</time>
+        <course>67.57</course>
+        <name>point 618</name>
+      </trkpt>
+      <trkpt lat="42.3343253333" lon="-76.9278973333">
+        <ele>477.400000</ele>
+        <time>2017-10-13T12:42:11.20Z</time>
+        <course>71.78</course>
+        <name>point 619</name>
+      </trkpt>
+      <trkpt lat="42.3343360000" lon="-76.9278360000">
+        <ele>477.300000</ele>
+        <time>2017-10-13T12:42:11.40Z</time>
+        <course>75.76</course>
+        <name>point 620</name>
+      </trkpt>
+      <trkpt lat="42.3343433333" lon="-76.9277726667">
+        <ele>477.100000</ele>
+        <time>2017-10-13T12:42:11.60Z</time>
+        <course>80.12</course>
+        <name>point 621</name>
+      </trkpt>
+      <trkpt lat="42.3343473333" lon="-76.9277078333">
+        <ele>477.000000</ele>
+        <time>2017-10-13T12:42:11.80Z</time>
+        <course>84.35</course>
+        <name>point 622</name>
+      </trkpt>
+      <trkpt lat="42.3343481667" lon="-76.9276418333">
+        <ele>476.900000</ele>
+        <time>2017-10-13T12:42:12.00Z</time>
+        <course>88.27</course>
+        <name>point 623</name>
+      </trkpt>
+      <trkpt lat="42.3343456667" lon="-76.9275745000">
+        <ele>476.800000</ele>
+        <time>2017-10-13T12:42:12.20Z</time>
+        <course>92.06</course>
+        <name>point 624</name>
+      </trkpt>
+      <trkpt lat="42.3343401667" lon="-76.9275065000">
+        <ele>476.700000</ele>
+        <time>2017-10-13T12:42:12.40Z</time>
+        <course>95.66</course>
+        <name>point 625</name>
+      </trkpt>
+      <trkpt lat="42.3343315000" lon="-76.9274380000">
+        <ele>476.600000</ele>
+        <time>2017-10-13T12:42:12.60Z</time>
+        <course>99.20</course>
+        <name>point 626</name>
+      </trkpt>
+      <trkpt lat="42.3343198333" lon="-76.9273688333">
+        <ele>476.400000</ele>
+        <time>2017-10-13T12:42:12.80Z</time>
+        <course>102.34</course>
+        <name>point 627</name>
+      </trkpt>
+      <trkpt lat="42.3343055000" lon="-76.9272988333">
+        <ele>476.300000</ele>
+        <time>2017-10-13T12:42:13.00Z</time>
+        <course>105.12</course>
+        <name>point 628</name>
+      </trkpt>
+      <trkpt lat="42.3342885000" lon="-76.9272283333">
+        <ele>476.100000</ele>
+        <time>2017-10-13T12:42:13.20Z</time>
+        <course>107.71</course>
+        <name>point 629</name>
+      </trkpt>
+      <trkpt lat="42.3342688333" lon="-76.9271583333">
+        <ele>475.900000</ele>
+        <time>2017-10-13T12:42:13.40Z</time>
+        <course>110.37</course>
+        <name>point 630</name>
+      </trkpt>
+      <trkpt lat="42.3342468333" lon="-76.9270890000">
+        <ele>475.700000</ele>
+        <time>2017-10-13T12:42:13.60Z</time>
+        <course>112.91</course>
+        <name>point 631</name>
+      </trkpt>
+      <trkpt lat="42.3342226667" lon="-76.9270210000">
+        <ele>475.500000</ele>
+        <time>2017-10-13T12:42:13.80Z</time>
+        <course>115.43</course>
+        <name>point 632</name>
+      </trkpt>
+      <trkpt lat="42.3341963333" lon="-76.9269545000">
+        <ele>475.200000</ele>
+        <time>2017-10-13T12:42:14.00Z</time>
+        <course>117.83</course>
+        <name>point 633</name>
+      </trkpt>
+      <trkpt lat="42.3341686667" lon="-76.9268895000">
+        <ele>475.000000</ele>
+        <time>2017-10-13T12:42:14.20Z</time>
+        <course>119.85</course>
+        <name>point 634</name>
+      </trkpt>
+      <trkpt lat="42.3341403333" lon="-76.9268255000">
+        <ele>474.900000</ele>
+        <time>2017-10-13T12:42:14.40Z</time>
+        <course>120.86</course>
+        <name>point 635</name>
+      </trkpt>
+      <trkpt lat="42.3341121667" lon="-76.9267618333">
+        <ele>474.800000</ele>
+        <time>2017-10-13T12:42:14.60Z</time>
+        <course>120.95</course>
+        <name>point 636</name>
+      </trkpt>
+      <trkpt lat="42.3340841667" lon="-76.9266983333">
+        <ele>474.700000</ele>
+        <time>2017-10-13T12:42:14.80Z</time>
+        <course>120.88</course>
+        <name>point 637</name>
+      </trkpt>
+      <trkpt lat="42.3340566667" lon="-76.9266353333">
+        <ele>474.500000</ele>
+        <time>2017-10-13T12:42:15.00Z</time>
+        <course>120.82</course>
+        <name>point 638</name>
+      </trkpt>
+      <trkpt lat="42.3340293333" lon="-76.9265725000">
+        <ele>474.400000</ele>
+        <time>2017-10-13T12:42:15.20Z</time>
+        <course>120.67</course>
+        <name>point 639</name>
+      </trkpt>
+      <trkpt lat="42.3340023333" lon="-76.9265098333">
+        <ele>474.400000</ele>
+        <time>2017-10-13T12:42:15.40Z</time>
+        <course>120.41</course>
+        <name>point 640</name>
+      </trkpt>
+      <trkpt lat="42.3339758333" lon="-76.9264471667">
+        <ele>474.300000</ele>
+        <time>2017-10-13T12:42:15.60Z</time>
+        <course>119.96</course>
+        <name>point 641</name>
+      </trkpt>
+      <trkpt lat="42.3339496667" lon="-76.9263840000">
+        <ele>474.300000</ele>
+        <time>2017-10-13T12:42:15.80Z</time>
+        <course>119.40</course>
+        <name>point 642</name>
+      </trkpt>
+      <trkpt lat="42.3339241667" lon="-76.9263210000">
+        <ele>474.300000</ele>
+        <time>2017-10-13T12:42:16.00Z</time>
+        <course>118.87</course>
+        <name>point 643</name>
+      </trkpt>
+      <trkpt lat="42.3338991667" lon="-76.9262581667">
+        <ele>474.200000</ele>
+        <time>2017-10-13T12:42:16.20Z</time>
+        <course>118.48</course>
+        <name>point 644</name>
+      </trkpt>
+      <trkpt lat="42.3338743333" lon="-76.9261951667">
+        <ele>474.300000</ele>
+        <time>2017-10-13T12:42:16.40Z</time>
+        <course>118.06</course>
+        <name>point 645</name>
+      </trkpt>
+      <trkpt lat="42.3338498333" lon="-76.9261323333">
+        <ele>474.500000</ele>
+        <time>2017-10-13T12:42:16.60Z</time>
+        <course>117.74</course>
+        <name>point 646</name>
+      </trkpt>
+      <trkpt lat="42.3338261667" lon="-76.9260696667">
+        <ele>474.600000</ele>
+        <time>2017-10-13T12:42:16.80Z</time>
+        <course>117.07</course>
+        <name>point 647</name>
+      </trkpt>
+      <trkpt lat="42.3338033333" lon="-76.9260068333">
+        <ele>474.900000</ele>
+        <time>2017-10-13T12:42:17.00Z</time>
+        <course>116.33</course>
+        <name>point 648</name>
+      </trkpt>
+      <trkpt lat="42.3337805000" lon="-76.9259451667">
+        <ele>475.300000</ele>
+        <time>2017-10-13T12:42:17.20Z</time>
+        <course>116.15</course>
+        <name>point 649</name>
+      </trkpt>
+      <trkpt lat="42.3337590000" lon="-76.9258840000">
+        <ele>475.600000</ele>
+        <time>2017-10-13T12:42:17.40Z</time>
+        <course>115.54</course>
+        <name>point 650</name>
+      </trkpt>
+      <trkpt lat="42.3337370000" lon="-76.9258230000">
+        <ele>476.000000</ele>
+        <time>2017-10-13T12:42:17.60Z</time>
+        <course>115.68</course>
+        <name>point 651</name>
+      </trkpt>
+      <trkpt lat="42.3337151667" lon="-76.9257628333">
+        <ele>476.500000</ele>
+        <time>2017-10-13T12:42:17.80Z</time>
+        <course>116.01</course>
+        <name>point 652</name>
+      </trkpt>
+      <trkpt lat="42.3336935000" lon="-76.9257035000">
+        <ele>477.000000</ele>
+        <time>2017-10-13T12:42:18.00Z</time>
+        <course>116.12</course>
+        <name>point 653</name>
+      </trkpt>
+      <trkpt lat="42.3336720000" lon="-76.9256450000">
+        <ele>477.400000</ele>
+        <time>2017-10-13T12:42:18.20Z</time>
+        <course>116.29</course>
+        <name>point 654</name>
+      </trkpt>
+      <trkpt lat="42.3336508333" lon="-76.9255875000">
+        <ele>477.900000</ele>
+        <time>2017-10-13T12:42:18.40Z</time>
+        <course>116.43</course>
+        <name>point 655</name>
+      </trkpt>
+      <trkpt lat="42.3336301667" lon="-76.9255316667">
+        <ele>478.400000</ele>
+        <time>2017-10-13T12:42:18.60Z</time>
+        <course>116.56</course>
+        <name>point 656</name>
+      </trkpt>
+      <trkpt lat="42.3336103333" lon="-76.9254771667">
+        <ele>478.800000</ele>
+        <time>2017-10-13T12:42:18.80Z</time>
+        <course>116.38</course>
+        <name>point 657</name>
+      </trkpt>
+      <trkpt lat="42.3335911667" lon="-76.9254245000">
+        <ele>479.200000</ele>
+        <time>2017-10-13T12:42:19.00Z</time>
+        <course>116.37</course>
+        <name>point 658</name>
+      </trkpt>
+      <trkpt lat="42.3335730000" lon="-76.9253740000">
+        <ele>479.600000</ele>
+        <time>2017-10-13T12:42:19.20Z</time>
+        <course>116.04</course>
+        <name>point 659</name>
+      </trkpt>
+      <trkpt lat="42.3335560000" lon="-76.9253255000">
+        <ele>479.900000</ele>
+        <time>2017-10-13T12:42:19.40Z</time>
+        <course>115.68</course>
+        <name>point 660</name>
+      </trkpt>
+      <trkpt lat="42.3335403333" lon="-76.9252790000">
+        <ele>480.200000</ele>
+        <time>2017-10-13T12:42:19.60Z</time>
+        <course>115.10</course>
+        <name>point 661</name>
+      </trkpt>
+      <trkpt lat="42.3335256667" lon="-76.9252345000">
+        <ele>480.500000</ele>
+        <time>2017-10-13T12:42:19.80Z</time>
+        <course>114.40</course>
+        <name>point 662</name>
+      </trkpt>
+      <trkpt lat="42.3335125000" lon="-76.9251918333">
+        <ele>480.700000</ele>
+        <time>2017-10-13T12:42:20.00Z</time>
+        <course>113.13</course>
+        <name>point 663</name>
+      </trkpt>
+      <trkpt lat="42.3335010000" lon="-76.9251501667">
+        <ele>481.000000</ele>
+        <time>2017-10-13T12:42:20.20Z</time>
+        <course>110.96</course>
+        <name>point 664</name>
+      </trkpt>
+      <trkpt lat="42.3334913333" lon="-76.9251088333">
+        <ele>481.300000</ele>
+        <time>2017-10-13T12:42:20.40Z</time>
+        <course>108.39</course>
+        <name>point 665</name>
+      </trkpt>
+      <trkpt lat="42.3334833333" lon="-76.9250676667">
+        <ele>481.500000</ele>
+        <time>2017-10-13T12:42:20.60Z</time>
+        <course>105.23</course>
+        <name>point 666</name>
+      </trkpt>
+      <trkpt lat="42.3334775000" lon="-76.9250265000">
+        <ele>481.700000</ele>
+        <time>2017-10-13T12:42:20.80Z</time>
+        <course>101.66</course>
+        <name>point 667</name>
+      </trkpt>
+      <trkpt lat="42.3334738333" lon="-76.9249851667">
+        <ele>481.900000</ele>
+        <time>2017-10-13T12:42:21.00Z</time>
+        <course>97.64</course>
+        <name>point 668</name>
+      </trkpt>
+      <trkpt lat="42.3334725000" lon="-76.9249440000">
+        <ele>482.000000</ele>
+        <time>2017-10-13T12:42:21.20Z</time>
+        <course>93.42</course>
+        <name>point 669</name>
+      </trkpt>
+      <trkpt lat="42.3334735000" lon="-76.9249026667">
+        <ele>482.100000</ele>
+        <time>2017-10-13T12:42:21.40Z</time>
+        <course>89.14</course>
+        <name>point 670</name>
+      </trkpt>
+      <trkpt lat="42.3334765000" lon="-76.9248603333">
+        <ele>482.200000</ele>
+        <time>2017-10-13T12:42:21.60Z</time>
+        <course>85.29</course>
+        <name>point 671</name>
+      </trkpt>
+      <trkpt lat="42.3334818333" lon="-76.9248171667">
+        <ele>482.300000</ele>
+        <time>2017-10-13T12:42:21.80Z</time>
+        <course>81.48</course>
+        <name>point 672</name>
+      </trkpt>
+      <trkpt lat="42.3334895000" lon="-76.9247735000">
+        <ele>482.500000</ele>
+        <time>2017-10-13T12:42:22.00Z</time>
+        <course>77.63</course>
+        <name>point 673</name>
+      </trkpt>
+      <trkpt lat="42.3334995000" lon="-76.9247296667">
+        <ele>482.600000</ele>
+        <time>2017-10-13T12:42:22.20Z</time>
+        <course>73.69</course>
+        <name>point 674</name>
+      </trkpt>
+      <trkpt lat="42.3335120000" lon="-76.9246856667">
+        <ele>482.700000</ele>
+        <time>2017-10-13T12:42:22.40Z</time>
+        <course>69.86</course>
+        <name>point 675</name>
+      </trkpt>
+      <trkpt lat="42.3335266667" lon="-76.9246420000">
+        <ele>482.800000</ele>
+        <time>2017-10-13T12:42:22.60Z</time>
+        <course>66.19</course>
+        <name>point 676</name>
+      </trkpt>
+      <trkpt lat="42.3335436667" lon="-76.9245988333">
+        <ele>482.900000</ele>
+        <time>2017-10-13T12:42:22.80Z</time>
+        <course>62.83</course>
+        <name>point 677</name>
+      </trkpt>
+      <trkpt lat="42.3335628333" lon="-76.9245556667">
+        <ele>483.000000</ele>
+        <time>2017-10-13T12:42:23.00Z</time>
+        <course>59.64</course>
+        <name>point 678</name>
+      </trkpt>
+      <trkpt lat="42.3335845000" lon="-76.9245128333">
+        <ele>483.100000</ele>
+        <time>2017-10-13T12:42:23.20Z</time>
+        <course>56.35</course>
+        <name>point 679</name>
+      </trkpt>
+      <trkpt lat="42.3336085000" lon="-76.9244705000">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:23.40Z</time>
+        <course>53.12</course>
+        <name>point 680</name>
+      </trkpt>
+      <trkpt lat="42.3336346667" lon="-76.9244295000">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:23.60Z</time>
+        <course>49.90</course>
+        <name>point 681</name>
+      </trkpt>
+      <trkpt lat="42.3336630000" lon="-76.9243905000">
+        <ele>483.300000</ele>
+        <time>2017-10-13T12:42:23.80Z</time>
+        <course>46.44</course>
+        <name>point 682</name>
+      </trkpt>
+      <trkpt lat="42.3336931667" lon="-76.9243530000">
+        <ele>483.400000</ele>
+        <time>2017-10-13T12:42:24.00Z</time>
+        <course>43.24</course>
+        <name>point 683</name>
+      </trkpt>
+      <trkpt lat="42.3337253333" lon="-76.9243181667">
+        <ele>483.600000</ele>
+        <time>2017-10-13T12:42:24.20Z</time>
+        <course>39.80</course>
+        <name>point 684</name>
+      </trkpt>
+      <trkpt lat="42.3337596667" lon="-76.9242853333">
+        <ele>483.600000</ele>
+        <time>2017-10-13T12:42:24.40Z</time>
+        <course>36.53</course>
+        <name>point 685</name>
+      </trkpt>
+      <trkpt lat="42.3337956667" lon="-76.9242553333">
+        <ele>483.600000</ele>
+        <time>2017-10-13T12:42:24.60Z</time>
+        <course>32.94</course>
+        <name>point 686</name>
+      </trkpt>
+      <trkpt lat="42.3338331667" lon="-76.9242283333">
+        <ele>483.700000</ele>
+        <time>2017-10-13T12:42:24.80Z</time>
+        <course>29.30</course>
+        <name>point 687</name>
+      </trkpt>
+      <trkpt lat="42.3338718333" lon="-76.9242041667">
+        <ele>483.700000</ele>
+        <time>2017-10-13T12:42:25.00Z</time>
+        <course>25.83</course>
+        <name>point 688</name>
+      </trkpt>
+      <trkpt lat="42.3339116667" lon="-76.9241835000">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:25.20Z</time>
+        <course>22.16</course>
+        <name>point 689</name>
+      </trkpt>
+      <trkpt lat="42.3339528333" lon="-76.9241665000">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:25.40Z</time>
+        <course>18.26</course>
+        <name>point 690</name>
+      </trkpt>
+      <trkpt lat="42.3339948333" lon="-76.9241531667">
+        <ele>483.900000</ele>
+        <time>2017-10-13T12:42:25.60Z</time>
+        <course>14.39</course>
+        <name>point 691</name>
+      </trkpt>
+      <trkpt lat="42.3340383333" lon="-76.9241436667">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:25.80Z</time>
+        <course>10.42</course>
+        <name>point 692</name>
+      </trkpt>
+      <trkpt lat="42.3340826667" lon="-76.9241375000">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:26.00Z</time>
+        <course>6.80</course>
+        <name>point 693</name>
+      </trkpt>
+      <trkpt lat="42.3341278333" lon="-76.9241343333">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:26.20Z</time>
+        <course>3.80</course>
+        <name>point 694</name>
+      </trkpt>
+      <trkpt lat="42.3341740000" lon="-76.9241336667">
+        <ele>483.700000</ele>
+        <time>2017-10-13T12:42:26.40Z</time>
+        <course>1.24</course>
+        <name>point 695</name>
+      </trkpt>
+      <trkpt lat="42.3342211667" lon="-76.9241358333">
+        <ele>483.700000</ele>
+        <time>2017-10-13T12:42:26.60Z</time>
+        <course>358.71</course>
+        <name>point 696</name>
+      </trkpt>
+      <trkpt lat="42.3342690000" lon="-76.9241406667">
+        <ele>483.600000</ele>
+        <time>2017-10-13T12:42:26.80Z</time>
+        <course>356.34</course>
+        <name>point 697</name>
+      </trkpt>
+      <trkpt lat="42.3343181667" lon="-76.9241478333">
+        <ele>483.600000</ele>
+        <time>2017-10-13T12:42:27.00Z</time>
+        <course>354.29</course>
+        <name>point 698</name>
+      </trkpt>
+      <trkpt lat="42.3343681667" lon="-76.9241575000">
+        <ele>483.500000</ele>
+        <time>2017-10-13T12:42:27.20Z</time>
+        <course>352.41</course>
+        <name>point 699</name>
+      </trkpt>
+      <trkpt lat="42.3344196667" lon="-76.9241691667">
+        <ele>483.500000</ele>
+        <time>2017-10-13T12:42:27.40Z</time>
+        <course>350.82</course>
+        <name>point 700</name>
+      </trkpt>
+      <trkpt lat="42.3344721667" lon="-76.9241826667">
+        <ele>483.400000</ele>
+        <time>2017-10-13T12:42:27.60Z</time>
+        <course>349.50</course>
+        <name>point 701</name>
+      </trkpt>
+      <trkpt lat="42.3345258333" lon="-76.9241981667">
+        <ele>483.400000</ele>
+        <time>2017-10-13T12:42:27.80Z</time>
+        <course>348.29</course>
+        <name>point 702</name>
+      </trkpt>
+      <trkpt lat="42.3345808333" lon="-76.9242151667">
+        <ele>483.300000</ele>
+        <time>2017-10-13T12:42:28.00Z</time>
+        <course>347.39</course>
+        <name>point 703</name>
+      </trkpt>
+      <trkpt lat="42.3346371667" lon="-76.9242331667">
+        <ele>483.300000</ele>
+        <time>2017-10-13T12:42:28.20Z</time>
+        <course>346.88</course>
+        <name>point 704</name>
+      </trkpt>
+      <trkpt lat="42.3346948333" lon="-76.9242518333">
+        <ele>483.300000</ele>
+        <time>2017-10-13T12:42:28.40Z</time>
+        <course>346.63</course>
+        <name>point 705</name>
+      </trkpt>
+      <trkpt lat="42.3347540000" lon="-76.9242713333">
+        <ele>483.300000</ele>
+        <time>2017-10-13T12:42:28.60Z</time>
+        <course>346.45</course>
+        <name>point 706</name>
+      </trkpt>
+      <trkpt lat="42.3348143333" lon="-76.9242910000">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:28.80Z</time>
+        <course>346.45</course>
+        <name>point 707</name>
+      </trkpt>
+      <trkpt lat="42.3348760000" lon="-76.9243110000">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:29.00Z</time>
+        <course>346.54</course>
+        <name>point 708</name>
+      </trkpt>
+      <trkpt lat="42.3349386667" lon="-76.9243313333">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:29.20Z</time>
+        <course>346.56</course>
+        <name>point 709</name>
+      </trkpt>
+      <trkpt lat="42.3350028333" lon="-76.9243515000">
+        <ele>483.100000</ele>
+        <time>2017-10-13T12:42:29.40Z</time>
+        <course>346.86</course>
+        <name>point 710</name>
+      </trkpt>
+      <trkpt lat="42.3350681667" lon="-76.9243718333">
+        <ele>483.100000</ele>
+        <time>2017-10-13T12:42:29.60Z</time>
+        <course>347.06</course>
+        <name>point 711</name>
+      </trkpt>
+      <trkpt lat="42.3351346667" lon="-76.9243921667">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:29.80Z</time>
+        <course>347.26</course>
+        <name>point 712</name>
+      </trkpt>
+      <trkpt lat="42.3352023333" lon="-76.9244121667">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:30.00Z</time>
+        <course>347.55</course>
+        <name>point 713</name>
+      </trkpt>
+      <trkpt lat="42.3352713333" lon="-76.9244325000">
+        <ele>483.300000</ele>
+        <time>2017-10-13T12:42:30.20Z</time>
+        <course>347.74</course>
+        <name>point 714</name>
+      </trkpt>
+      <trkpt lat="42.3353413333" lon="-76.9244528333">
+        <ele>483.400000</ele>
+        <time>2017-10-13T12:42:30.40Z</time>
+        <course>347.88</course>
+        <name>point 715</name>
+      </trkpt>
+      <trkpt lat="42.3354123333" lon="-76.9244735000">
+        <ele>483.500000</ele>
+        <time>2017-10-13T12:42:30.60Z</time>
+        <course>347.88</course>
+        <name>point 716</name>
+      </trkpt>
+      <trkpt lat="42.3354841667" lon="-76.9244940000">
+        <ele>483.600000</ele>
+        <time>2017-10-13T12:42:30.80Z</time>
+        <course>348.12</course>
+        <name>point 717</name>
+      </trkpt>
+      <trkpt lat="42.3355563333" lon="-76.9245145000">
+        <ele>483.700000</ele>
+        <time>2017-10-13T12:42:31.00Z</time>
+        <course>348.14</course>
+        <name>point 718</name>
+      </trkpt>
+      <trkpt lat="42.3356280000" lon="-76.9245346667">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:31.20Z</time>
+        <course>348.23</course>
+        <name>point 719</name>
+      </trkpt>
+      <trkpt lat="42.3356993333" lon="-76.9245546667">
+        <ele>483.900000</ele>
+        <time>2017-10-13T12:42:31.40Z</time>
+        <course>348.20</course>
+        <name>point 720</name>
+      </trkpt>
+      <trkpt lat="42.3357701667" lon="-76.9245750000">
+        <ele>484.100000</ele>
+        <time>2017-10-13T12:42:31.60Z</time>
+        <course>348.06</course>
+        <name>point 721</name>
+      </trkpt>
+      <trkpt lat="42.3358401667" lon="-76.9245950000">
+        <ele>484.200000</ele>
+        <time>2017-10-13T12:42:31.80Z</time>
+        <course>348.01</course>
+        <name>point 722</name>
+      </trkpt>
+      <trkpt lat="42.3359090000" lon="-76.9246146667">
+        <ele>484.300000</ele>
+        <time>2017-10-13T12:42:32.00Z</time>
+        <course>347.94</course>
+        <name>point 723</name>
+      </trkpt>
+      <trkpt lat="42.3359760000" lon="-76.9246340000">
+        <ele>484.400000</ele>
+        <time>2017-10-13T12:42:32.20Z</time>
+        <course>347.92</course>
+        <name>point 724</name>
+      </trkpt>
+      <trkpt lat="42.3360413333" lon="-76.9246530000">
+        <ele>484.500000</ele>
+        <time>2017-10-13T12:42:32.40Z</time>
+        <course>347.76</course>
+        <name>point 725</name>
+      </trkpt>
+      <trkpt lat="42.3361050000" lon="-76.9246715000">
+        <ele>484.600000</ele>
+        <time>2017-10-13T12:42:32.60Z</time>
+        <course>347.74</course>
+        <name>point 726</name>
+      </trkpt>
+      <trkpt lat="42.3361666667" lon="-76.9246896667">
+        <ele>484.600000</ele>
+        <time>2017-10-13T12:42:32.80Z</time>
+        <course>347.62</course>
+        <name>point 727</name>
+      </trkpt>
+      <trkpt lat="42.3362266667" lon="-76.9247076667">
+        <ele>484.600000</ele>
+        <time>2017-10-13T12:42:33.00Z</time>
+        <course>347.36</course>
+        <name>point 728</name>
+      </trkpt>
+      <trkpt lat="42.3362850000" lon="-76.9247260000">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:42:33.20Z</time>
+        <course>346.86</course>
+        <name>point 729</name>
+      </trkpt>
+      <trkpt lat="42.3363420000" lon="-76.9247451667">
+        <ele>484.800000</ele>
+        <time>2017-10-13T12:42:33.40Z</time>
+        <course>346.15</course>
+        <name>point 730</name>
+      </trkpt>
+      <trkpt lat="42.3363983333" lon="-76.9247661667">
+        <ele>484.900000</ele>
+        <time>2017-10-13T12:42:33.60Z</time>
+        <course>344.73</course>
+        <name>point 731</name>
+      </trkpt>
+      <trkpt lat="42.3364531667" lon="-76.9247893333">
+        <ele>484.900000</ele>
+        <time>2017-10-13T12:42:33.80Z</time>
+        <course>342.78</course>
+        <name>point 732</name>
+      </trkpt>
+      <trkpt lat="42.3365073333" lon="-76.9248155000">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:34.00Z</time>
+        <course>340.62</course>
+        <name>point 733</name>
+      </trkpt>
+      <trkpt lat="42.3365603333" lon="-76.9248443333">
+        <ele>485.100000</ele>
+        <time>2017-10-13T12:42:34.20Z</time>
+        <course>338.32</course>
+        <name>point 734</name>
+      </trkpt>
+      <trkpt lat="42.3366118333" lon="-76.9248766667">
+        <ele>485.100000</ele>
+        <time>2017-10-13T12:42:34.40Z</time>
+        <course>335.40</course>
+        <name>point 735</name>
+      </trkpt>
+      <trkpt lat="42.3366618333" lon="-76.9249125000">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:42:34.60Z</time>
+        <course>332.33</course>
+        <name>point 736</name>
+      </trkpt>
+      <trkpt lat="42.3367100000" lon="-76.9249518333">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:42:34.80Z</time>
+        <course>329.16</course>
+        <name>point 737</name>
+      </trkpt>
+      <trkpt lat="42.3367558333" lon="-76.9249946667">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:42:35.00Z</time>
+        <course>325.74</course>
+        <name>point 738</name>
+      </trkpt>
+      <trkpt lat="42.3367995000" lon="-76.9250413333">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:42:35.20Z</time>
+        <course>322.11</course>
+        <name>point 739</name>
+      </trkpt>
+      <trkpt lat="42.3368406667" lon="-76.9250911667">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:42:35.40Z</time>
+        <course>318.56</course>
+        <name>point 740</name>
+      </trkpt>
+      <trkpt lat="42.3368795000" lon="-76.9251443333">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:42:35.60Z</time>
+        <course>315.09</course>
+        <name>point 741</name>
+      </trkpt>
+      <trkpt lat="42.3369161667" lon="-76.9252008333">
+        <ele>485.300000</ele>
+        <time>2017-10-13T12:42:35.80Z</time>
+        <course>311.78</course>
+        <name>point 742</name>
+      </trkpt>
+      <trkpt lat="42.3369508333" lon="-76.9252601667">
+        <ele>485.300000</ele>
+        <time>2017-10-13T12:42:36.00Z</time>
+        <course>308.70</course>
+        <name>point 743</name>
+      </trkpt>
+      <trkpt lat="42.3369833333" lon="-76.9253223333">
+        <ele>485.300000</ele>
+        <time>2017-10-13T12:42:36.20Z</time>
+        <course>305.66</course>
+        <name>point 744</name>
+      </trkpt>
+      <trkpt lat="42.3370138333" lon="-76.9253873333">
+        <ele>485.300000</ele>
+        <time>2017-10-13T12:42:36.40Z</time>
+        <course>302.80</course>
+        <name>point 745</name>
+      </trkpt>
+      <trkpt lat="42.3370420000" lon="-76.9254546667">
+        <ele>485.300000</ele>
+        <time>2017-10-13T12:42:36.60Z</time>
+        <course>299.95</course>
+        <name>point 746</name>
+      </trkpt>
+      <trkpt lat="42.3370680000" lon="-76.9255246667">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:42:36.80Z</time>
+        <course>297.22</course>
+        <name>point 747</name>
+      </trkpt>
+      <trkpt lat="42.3370921667" lon="-76.9255968333">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:42:37.00Z</time>
+        <course>294.73</course>
+        <name>point 748</name>
+      </trkpt>
+      <trkpt lat="42.3371141667" lon="-76.9256710000">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:42:37.20Z</time>
+        <course>292.30</course>
+        <name>point 749</name>
+      </trkpt>
+      <trkpt lat="42.3371340000" lon="-76.9257471667">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:42:37.40Z</time>
+        <course>289.86</course>
+        <name>point 750</name>
+      </trkpt>
+      <trkpt lat="42.3371516667" lon="-76.9258248333">
+        <ele>485.500000</ele>
+        <time>2017-10-13T12:42:37.60Z</time>
+        <course>287.51</course>
+        <name>point 751</name>
+      </trkpt>
+      <trkpt lat="42.3371671667" lon="-76.9259040000">
+        <ele>485.600000</ele>
+        <time>2017-10-13T12:42:37.80Z</time>
+        <course>285.22</course>
+        <name>point 752</name>
+      </trkpt>
+      <trkpt lat="42.3371803333" lon="-76.9259848333">
+        <ele>485.700000</ele>
+        <time>2017-10-13T12:42:38.00Z</time>
+        <course>283.00</course>
+        <name>point 753</name>
+      </trkpt>
+      <trkpt lat="42.3371916667" lon="-76.9260670000">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:38.20Z</time>
+        <course>280.93</course>
+        <name>point 754</name>
+      </trkpt>
+      <trkpt lat="42.3372008333" lon="-76.9261503333">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:38.40Z</time>
+        <course>278.84</course>
+        <name>point 755</name>
+      </trkpt>
+      <trkpt lat="42.3372080000" lon="-76.9262350000">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:38.60Z</time>
+        <course>276.86</course>
+        <name>point 756</name>
+      </trkpt>
+      <trkpt lat="42.3372133333" lon="-76.9263206667">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:38.80Z</time>
+        <course>275.21</course>
+        <name>point 757</name>
+      </trkpt>
+      <trkpt lat="42.3372171667" lon="-76.9264078333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:39.00Z</time>
+        <course>273.75</course>
+        <name>point 758</name>
+      </trkpt>
+      <trkpt lat="42.3372198333" lon="-76.9264961667">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:39.20Z</time>
+        <course>272.56</course>
+        <name>point 759</name>
+      </trkpt>
+      <trkpt lat="42.3372215000" lon="-76.9265858333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:39.40Z</time>
+        <course>271.50</course>
+        <name>point 760</name>
+      </trkpt>
+      <trkpt lat="42.3372218333" lon="-76.9266765000">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:39.60Z</time>
+        <course>270.53</course>
+        <name>point 761</name>
+      </trkpt>
+      <trkpt lat="42.3372213333" lon="-76.9267683333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:39.80Z</time>
+        <course>269.79</course>
+        <name>point 762</name>
+      </trkpt>
+      <trkpt lat="42.3372203333" lon="-76.9268608333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:40.00Z</time>
+        <course>269.31</course>
+        <name>point 763</name>
+      </trkpt>
+      <trkpt lat="42.3372193333" lon="-76.9269531667">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:40.20Z</time>
+        <course>269.11</course>
+        <name>point 764</name>
+      </trkpt>
+      <trkpt lat="42.3372181667" lon="-76.9270450000">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:40.40Z</time>
+        <course>269.09</course>
+        <name>point 765</name>
+      </trkpt>
+      <trkpt lat="42.3372170000" lon="-76.9271365000">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:40.60Z</time>
+        <course>269.00</course>
+        <name>point 766</name>
+      </trkpt>
+      <trkpt lat="42.3372158333" lon="-76.9272273333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:40.80Z</time>
+        <course>268.94</course>
+        <name>point 767</name>
+      </trkpt>
+      <trkpt lat="42.3372146667" lon="-76.9273180000">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:41.00Z</time>
+        <course>269.00</course>
+        <name>point 768</name>
+      </trkpt>
+      <trkpt lat="42.3372140000" lon="-76.9274076667">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:41.20Z</time>
+        <course>269.28</course>
+        <name>point 769</name>
+      </trkpt>
+      <trkpt lat="42.3372136667" lon="-76.9274953333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:41.40Z</time>
+        <course>269.75</course>
+        <name>point 770</name>
+      </trkpt>
+      <trkpt lat="42.3372140000" lon="-76.9275803333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:41.60Z</time>
+        <course>270.23</course>
+        <name>point 771</name>
+      </trkpt>
+      <trkpt lat="42.3372148333" lon="-76.9276628333">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:41.80Z</time>
+        <course>270.65</course>
+        <name>point 772</name>
+      </trkpt>
+      <trkpt lat="42.3372158333" lon="-76.9277421667">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:42.00Z</time>
+        <course>271.02</course>
+        <name>point 773</name>
+      </trkpt>
+      <trkpt lat="42.3372173333" lon="-76.9278188333">
+        <ele>485.900000</ele>
+        <time>2017-10-13T12:42:42.20Z</time>
+        <course>271.50</course>
+        <name>point 774</name>
+      </trkpt>
+      <trkpt lat="42.3372195000" lon="-76.9278928333">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:42.40Z</time>
+        <course>272.18</course>
+        <name>point 775</name>
+      </trkpt>
+      <trkpt lat="42.3372225000" lon="-76.9279640000">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:42.60Z</time>
+        <course>273.02</course>
+        <name>point 776</name>
+      </trkpt>
+      <trkpt lat="42.3372265000" lon="-76.9280326667">
+        <ele>485.800000</ele>
+        <time>2017-10-13T12:42:42.80Z</time>
+        <course>274.34</course>
+        <name>point 777</name>
+      </trkpt>
+      <trkpt lat="42.3372323333" lon="-76.9280986667">
+        <ele>485.700000</ele>
+        <time>2017-10-13T12:42:43.00Z</time>
+        <course>276.31</course>
+        <name>point 778</name>
+      </trkpt>
+      <trkpt lat="42.3372405000" lon="-76.9281631667">
+        <ele>485.700000</ele>
+        <time>2017-10-13T12:42:43.20Z</time>
+        <course>278.86</course>
+        <name>point 779</name>
+      </trkpt>
+      <trkpt lat="42.3372506667" lon="-76.9282265000">
+        <ele>485.600000</ele>
+        <time>2017-10-13T12:42:43.40Z</time>
+        <course>281.57</course>
+        <name>point 780</name>
+      </trkpt>
+      <trkpt lat="42.3372626667" lon="-76.9282886667">
+        <ele>485.500000</ele>
+        <time>2017-10-13T12:42:43.60Z</time>
+        <course>284.11</course>
+        <name>point 781</name>
+      </trkpt>
+      <trkpt lat="42.3372776667" lon="-76.9283491667">
+        <ele>485.500000</ele>
+        <time>2017-10-13T12:42:43.80Z</time>
+        <course>287.59</course>
+        <name>point 782</name>
+      </trkpt>
+      <trkpt lat="42.3372963333" lon="-76.9284083333">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:42:44.00Z</time>
+        <course>291.62</course>
+        <name>point 783</name>
+      </trkpt>
+      <trkpt lat="42.3373170000" lon="-76.9284655000">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:42:44.20Z</time>
+        <course>295.31</course>
+        <name>point 784</name>
+      </trkpt>
+      <trkpt lat="42.3373403333" lon="-76.9285211667">
+        <ele>485.400000</ele>
+        <time>2017-10-13T12:42:44.40Z</time>
+        <course>298.93</course>
+        <name>point 785</name>
+      </trkpt>
+      <trkpt lat="42.3373663333" lon="-76.9285751667">
+        <ele>485.300000</ele>
+        <time>2017-10-13T12:42:44.60Z</time>
+        <course>302.61</course>
+        <name>point 786</name>
+      </trkpt>
+      <trkpt lat="42.3373950000" lon="-76.9286278333">
+        <ele>485.200000</ele>
+        <time>2017-10-13T12:42:44.80Z</time>
+        <course>306.01</course>
+        <name>point 787</name>
+      </trkpt>
+      <trkpt lat="42.3374263333" lon="-76.9286783333">
+        <ele>485.100000</ele>
+        <time>2017-10-13T12:42:45.00Z</time>
+        <course>309.65</course>
+        <name>point 788</name>
+      </trkpt>
+      <trkpt lat="42.3374601667" lon="-76.9287265000">
+        <ele>485.100000</ele>
+        <time>2017-10-13T12:42:45.20Z</time>
+        <course>313.33</course>
+        <name>point 789</name>
+      </trkpt>
+      <trkpt lat="42.3374966667" lon="-76.9287718333">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:45.40Z</time>
+        <course>317.10</course>
+        <name>point 790</name>
+      </trkpt>
+      <trkpt lat="42.3375355000" lon="-76.9288140000">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:45.60Z</time>
+        <course>320.76</course>
+        <name>point 791</name>
+      </trkpt>
+      <trkpt lat="42.3375765000" lon="-76.9288533333">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:45.80Z</time>
+        <course>324.23</course>
+        <name>point 792</name>
+      </trkpt>
+      <trkpt lat="42.3376196667" lon="-76.9288898333">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:46.00Z</time>
+        <course>327.55</course>
+        <name>point 793</name>
+      </trkpt>
+      <trkpt lat="42.3376646667" lon="-76.9289235000">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:46.20Z</time>
+        <course>330.65</course>
+        <name>point 794</name>
+      </trkpt>
+      <trkpt lat="42.3377118333" lon="-76.9289545000">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:46.40Z</time>
+        <course>333.74</course>
+        <name>point 795</name>
+      </trkpt>
+      <trkpt lat="42.3377605000" lon="-76.9289825000">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:46.60Z</time>
+        <course>336.73</course>
+        <name>point 796</name>
+      </trkpt>
+      <trkpt lat="42.3378111667" lon="-76.9290075000">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:46.80Z</time>
+        <course>339.63</course>
+        <name>point 797</name>
+      </trkpt>
+      <trkpt lat="42.3378633333" lon="-76.9290293333">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:47.00Z</time>
+        <course>342.50</course>
+        <name>point 798</name>
+      </trkpt>
+      <trkpt lat="42.3379171667" lon="-76.9290483333">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:47.20Z</time>
+        <course>345.08</course>
+        <name>point 799</name>
+      </trkpt>
+      <trkpt lat="42.3379723333" lon="-76.9290641667">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:47.40Z</time>
+        <course>347.72</course>
+        <name>point 800</name>
+      </trkpt>
+      <trkpt lat="42.3380288333" lon="-76.9290771667">
+        <ele>485.100000</ele>
+        <time>2017-10-13T12:42:47.60Z</time>
+        <course>350.13</course>
+        <name>point 801</name>
+      </trkpt>
+      <trkpt lat="42.3380866667" lon="-76.9290876667">
+        <ele>485.100000</ele>
+        <time>2017-10-13T12:42:47.80Z</time>
+        <course>352.11</course>
+        <name>point 802</name>
+      </trkpt>
+      <trkpt lat="42.3381458333" lon="-76.9290956667">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:48.00Z</time>
+        <course>354.19</course>
+        <name>point 803</name>
+      </trkpt>
+      <trkpt lat="42.3382060000" lon="-76.9291011667">
+        <ele>485.000000</ele>
+        <time>2017-10-13T12:42:48.20Z</time>
+        <course>355.98</course>
+        <name>point 804</name>
+      </trkpt>
+      <trkpt lat="42.3382673333" lon="-76.9291046667">
+        <ele>484.900000</ele>
+        <time>2017-10-13T12:42:48.40Z</time>
+        <course>357.55</course>
+        <name>point 805</name>
+      </trkpt>
+      <trkpt lat="42.3383296667" lon="-76.9291061667">
+        <ele>484.900000</ele>
+        <time>2017-10-13T12:42:48.60Z</time>
+        <course>358.90</course>
+        <name>point 806</name>
+      </trkpt>
+      <trkpt lat="42.3383933333" lon="-76.9291061667">
+        <ele>484.800000</ele>
+        <time>2017-10-13T12:42:48.80Z</time>
+        <course>359.99</course>
+        <name>point 807</name>
+      </trkpt>
+      <trkpt lat="42.3384585000" lon="-76.9291050000">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:42:49.00Z</time>
+        <course>0.93</course>
+        <name>point 808</name>
+      </trkpt>
+      <trkpt lat="42.3385248333" lon="-76.9291020000">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:42:49.20Z</time>
+        <course>1.86</course>
+        <name>point 809</name>
+      </trkpt>
+      <trkpt lat="42.3385906667" lon="-76.9290986667">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:42:49.40Z</time>
+        <course>2.13</course>
+        <name>point 810</name>
+      </trkpt>
+      <trkpt lat="42.3386566667" lon="-76.9290940000">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:42:49.60Z</time>
+        <course>2.83</course>
+        <name>point 811</name>
+      </trkpt>
+      <trkpt lat="42.3387263333" lon="-76.9290876667">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:42:49.80Z</time>
+        <course>3.71</course>
+        <name>point 812</name>
+      </trkpt>
+      <trkpt lat="42.3387991667" lon="-76.9290826667">
+        <ele>484.700000</ele>
+        <time>2017-10-13T12:42:50.00Z</time>
+        <course>3.51</course>
+        <name>point 813</name>
+      </trkpt>
+      <trkpt lat="42.3388725000" lon="-76.9290768333">
+        <ele>484.600000</ele>
+        <time>2017-10-13T12:42:50.20Z</time>
+        <course>3.64</course>
+        <name>point 814</name>
+      </trkpt>
+      <trkpt lat="42.3389476667" lon="-76.9290708333">
+        <ele>484.500000</ele>
+        <time>2017-10-13T12:42:50.40Z</time>
+        <course>3.63</course>
+        <name>point 815</name>
+      </trkpt>
+      <trkpt lat="42.3390238333" lon="-76.9290645000">
+        <ele>484.400000</ele>
+        <time>2017-10-13T12:42:50.60Z</time>
+        <course>3.75</course>
+        <name>point 816</name>
+      </trkpt>
+      <trkpt lat="42.3391015000" lon="-76.9290580000">
+        <ele>484.300000</ele>
+        <time>2017-10-13T12:42:50.80Z</time>
+        <course>3.73</course>
+        <name>point 817</name>
+      </trkpt>
+      <trkpt lat="42.3391806667" lon="-76.9290513333">
+        <ele>484.200000</ele>
+        <time>2017-10-13T12:42:51.00Z</time>
+        <course>3.69</course>
+        <name>point 818</name>
+      </trkpt>
+      <trkpt lat="42.3392610000" lon="-76.9290446667">
+        <ele>484.100000</ele>
+        <time>2017-10-13T12:42:51.20Z</time>
+        <course>3.73</course>
+        <name>point 819</name>
+      </trkpt>
+      <trkpt lat="42.3393431667" lon="-76.9290376667">
+        <ele>483.900000</ele>
+        <time>2017-10-13T12:42:51.40Z</time>
+        <course>3.84</course>
+        <name>point 820</name>
+      </trkpt>
+      <trkpt lat="42.3394270000" lon="-76.9290301667">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:51.60Z</time>
+        <course>3.79</course>
+        <name>point 821</name>
+      </trkpt>
+      <trkpt lat="42.3395121667" lon="-76.9290230000">
+        <ele>483.800000</ele>
+        <time>2017-10-13T12:42:51.80Z</time>
+        <course>3.73</course>
+        <name>point 822</name>
+      </trkpt>
+      <trkpt lat="42.3395986667" lon="-76.9290153333">
+        <ele>483.700000</ele>
+        <time>2017-10-13T12:42:52.00Z</time>
+        <course>3.80</course>
+        <name>point 823</name>
+      </trkpt>
+      <trkpt lat="42.3396866667" lon="-76.9290078333">
+        <ele>483.600000</ele>
+        <time>2017-10-13T12:42:52.20Z</time>
+        <course>3.72</course>
+        <name>point 824</name>
+      </trkpt>
+      <trkpt lat="42.3397758333" lon="-76.9290005000">
+        <ele>483.500000</ele>
+        <time>2017-10-13T12:42:52.40Z</time>
+        <course>3.70</course>
+        <name>point 825</name>
+      </trkpt>
+      <trkpt lat="42.3398665000" lon="-76.9289933333">
+        <ele>483.400000</ele>
+        <time>2017-10-13T12:42:52.60Z</time>
+        <course>3.59</course>
+        <name>point 826</name>
+      </trkpt>
+      <trkpt lat="42.3399583333" lon="-76.9289856667">
+        <ele>483.200000</ele>
+        <time>2017-10-13T12:42:52.80Z</time>
+        <course>3.67</course>
+        <name>point 827</name>
+      </trkpt>
+      <trkpt lat="42.3400511667" lon="-76.9289780000">
+        <ele>483.100000</ele>
+        <time>2017-10-13T12:42:53.00Z</time>
+        <course>3.56</course>
+        <name>point 828</name>
+      </trkpt>
+      <trkpt lat="42.3401436667" lon="-76.9289706667">
+        <ele>483.000000</ele>
+        <time>2017-10-13T12:42:53.20Z</time>
+        <course>3.42</course>
+        <name>point 829</name>
+      </trkpt>
+      <trkpt lat="42.3402360000" lon="-76.9289635000">
+        <ele>482.900000</ele>
+        <time>2017-10-13T12:42:53.40Z</time>
+        <course>3.38</course>
+        <name>point 830</name>
+      </trkpt>
+      <trkpt lat="42.3403290000" lon="-76.9289560000">
+        <ele>482.800000</ele>
+        <time>2017-10-13T12:42:53.60Z</time>
+        <course>3.46</course>
+        <name>point 831</name>
+      </trkpt>
+      <trkpt lat="42.3404231667" lon="-76.9289486667">
+        <ele>482.700000</ele>
+        <time>2017-10-13T12:42:53.80Z</time>
+        <course>3.46</course>
+        <name>point 832</name>
+      </trkpt>
+      <trkpt lat="42.3405186667" lon="-76.9289413333">
+        <ele>482.500000</ele>
+        <time>2017-10-13T12:42:54.00Z</time>
+        <course>3.40</course>
+        <name>point 833</name>
+      </trkpt>
+      <trkpt lat="42.3406151667" lon="-76.9289338333">
+        <ele>482.400000</ele>
+        <time>2017-10-13T12:42:54.20Z</time>
+        <course>3.46</course>
+        <name>point 834</name>
+      </trkpt>
+      <trkpt lat="42.3407126667" lon="-76.9289261667">
+        <ele>482.300000</ele>
+        <time>2017-10-13T12:42:54.40Z</time>
+        <course>3.45</course>
+        <name>point 835</name>
+      </trkpt>
+      <trkpt lat="42.3408111667" lon="-76.9289180000">
+        <ele>482.200000</ele>
+        <time>2017-10-13T12:42:54.60Z</time>
+        <course>3.51</course>
+        <name>point 836</name>
+      </trkpt>
+      <trkpt lat="42.3409106667" lon="-76.9289098333">
+        <ele>482.100000</ele>
+        <time>2017-10-13T12:42:54.80Z</time>
+        <course>3.53</course>
+        <name>point 837</name>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

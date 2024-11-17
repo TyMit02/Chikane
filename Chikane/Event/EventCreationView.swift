@@ -17,7 +17,7 @@ class EventCreationViewModel: ObservableObject {
     @Published var tracks: [Track] = []
     @Published var eventCode: String = ""
     @Published var isLoading: Bool = false
-     var tracksCache: [Track] = []
+    var tracksCache: [Track] = []
     
     private var db = Firestore.firestore()
     
@@ -64,7 +64,7 @@ class EventCreationViewModel: ObservableObject {
         let newEvent = Event(
             name: eventName,
             date: eventDate,
-            track: track.name,  // Use the track name as the track string
+            track: track.name,
             trackId: track.id,
             organizerId: userId,
             eventCode: newEventCode,
@@ -110,10 +110,11 @@ struct EventCreationView: View {
     @State private var showingEventCode = false
     @State private var showingTrackPicker = false
     @Environment(\.presentationMode) var presentationMode
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         ZStack {
-            AppColors.background.edgesIgnoringSafeArea(.all)
+            AppColors.background(for: colorScheme).edgesIgnoringSafeArea(.all)
             
             ScrollView {
                 VStack(spacing: 20) {
@@ -154,49 +155,49 @@ struct EventCreationView: View {
         VStack(alignment: .leading, spacing: 15) {
             Text("Event Details")
                 .font(AppFonts.headline)
-                .foregroundColor(AppColors.text)
+                .foregroundColor(AppColors.text(for: colorScheme))
             
             TextField("Event Name", text: $viewModel.eventName)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .foregroundColor(AppColors.text)
+                .foregroundColor(AppColors.text(for: colorScheme))
             
             DatePicker("Event Date", selection: $viewModel.eventDate, displayedComponents: [.date])
-                .foregroundColor(AppColors.text)
+                .foregroundColor(AppColors.text(for: colorScheme))
         }
         .padding()
-        .background(AppColors.cardBackground)
+        .background(AppColors.cardBackground(for: colorScheme))
         .cornerRadius(10)
     }
     
     private var trackSection: some View {
-           VStack(alignment: .leading, spacing: 10) {
-               Text("Track")
-                   .font(AppFonts.headline)
-                   .foregroundColor(AppColors.text)
-               
-               if viewModel.isLoading {
-                   ProgressView()
-               } else if viewModel.tracks.isEmpty {
-                   Text("No tracks available")
-                       .foregroundColor(AppColors.lightText)
-               } else if let track = viewModel.selectedTrack {
-                   TrackRow(track: track, isSelected: true)
-               } else {
-                   Text("Select a track")
-                       .foregroundColor(AppColors.lightText)
-               }
-               
-               Button(action: { showingTrackPicker = true }) {
-                   Text(viewModel.selectedTrack == nil ? "Select Track" : "Change Track")
-                       .font(AppFonts.subheadline)
-                       .foregroundColor(AppColors.accent)
-               }
-               .disabled(viewModel.tracks.isEmpty)
-           }
-           .padding()
-           .background(AppColors.cardBackground)
-           .cornerRadius(10)
-       }
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Track")
+                .font(AppFonts.headline)
+                .foregroundColor(AppColors.text(for: colorScheme))
+            
+            if viewModel.isLoading {
+                ProgressView()
+            } else if viewModel.tracks.isEmpty {
+                Text("No tracks available")
+                    .foregroundColor(AppColors.lightText(for: colorScheme))
+            } else if let track = viewModel.selectedTrack {
+                TrackRow(track: track, isSelected: true)
+            } else {
+                Text("Select a track")
+                    .foregroundColor(AppColors.lightText(for: colorScheme))
+            }
+            
+            Button(action: { showingTrackPicker = true }) {
+                Text(viewModel.selectedTrack == nil ? "Select Track" : "Change Track")
+                    .font(AppFonts.subheadline)
+                    .foregroundColor(AppColors.accent(for: colorScheme))
+            }
+            .disabled(viewModel.tracks.isEmpty)
+        }
+        .padding()
+        .background(AppColors.cardBackground(for: colorScheme))
+        .cornerRadius(10)
+    }
     
     private var createEventButton: some View {
         Button(action: {
@@ -205,10 +206,10 @@ struct EventCreationView: View {
         }) {
             Text("Create Event")
                 .font(AppFonts.headline)
-                .foregroundColor(.white)
+                .foregroundColor(AppColors.background(for: colorScheme))
                 .frame(maxWidth: .infinity)
                 .padding()
-                .background(AppColors.accent)
+                .background(AppColors.accent(for: colorScheme))
                 .cornerRadius(10)
         }
         .disabled(viewModel.eventName.isEmpty || viewModel.selectedTrack == nil)
@@ -216,11 +217,11 @@ struct EventCreationView: View {
     }
 }
 
-
 struct TrackPickerView: View {
     @Binding var selectedTrack: Track?
     let tracks: [Track]
     @Environment(\.presentationMode) var presentationMode
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         NavigationView {
@@ -231,6 +232,8 @@ struct TrackPickerView: View {
                         presentationMode.wrappedValue.dismiss()
                     }
             }
+            .listStyle(PlainListStyle())
+            .background(AppColors.background(for: colorScheme))
             .navigationTitle("Select Track")
             .navigationBarItems(trailing: Button("Done") {
                 presentationMode.wrappedValue.dismiss()
@@ -239,11 +242,18 @@ struct TrackPickerView: View {
     }
 }
 
+
+
 struct EventCreationView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             EventCreationView()
         }
         .preferredColorScheme(.dark)
+        
+        NavigationView {
+            EventCreationView()
+        }
+        .preferredColorScheme(.light)
     }
 }
